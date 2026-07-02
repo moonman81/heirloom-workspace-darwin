@@ -1,0 +1,24 @@
+# Homebrew formulae the workspace needs for its build-and-QA pipeline.
+# This is the SUPERSET of what the 5 per-package repos individually need,
+# plus every tool the hardening/ lint sweep invokes.
+openssl@3
+zlib
+bzip2
+pre-commit
+# Lint + QA
+cppcheck
+splint
+flawfinder
+llvm
+include-what-you-use
+uncrustify
+astyle
+codespell
+cpplint
+shellcheck
+shfmt
+sloccount
+tokei
+bear
+cscope
+ccache

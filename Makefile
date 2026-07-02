@@ -1,84 +1,163 @@
-# Top-level Heirloom Darwin build driver.
+# Top-level Heirloom Darwin build + ALM driver.
 #
-# Usage:
-#   make phase1                    build heirloom-sh
-#   make phase1-install            install heirloom-sh
-#   make phase2  phase2-install    build+install devtools
-#   ... etc through phase5 ...
-#   make all                       phases 1..5 in order (build only)
-#   make world                     phases 1..5 build+install in order
-#   make clean                     wipe build products from every package
-#   make distclean                 wipe generated Makefiles too
+# Drives phase1..phase5 across the 5 per-package repos. Companion
+# repos live at $(SIBLINGS)/heirloom-<pkg>-darwin/ by default.
 #
-# Set STAGE=/some/path to install via DESTDIR-style redirection.
+# `make help` lists all targets.
 
-SHELL   = /bin/sh
-STAGE   =
-ROOT    = $(STAGE)
-NPROC  != sysctl -n hw.ncpu 2>/dev/null || echo 4
+SHELL     = /bin/sh
+STAGE     =
+ROOT      = $(STAGE)
+PREFIX   ?= /opt/heirloom
+NPROC    != sysctl -n hw.ncpu 2>/dev/null || echo 4
+SIBLINGS ?= $(shell dirname $(shell pwd))
 
 MAKEARGS = ROOT=$(ROOT) -j$(NPROC)
 
-.PHONY: all world clean distclean \
-        phase1 phase1-install \
-        phase2 phase2-install \
-        phase3 phase3-install \
-        phase4 phase4-install \
-        phase5 phase5-install \
-        prefixdirs
+PKGS = sh devtools toolchest doctools pkgtools
 
-all:     phase1 phase2 phase3 phase4 phase5
-world:   phase1-install phase2-install phase3-install phase4-install phase5-install
+.DEFAULT_GOAL := help
 
-prefixdirs:
-	@mkdir -p $(ROOT)/opt/heirloom/bin/s42 \
-	          $(ROOT)/opt/heirloom/bin/posix \
-	          $(ROOT)/opt/heirloom/bin/posix2001 \
-	          $(ROOT)/opt/heirloom/ucb \
-	          $(ROOT)/opt/heirloom/ccs/bin \
-	          $(ROOT)/opt/heirloom/lib \
-	          $(ROOT)/opt/heirloom/share/man/5man \
-	          $(ROOT)/opt/heirloom/etc/default \
-	          $(ROOT)/opt/heirloom/var/adm \
-	          $(ROOT)/opt/heirloom/var/log
+.PHONY: help
+help:
+	@printf '\033[1mHeirloom Darwin port — top-level driver\033[0m\n\n'
+	@printf 'Prefix:   %s\n' '$(PREFIX)'
+	@printf 'Root:     %s (empty = direct install, else DESTDIR-style)\n' '$(ROOT)'
+	@printf 'Siblings: %s (where per-package repos live)\n' '$(SIBLINGS)'
+	@printf '\n\033[1mLifecycle$$\033[0m\n'
+	@printf '  %-16s %s\n' 'lifecycle'   'bootstrap + configure + world + verify'
+	@printf '  %-16s %s\n' 'bootstrap'   'install all brew prereqs (build + QA)'
+	@printf '  %-16s %s\n' 'configure'   'validate environment for all 5 packages'
+	@printf '  %-16s %s\n' 'world'       'build + install all 5 packages'
+	@printf '  %-16s %s\n' 'verify'      'run verify.sh across all 5 packages'
+	@printf '  %-16s %s\n' 'uninstall'   'uninstall all 5 packages'
+	@printf '  %-16s %s\n' 'status'      'report installation state'
+	@printf '\n\033[1mPer-phase (individual)\033[0m\n'
+	@printf '  %-16s %s\n' 'phase1..5'   'build+install: sh, devtools, toolchest, doctools, pkgtools'
+	@printf '  %-16s %s\n' 'phase<N>-only'   'build phase N without install'
+	@printf '\n\033[1mQA + snapshot$$\033[0m\n'
+	@printf '  %-16s %s\n' 'test'        'pre-commit fast + push tiers'
+	@printf '  %-16s %s\n' 'test-manual' 'pre-commit manual tier (release gate)'
+	@printf '  %-16s %s\n' 'snapshot'    'git-tag current state'
+	@printf '  %-16s %s\n' 'clean'       'clean each package'
+	@printf '\n\033[1mEnv overrides$$\033[0m\n'
+	@printf '  PREFIX=/some/where     install prefix (default $(PREFIX))\n'
+	@printf '  ROOT=/some/where       DESTDIR (default empty)\n'
+	@printf '  SIBLINGS=/some/where   where per-package repos live\n'
 
-# ---------------- phase 1: sh ----------------
+# ---- top-level lifecycle ----
+
+.PHONY: lifecycle
+lifecycle: bootstrap configure world verify
+
+.PHONY: bootstrap
+bootstrap:
+	@sh scripts/bootstrap.sh
+
+.PHONY: configure
+configure:
+	@sh scripts/configure.sh
+	@for p in $(PKGS); do \
+		if [ -d $(SIBLINGS)/heirloom-$$p-darwin ]; then \
+			printf '  configure %s ...\n' $$p ; \
+			$(MAKE) -C $(SIBLINGS)/heirloom-$$p-darwin configure ; \
+		fi ; \
+	done
+
+.PHONY: world
+world: phase1 phase2 phase3 phase4 phase5
+
+.PHONY: verify
+verify:
+	@sh scripts/verify.sh '$(PREFIX)'
+
+.PHONY: uninstall
+uninstall:
+	@for p in $(PKGS); do \
+		if [ -d $(SIBLINGS)/heirloom-$$p-darwin ]; then \
+			printf '  uninstall %s ...\n' $$p ; \
+			$(MAKE) -C $(SIBLINGS)/heirloom-$$p-darwin uninstall ; \
+		fi ; \
+	done
+
+.PHONY: status
+status:
+	@for p in $(PKGS); do \
+		printf '\n\033[1m%s\033[0m\n' $$p ; \
+		if [ -d $(SIBLINGS)/heirloom-$$p-darwin ]; then \
+			$(MAKE) -C $(SIBLINGS)/heirloom-$$p-darwin status ; \
+		else \
+			printf '  (companion repo not cloned at %s)\n' $(SIBLINGS)/heirloom-$$p-darwin ; \
+		fi ; \
+	done
+
+# ---- per-phase ----
+
+.PHONY: phase1 phase2 phase3 phase4 phase5
 phase1:
-	cd sh && $(MAKE)
-phase1-install: prefixdirs
-	cd sh && $(MAKE) install ROOT=$(ROOT)
+	@if [ -d $(SIBLINGS)/heirloom-sh-darwin ]; then \
+		$(MAKE) -C $(SIBLINGS)/heirloom-sh-darwin build install ; \
+	else \
+		printf 'error: clone https://github.com/moonman81/heirloom-sh-darwin next to this repo\n' >&2 ; exit 1 ; \
+	fi
 
-# ---------------- phase 2: devtools ----------------
 phase2:
-	cd devtools && $(MAKE) $(MAKEARGS)
-phase2-install: prefixdirs
-	cd devtools && $(MAKE) install $(MAKEARGS)
+	@if [ -d $(SIBLINGS)/heirloom-devtools-darwin ]; then \
+		$(MAKE) -C $(SIBLINGS)/heirloom-devtools-darwin build install ; \
+	else \
+		printf 'error: clone https://github.com/moonman81/heirloom-devtools-darwin next to this repo\n' >&2 ; exit 1 ; \
+	fi
 
-# ---------------- phase 3: toolchest ----------------
 phase3:
-	cd toolchest && $(MAKE) $(MAKEARGS)
-phase3-install: prefixdirs
-	cd toolchest && $(MAKE) install $(MAKEARGS)
+	@if [ -d $(SIBLINGS)/heirloom-toolchest-darwin ]; then \
+		$(MAKE) -C $(SIBLINGS)/heirloom-toolchest-darwin build install ; \
+	else \
+		printf 'error: clone https://github.com/moonman81/heirloom-toolchest-darwin next to this repo\n' >&2 ; exit 1 ; \
+	fi
 
-# ---------------- phase 4: doctools ----------------
 phase4:
-	cd doctools && $(MAKE) $(MAKEARGS)
-phase4-install: prefixdirs
-	cd doctools && $(MAKE) install $(MAKEARGS)
+	@if [ -d $(SIBLINGS)/heirloom-doctools-darwin ]; then \
+		$(MAKE) -C $(SIBLINGS)/heirloom-doctools-darwin build install ; \
+	else \
+		printf 'error: clone https://github.com/moonman81/heirloom-doctools-darwin next to this repo\n' >&2 ; exit 1 ; \
+	fi
 
-# ---------------- phase 5: pkgtools ----------------
 phase5:
-	cd pkgtools && $(MAKE) $(MAKEARGS)
-phase5-install: prefixdirs
-	cd pkgtools && $(MAKE) install $(MAKEARGS)
+	@if [ -d $(SIBLINGS)/heirloom-pkgtools-darwin ]; then \
+		$(MAKE) -C $(SIBLINGS)/heirloom-pkgtools-darwin build install ; \
+	else \
+		printf 'error: clone https://github.com/moonman81/heirloom-pkgtools-darwin next to this repo\n' >&2 ; exit 1 ; \
+	fi
 
-# ---------------- housekeeping ----------------
+# ---- QA passthrough ----
+
+.PHONY: test test-manual
+test:
+	@pre-commit run --all-files --hook-stage pre-commit
+	@pre-commit run --all-files --hook-stage pre-push
+
+test-manual:
+	@pre-commit run --all-files --hook-stage manual
+
+.PHONY: snapshot
+snapshot:
+	@sh scripts/snapshot.sh
+
+.PHONY: clone-companions
+clone-companions:
+	@for p in $(PKGS); do \
+		if [ ! -d $(SIBLINGS)/heirloom-$$p-darwin ]; then \
+			printf 'cloning heirloom-%s-darwin...\n' $$p ; \
+			git -C $(SIBLINGS) clone https://github.com/moonman81/heirloom-$$p-darwin ; \
+		fi ; \
+	done
+
+# ---- clean ----
+
+.PHONY: clean
 clean:
-	-cd sh        && $(MAKE) clean
-	-cd devtools  && $(MAKE) mrproper
-	-cd toolchest && $(MAKE) mrproper
-	-cd doctools  && $(MAKE) mrproper
-	-cd pkgtools  && $(MAKE) mrproper
-
-distclean: clean
-	find sh devtools toolchest doctools pkgtools -name Makefile -not -path '*/original*' -delete
+	-@for p in $(PKGS); do \
+		if [ -d $(SIBLINGS)/heirloom-$$p-darwin ]; then \
+			$(MAKE) -C $(SIBLINGS)/heirloom-$$p-darwin clean ; \
+		fi ; \
+	done

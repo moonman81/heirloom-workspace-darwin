@@ -1,0 +1,3 @@
+# Workspace has no Heirloom prereqs — it IS the orchestrator that
+# drives the 5 per-package repos. The phase1..phase5 targets clone /
+# build / install each companion in dependency order.
