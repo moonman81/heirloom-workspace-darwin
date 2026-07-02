@@ -1,0 +1,19 @@
+.TH HEIRLOOM-PORT-CLONE-COMPANIONS 7 "2026-07-02" "Heirloom Darwin port" "Workspace"
+.SH NAME
+heirloom-port-clone-companions \- git-clone missing per-package repos
+.SH SYNOPSIS
+.B make clone-companions
+.SH DESCRIPTION
+For each of
+.IR heirloom-sh-darwin ,
+.IR heirloom-devtools-darwin ,
+.IR heirloom-toolchest-darwin ,
+.IR heirloom-doctools-darwin ,
+.IR heirloom-pkgtools-darwin
+that is not already present under
+.IR \$(SIBLINGS) ,
+runs
+.BR "git clone https://github.com/moonman81/heirloom-<pkg>-darwin"
+into the sibling directory. Idempotent.
+.SH SEE ALSO
+.BR heirloom-port-world (7)

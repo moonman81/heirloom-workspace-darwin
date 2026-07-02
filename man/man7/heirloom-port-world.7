@@ -1,0 +1,18 @@
+.TH HEIRLOOM-PORT-WORLD 7 "2026-07-02" "Heirloom Darwin port" "Workspace"
+.SH NAME
+heirloom-port-world \- build + install all 5 companion packages
+.SH SYNOPSIS
+.B make world
+.SH DESCRIPTION
+Runs
+.B make phase1 phase2 phase3 phase4 phase5
+in order, each of which invokes
+.BR "build install"
+in the corresponding companion repo under
+.IR \$(SIBLINGS)/heirloom-<pkg>-darwin .
+Requires that every companion repo already be cloned; use
+.B make clone-companions
+to fetch missing ones.
+.SH SEE ALSO
+.BR heirloom-port-clone-companions (7),
+.BR heirloom-port-lifecycle (7)

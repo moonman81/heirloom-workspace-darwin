@@ -161,3 +161,8 @@ clean:
 			$(MAKE) -C $(SIBLINGS)/heirloom-$$p-darwin clean ; \
 		fi ; \
 	done
+
+# ---- install workspace docs (man + HOWTO + PORT.md + hardening docs) ----
+.PHONY: install
+install:
+	@sh scripts/install-man.sh '$(PREFIX)'
