@@ -1,0 +1,19 @@
+=== Fuzz-seed smoke run ===
+Date: 2026-07-02T20:52:27Z
+
+--- nawk ---
+awk: not enough args in printf(%s%s%s%s%s%s
+)
+awk: source line number 1
+--- oawk ---
+awk: not enough arguments in printf(%s%s%s%s%s%s
+)
+--- bc ---
+--- dc ---
+--- expr (skipping — arg-parsed, needs bespoke runner) ---
+--- ed ---
+--- sed ---
+
+=== Summary ===
+Failures: 0
+Report: /Volumes/heirloom/src/hardening/fuzz-seeds/smoke-report.txt

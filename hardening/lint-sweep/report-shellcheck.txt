@@ -1,0 +1,564 @@
+
+In /Volumes/heirloom/src/devtools/sccs/src/sccsdiff.sh line 45:
+trap "rm -f /tmp/get[abc]$$;exit 1" 1 2 3 15
+                         ^-- SC2064 (warning): Use single quotes, otherwise this expands now rather than when signalled.
+
+
+In /Volumes/heirloom/src/devtools/sccs/src/sccsdiff.sh line 57:
+get=get
+^-^ SC2209 (warning): Use var=$(command) to assign output (or quote to assign string).
+
+
+In /Volumes/heirloom/src/devtools/sccs/src/sccsdiff.sh line 58:
+for i in $@
+         ^-- SC2068 (error): Double quote array expansions to avoid re-splitting elements.
+
+
+In /Volumes/heirloom/src/devtools/sccs/src/sccsdiff.sh line 89:
+			num=`echo $i | sed -e 's/^-s//'`
+                        ^-^ SC2034 (warning): num appears unused. Verify use (or export if used externally).
+
+
+In /Volumes/heirloom/src/devtools/sccs/src/sccsdiff.sh line 120:
+			if [ `echo $i | wc -c` = 3 ]
+                             ^---------------^ SC2046 (warning): Quote this to prevent word splitting.
+
+For more information:
+  https://www.shellcheck.net/wiki/SC2068 -- Double quote array expansions to ...
+  https://www.shellcheck.net/wiki/SC2034 -- num appears unused. Verify use (o...
+  https://www.shellcheck.net/wiki/SC2046 -- Quote this to prevent word splitt...
+
+In /Volumes/heirloom/src/toolchest/man/common.ksh line 33:
+			*:"$dir"*(/):*) continue
+                                ^--^ SC3002 (warning): In POSIX sh, extglob is undefined.
+
+
+In /Volumes/heirloom/src/toolchest/man/common.ksh line 54:
+					egrep "^$name[ 	]+" windex && status=0
+                                                ^-- SC1087 (error): Use braces when expanding arrays, e.g. ${array[idx]} (or ${var}[.. to quiet).
+
+
+In /Volumes/heirloom/src/toolchest/man/common.ksh line 64:
+					egrep "^$name[ 	]+\(" whatis && status=0
+                                                ^-- SC1087 (error): Use braces when expanding arrays, e.g. ${array[idx]} (or ${var}[.. to quiet).
+
+
+In /Volumes/heirloom/src/toolchest/man/common.ksh line 124:
+				$printn 'Reformatting page.  Wait...' >&2
+                                ^-----^ SC2154 (warning): printn is referenced but not assigned.
+
+
+In /Volumes/heirloom/src/toolchest/man/common.ksh line 137:
+			\'\\\"\ +([ertv]))
+                                ^-------^ SC3002 (warning): In POSIX sh, extglob is undefined.
+
+
+In /Volumes/heirloom/src/toolchest/man/common.ksh line 248:
+			t_type=cat
+                        ^----^ SC2209 (warning): Use var=$(command) to assign output (or quote to assign string).
+
+
+In /Volumes/heirloom/src/toolchest/man/common.ksh line 257:
+			t_type=man
+                        ^----^ SC2209 (warning): Use var=$(command) to assign output (or quote to assign string).
+
+
+In /Volumes/heirloom/src/toolchest/man/common.ksh line 317:
+debug= texts= section= system= ontty= specpath=
+      ^-- SC1007 (warning): Remove space after = if trying to assign a value (for empty string, use var='' ... ).
+             ^-- SC1007 (warning): Remove space after = if trying to assign a value (for empty string, use var='' ... ).
+                      ^-- SC1007 (warning): Remove space after = if trying to assign a value (for empty string, use var='' ... ).
+                              ^-- SC1007 (warning): Remove space after = if trying to assign a value (for empty string, use var='' ... ).
+                                     ^-- SC1007 (warning): Remove space after = if trying to assign a value (for empty string, use var='' ... ).
+
+
+In /Volumes/heirloom/src/toolchest/man/common.ksh line 318:
+aflag= dflag= fflag= kflag= lflag= nflag= tflag= wflag=
+      ^-- SC1007 (warning): Remove space after = if trying to assign a value (for empty string, use var='' ... ).
+             ^-- SC1007 (warning): Remove space after = if trying to assign a value (for empty string, use var='' ... ).
+                    ^-- SC1007 (warning): Remove space after = if trying to assign a value (for empty string, use var='' ... ).
+                           ^-- SC1007 (warning): Remove space after = if trying to assign a value (for empty string, use var='' ... ).
+                                  ^-- SC1007 (warning): Remove space after = if trying to assign a value (for empty string, use var='' ... ).
+                                         ^-- SC1007 (warning): Remove space after = if trying to assign a value (for empty string, use var='' ... ).
+                                                ^-- SC1007 (warning): Remove space after = if trying to assign a value (for empty string, use var='' ... ).
+
+
+In /Volumes/heirloom/src/toolchest/man/common.ksh line 482:
+		HTML1=cat
+                ^---^ SC2209 (warning): Use var=$(command) to assign output (or quote to assign string).
+
+
+In /Volumes/heirloom/src/toolchest/man/common.ksh line 538:
+		[0123456789]?([abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ]))
+                            ^-- SC3002 (warning): In POSIX sh, extglob is undefined.
+
+
+In /Volumes/heirloom/src/toolchest/man/common.ksh line 565:
+		*:"$dir"*(/):*)	continue ;;
+                        ^--^ SC3002 (warning): In POSIX sh, extglob is undefined.
+
+
+In /Volumes/heirloom/src/toolchest/man/common.ksh line 638:
+	cd "$oldpwd"
+        ^----------^ SC2164 (warning): Use 'cd ... || exit' or 'cd ... || return' in case cd fails.
+
+Did you mean:
+	cd "$oldpwd" || exit
+
+For more information:
+  https://www.shellcheck.net/wiki/SC1087 -- Use braces when expanding arrays,...
+  https://www.shellcheck.net/wiki/SC1007 -- Remove space after = if trying to...
+  https://www.shellcheck.net/wiki/SC2154 -- printn is referenced but not assi...
+
+In /Volumes/heirloom/src/toolchest/man/man.ksh line 32:
+	shopt -s extglob
+        ^--------------^ SC3044 (warning): In POSIX sh, 'shopt' is undefined.
+
+
+In /Volumes/heirloom/src/toolchest/man/man.ksh line 36:
+		eval $1=\"`echo $2 | dd conv=lcase 2>/dev/null`\"
+                          ^-- SC2046 (warning): Quote this to prevent word splitting.
+
+
+In /Volumes/heirloom/src/toolchest/man/man.ksh line 40:
+	printn="print -n"
+        ^----^ SC2034 (warning): printn appears unused. Verify use (or export if used externally).
+
+
+In /Volumes/heirloom/src/toolchest/man/man.ksh line 41:
+	printr="print -r"
+        ^----^ SC2034 (warning): printr appears unused. Verify use (or export if used externally).
+
+
+In /Volumes/heirloom/src/toolchest/man/man.ksh line 45:
+			eval $1=\"`echo $2 | dd conv=lcase 2>/dev/null`\"
+                                  ^-- SC2046 (warning): Quote this to prevent word splitting.
+
+For more information:
+  https://www.shellcheck.net/wiki/SC2034 -- printn appears unused. Verify use...
+  https://www.shellcheck.net/wiki/SC2046 -- Quote this to prevent word splitt...
+  https://www.shellcheck.net/wiki/SC3044 -- In POSIX sh, 'shopt' is undefined.
+
+In /Volumes/heirloom/src/toolchest/man/catman.ksh line 22:
+	w_page= w_desc=
+               ^-- SC1007 (warning): Remove space after = if trying to assign a value (for empty string, use var='' ... ).
+
+
+In /Volumes/heirloom/src/toolchest/man/catman.ksh line 26:
+		.SH+( )NAME*( )|.SH+( )\"NAME\"*( ))
+                   ^--^ SC3002 (warning): In POSIX sh, extglob is undefined.
+                           ^--^ SC3002 (warning): In POSIX sh, extglob is undefined.
+                                   ^--^ SC3002 (warning): In POSIX sh, extglob is undefined.
+                                               ^--^ SC3002 (warning): In POSIX sh, extglob is undefined.
+
+
+In /Volumes/heirloom/src/toolchest/man/catman.ksh line 38:
+			+([! ]),*\ \\-\ *)
+                        ^-----^ SC3002 (warning): In POSIX sh, extglob is undefined.
+
+
+In /Volumes/heirloom/src/toolchest/man/catman.ksh line 42:
+			+([! ]),*\ -\ *)
+                        ^-----^ SC3002 (warning): In POSIX sh, extglob is undefined.
+
+
+In /Volumes/heirloom/src/toolchest/man/catman.ksh line 67:
+				.+([A-Z][a-z])+( )*)
+                                 ^-----------^ SC3002 (warning): In POSIX sh, extglob is undefined.
+                                              ^--^ SC3002 (warning): In POSIX sh, extglob is undefined.
+
+
+In /Volumes/heirloom/src/toolchest/man/catman.ksh line 79:
+		.Nm+( )*)
+                   ^--^ SC3002 (warning): In POSIX sh, extglob is undefined.
+
+
+In /Volumes/heirloom/src/toolchest/man/catman.ksh line 84:
+				**([ 	]),*)
+                                 ^-------^ SC3002 (warning): In POSIX sh, extglob is undefined.
+
+
+In /Volumes/heirloom/src/toolchest/man/catman.ksh line 89:
+		.Nd+( )*)
+                   ^--^ SC3002 (warning): In POSIX sh, extglob is undefined.
+
+
+In /Volumes/heirloom/src/toolchest/man/catman.ksh line 95:
+				.N*([A-Z][a-z])+( )*|.Sh+( )*)
+                                  ^-----------^ SC3002 (warning): In POSIX sh, extglob is undefined.
+                                               ^--^ SC3002 (warning): In POSIX sh, extglob is undefined.
+                                                        ^--^ SC3002 (warning): In POSIX sh, extglob is undefined.
+
+
+In /Volumes/heirloom/src/toolchest/man/catman.ksh line 98:
+				.+([A-Z][a-z])+( )*)
+                                 ^-----------^ SC3002 (warning): In POSIX sh, extglob is undefined.
+                                              ^--^ SC3002 (warning): In POSIX sh, extglob is undefined.
+
+
+In /Volumes/heirloom/src/toolchest/man/catman.ksh line 129:
+	\"+(?)\")
+          ^--^ SC3002 (warning): In POSIX sh, extglob is undefined.
+
+
+In /Volumes/heirloom/src/toolchest/man/catman.ksh line 134:
+	if test -z "$debug"
+                    ^----^ SC2154 (warning): debug is referenced but not assigned.
+
+
+In /Volumes/heirloom/src/toolchest/man/catman.ksh line 136:
+		$printr "$w_str" >&5
+                ^-----^ SC2154 (warning): printr is referenced but not assigned.
+
+
+In /Volumes/heirloom/src/toolchest/man/catman.ksh line 145:
+	if test -z "$wflag" && test ! -d "cat$c_sect"
+                    ^----^ SC2154 (warning): wflag is referenced but not assigned.
+
+
+In /Volumes/heirloom/src/toolchest/man/catman.ksh line 166:
+		cd "$dir" 2>/dev/null || test -z "$specpath" ||
+                                                  ^-------^ SC2154 (warning): specpath is referenced but not assigned.
+
+
+In /Volumes/heirloom/src/toolchest/man/catman.ksh line 169:
+		if test -n "$system"
+                            ^-----^ SC2154 (warning): system is referenced but not assigned.
+
+
+In /Volumes/heirloom/src/toolchest/man/catman.ksh line 174:
+		if test -z "$nflag" && test -z "$debug"
+                            ^----^ SC2154 (warning): nflag is referenced but not assigned.
+
+For more information:
+  https://www.shellcheck.net/wiki/SC1007 -- Remove space after = if trying to...
+  https://www.shellcheck.net/wiki/SC2154 -- debug is referenced but not assig...
+  https://www.shellcheck.net/wiki/SC3002 -- In POSIX sh, extglob is undefined.
+
+In /Volumes/heirloom/src/toolchest/man/bang.ksh line 2:
+DFLDIR=/opt/heirloom/etc/default
+^----^ SC2034 (warning): DFLDIR appears unused. Verify use (or export if used externally).
+
+For more information:
+  https://www.shellcheck.net/wiki/SC2034 -- DFLDIR appears unused. Verify use...
+
+In /Volumes/heirloom/src/toolchest/calendar/calendar.sh line 52:
+	trap "rm -f $tmp; trap '' 0; exit" 0 1 2 3 13 15
+                    ^--^ SC2064 (warning): Use single quotes, otherwise this expands now rather than when signalled.
+                                                   ^-- SC2172 (warning): Trapping signals by number is not well defined. Prefer signal names.
+
+
+In /Volumes/heirloom/src/toolchest/calendar/calendar.sh line 53:
+	logins -uxo | while IFS=: read user uid group gid gecos dir shell rest
+                                            ^-^ SC2034 (warning): uid appears unused. Verify use (or export if used externally).
+                                                ^---^ SC2034 (warning): group appears unused. Verify use (or export if used externally).
+                                                      ^-^ SC2034 (warning): gid appears unused. Verify use (or export if used externally).
+                                                          ^---^ SC2034 (warning): gecos appears unused. Verify use (or export if used externally).
+                                                                    ^---^ SC2034 (warning): shell appears unused. Verify use (or export if used externally).
+
+For more information:
+  https://www.shellcheck.net/wiki/SC2034 -- gecos appears unused. Verify use ...
+  https://www.shellcheck.net/wiki/SC2064 -- Use single quotes, otherwise this...
+  https://www.shellcheck.net/wiki/SC2172 -- Trapping signals by number is not...
+
+In /Volumes/heirloom/src/toolchest/diff3/diff3.sh line 92:
+trap "rm -f /tmp/d3[abcdef]$$" 0 1 2 13 15
+                           ^-- SC2064 (warning): Use single quotes, otherwise this expands now rather than when signalled.
+                                     ^-- SC2172 (warning): Trapping signals by number is not well defined. Prefer signal names.
+
+For more information:
+  https://www.shellcheck.net/wiki/SC2064 -- Use single quotes, otherwise this...
+  https://www.shellcheck.net/wiki/SC2172 -- Trapping signals by number is not...
+
+In /Volumes/heirloom/src/toolchest/spell/compress.sh line 36:
+trap "rm -f $tmp;exit" 0 1 2 3 15
+            ^--^ SC2064 (warning): Use single quotes, otherwise this expands now rather than when signalled.
+
+For more information:
+  https://www.shellcheck.net/wiki/SC2064 -- Use single quotes, otherwise this...
+
+In /Volumes/heirloom/src/toolchest/spell/spell.sh line 41:
+F_SPELL=
+^-----^ SC2034 (warning): F_SPELL appears unused. Verify use (or export if used externally).
+
+
+In /Volumes/heirloom/src/toolchest/spell/spell.sh line 42:
+FT_SPELL=
+^------^ SC2034 (warning): FT_SPELL appears unused. Verify use (or export if used externally).
+
+
+In /Volumes/heirloom/src/toolchest/spell/spell.sh line 55:
+	trap "rm -rf $tmpdir; exit" 0 1 2 13 15
+                     ^-----^ SC2064 (warning): Use single quotes, otherwise this expands now rather than when signalled.
+                                          ^-- SC2172 (warning): Trapping signals by number is not well defined. Prefer signal names.
+
+
+In /Volumes/heirloom/src/toolchest/spell/spell.sh line 61:
+DEROFF="deroff \$I_SPELL"
+^----^ SC2034 (warning): DEROFF appears unused. Verify use (or export if used externally).
+
+
+In /Volumes/heirloom/src/toolchest/spell/spell.sh line 81:
+	test $OPTIND -gt 1 && shift `expr $OPTIND - 1`
+                                    ^----------------^ SC2046 (warning): Quote this to prevent word splitting.
+
+For more information:
+  https://www.shellcheck.net/wiki/SC2034 -- DEROFF appears unused. Verify use...
+  https://www.shellcheck.net/wiki/SC2046 -- Quote this to prevent word splitt...
+  https://www.shellcheck.net/wiki/SC2064 -- Use single quotes, otherwise this...
+
+In /Volumes/heirloom/src/toolchest/dircmp/dircmp.sh line 35:
+trap "rm -f $tmpdir/dc$$*;exit" 1 2 3 15
+            ^-----^ SC2064 (warning): Use single quotes, otherwise this expands now rather than when signalled.
+                      ^-- SC2064 (warning): Use single quotes, otherwise this expands now rather than when signalled.
+
+
+In /Volumes/heirloom/src/toolchest/dircmp/dircmp.sh line 54:
+		*empty*) echo $D1/`basename "$a"` is an empty file |
+                                  ^-------------^ SC2046 (warning): Quote this to prevent word splitting.
+
+
+In /Volumes/heirloom/src/toolchest/dircmp/dircmp.sh line 56:
+			continue
+                        ^------^ SC2104 (error): In functions, use return instead of continue.
+
+
+In /Volumes/heirloom/src/toolchest/dircmp/dircmp.sh line 58:
+        	*cannot*) echo $D1/`basename "$a"` does not exist |
+                                   ^-------------^ SC2046 (warning): Quote this to prevent word splitting.
+
+
+In /Volumes/heirloom/src/toolchest/dircmp/dircmp.sh line 60:
+			continue
+                        ^------^ SC2104 (error): In functions, use return instead of continue.
+
+
+In /Volumes/heirloom/src/toolchest/dircmp/dircmp.sh line 62:
+        	*)	echo $D1/`basename "$a"` is an object file |
+                                 ^-------------^ SC2046 (warning): Quote this to prevent word splitting.
+
+
+In /Volumes/heirloom/src/toolchest/dircmp/dircmp.sh line 64:
+			continue
+                        ^------^ SC2104 (error): In functions, use return instead of continue.
+
+
+In /Volumes/heirloom/src/toolchest/dircmp/dircmp.sh line 71:
+        	*empty*) echo $D2/`basename "$a"` is an empty file |
+                                  ^-------------^ SC2046 (warning): Quote this to prevent word splitting.
+
+
+In /Volumes/heirloom/src/toolchest/dircmp/dircmp.sh line 73:
+			continue
+                        ^------^ SC2104 (error): In functions, use return instead of continue.
+
+
+In /Volumes/heirloom/src/toolchest/dircmp/dircmp.sh line 75:
+        	*cannot*) echo $D2/`basename "$a"` does not exist |
+                                   ^-------------^ SC2046 (warning): Quote this to prevent word splitting.
+
+
+In /Volumes/heirloom/src/toolchest/dircmp/dircmp.sh line 77:
+			continue
+                        ^------^ SC2104 (error): In functions, use return instead of continue.
+
+
+In /Volumes/heirloom/src/toolchest/dircmp/dircmp.sh line 79:
+        	*)	echo $D2/`basename "$a"` is an object file |
+                                 ^-------------^ SC2046 (warning): Quote this to prevent word splitting.
+
+
+In /Volumes/heirloom/src/toolchest/dircmp/dircmp.sh line 81:
+			continue
+                        ^------^ SC2104 (error): In functions, use return instead of continue.
+
+
+In /Volumes/heirloom/src/toolchest/dircmp/dircmp.sh line 94:
+	if test `cat $tmpdir/dc$$status` -ne 0
+                ^----------------------^ SC2046 (warning): Quote this to prevent word splitting.
+
+
+In /Volumes/heirloom/src/toolchest/dircmp/dircmp.sh line 95:
+	then exitstat=$diffstat
+                      ^-------^ SC2154 (warning): diffstat is referenced but not assigned.
+
+
+In /Volumes/heirloom/src/toolchest/dircmp/dircmp.sh line 116:
+shift `expr $OPTIND - 1`
+      ^----------------^ SC2046 (warning): Quote this to prevent word splitting.
+
+
+In /Volumes/heirloom/src/toolchest/dircmp/dircmp.sh line 136:
+cd "$D1"
+^------^ SC2164 (warning): Use 'cd ... || exit' or 'cd ... || return' in case cd fails.
+
+Did you mean:
+cd "$D1" || exit
+
+
+In /Volumes/heirloom/src/toolchest/dircmp/dircmp.sh line 140:
+cd "$D0"
+^------^ SC2164 (warning): Use 'cd ... || exit' or 'cd ... || return' in case cd fails.
+
+Did you mean:
+cd "$D0" || exit
+
+
+In /Volumes/heirloom/src/toolchest/dircmp/dircmp.sh line 141:
+cd "$D2"
+^------^ SC2164 (warning): Use 'cd ... || exit' or 'cd ... || return' in case cd fails.
+
+Did you mean:
+cd "$D2" || exit
+
+
+In /Volumes/heirloom/src/toolchest/dircmp/dircmp.sh line 168:
+cd "$D0"
+^------^ SC2164 (warning): Use 'cd ... || exit' or 'cd ... || return' in case cd fails.
+
+Did you mean:
+cd "$D0" || exit
+
+
+In /Volumes/heirloom/src/toolchest/dircmp/dircmp.sh line 169:
+cd "$D1"
+^------^ SC2164 (warning): Use 'cd ... || exit' or 'cd ... || return' in case cd fails.
+
+Did you mean:
+cd "$D1" || exit
+
+
+In /Volumes/heirloom/src/toolchest/dircmp/dircmp.sh line 174:
+cd "$D0"
+^------^ SC2164 (warning): Use 'cd ... || exit' or 'cd ... || return' in case cd fails.
+
+Did you mean:
+cd "$D0" || exit
+
+
+In /Volumes/heirloom/src/toolchest/dircmp/dircmp.sh line 175:
+> $tmpdir/dc$$g
+^-------------^ SC2188 (warning): This redirection doesn't have a command. Move to its command (or use 'true' as no-op).
+
+
+In /Volumes/heirloom/src/toolchest/dircmp/dircmp.sh line 203:
+		read <&4 tmp tmp tmp fsize2 tmp tmp tmp b
+                                                    ^-^ SC2034 (warning): tmp appears unused. Verify use (or export if used externally).
+
+For more information:
+  https://www.shellcheck.net/wiki/SC2104 -- In functions, use return instead ...
+  https://www.shellcheck.net/wiki/SC2034 -- tmp appears unused. Verify use (o...
+  https://www.shellcheck.net/wiki/SC2046 -- Quote this to prevent word splitt...
+
+In /Volumes/heirloom/src/toolchest/factor/mansubst.sh line 7:
+trap "rm -f $tmp; exit" 0 1 2 13 15
+            ^--^ SC2064 (warning): Use single quotes, otherwise this expands now rather than when signalled.
+                              ^-- SC2172 (warning): Trapping signals by number is not well defined. Prefer signal names.
+
+
+In /Volumes/heirloom/src/toolchest/factor/mansubst.sh line 19:
+mant_dig=`$cc -E $tmp | sed '/^#/ d; s/^[ 	]*//; /^$/ d; /^[^0-9]/ d'`
+          ^-^ SC2154 (warning): cc is referenced but not assigned.
+
+For more information:
+  https://www.shellcheck.net/wiki/SC2064 -- Use single quotes, otherwise this...
+  https://www.shellcheck.net/wiki/SC2154 -- cc is referenced but not assigned.
+  https://www.shellcheck.net/wiki/SC2172 -- Trapping signals by number is not...
+
+In /Volumes/heirloom/src/toolchest/mvdir/mvdir.sh line 54:
+if [ -f "$t"  -o -d "$t" ]
+              ^-- SC2166 (warning): Prefer [ p ] || [ q ] as [ p -o q ] is not well defined.
+
+
+In /Volumes/heirloom/src/toolchest/mvdir/mvdir.sh line 69:
+	(cd "$1"; pwd)
+         ^-----^ SC2164 (warning): Use 'cd ... || exit' or 'cd ... || return' in case cd fails.
+
+Did you mean:
+	(cd "$1" || exit; pwd)
+
+
+In /Volumes/heirloom/src/toolchest/mvdir/mvdir.sh line 71:
+	(cd "$t"; pwd)
+         ^-----^ SC2164 (warning): Use 'cd ... || exit' or 'cd ... || return' in case cd fails.
+
+Did you mean:
+	(cd "$t" || exit; pwd)
+
+For more information:
+  https://www.shellcheck.net/wiki/SC2164 -- Use 'cd ... || exit' or 'cd ... |...
+  https://www.shellcheck.net/wiki/SC2166 -- Prefer [ p ] || [ q ] as [ p -o q...
+
+In /Volumes/heirloom/src/toolchest/build/genintro.sh line 8:
+trap "rm -f $T; exit" 0 1 2 3 13 15
+            ^-- SC2064 (warning): Use single quotes, otherwise this expands now rather than when signalled.
+                              ^-- SC2172 (warning): Trapping signals by number is not well defined. Prefer signal names.
+
+
+In /Volumes/heirloom/src/toolchest/build/genintro.sh line 44:
+}' `ls */*.[0-9]* | sed '/^attic/ d'` | sort -u
+   ^-- SC2046 (warning): Quote this to prevent word splitting.
+
+For more information:
+  https://www.shellcheck.net/wiki/SC2046 -- Quote this to prevent word splitt...
+  https://www.shellcheck.net/wiki/SC2064 -- Use single quotes, otherwise this...
+  https://www.shellcheck.net/wiki/SC2172 -- Trapping signals by number is not...
+
+In /Volumes/heirloom/src/toolchest/build/maninst.sh line 10:
+owner= mode= group=
+      ^-- SC1007 (warning): Remove space after = if trying to assign a value (for empty string, use var='' ... ).
+            ^-- SC1007 (warning): Remove space after = if trying to assign a value (for empty string, use var='' ... ).
+
+
+In /Volumes/heirloom/src/toolchest/build/maninst.sh line 23:
+test $OPTIND -gt 1 && shift `expr $OPTIND - 1`
+                            ^----------------^ SC2046 (warning): Quote this to prevent word splitting.
+
+For more information:
+  https://www.shellcheck.net/wiki/SC1007 -- Remove space after = if trying to...
+  https://www.shellcheck.net/wiki/SC2046 -- Quote this to prevent word splitt...
+
+In /Volumes/heirloom/src/doctools/refer/roffbib.sh line 26:
+for i
+^-^ SC2034 (warning): i appears unused. Verify use (or export if used externally).
+
+For more information:
+  https://www.shellcheck.net/wiki/SC2034 -- i appears unused. Verify use (or ...
+
+In /Volumes/heirloom/src/doctools/stuff/showfont.sh line 21:
+		name=`otfdump -n "$i"` || continue
+                                          ^------^ SC2106 (warning): This only exits the subshell caused by the (..) group.
+
+For more information:
+  https://www.shellcheck.net/wiki/SC2106 -- This only exits the subshell caus...
+
+In /Volumes/heirloom/src/doctools/vgrind/vgrind.sh line 133:
+test $OPTIND -gt 1 && shift `expr $OPTIND - 1`
+                            ^----------------^ SC2046 (warning): Quote this to prevent word splitting.
+
+
+In /Volumes/heirloom/src/doctools/vgrind/vgrind.sh line 142:
+if [ $filter -eq 1 -a \( $twospec -eq 1 -o $pspec -eq 1 \) ] ; then
+                   ^-- SC2166 (warning): Prefer [ p ] && [ q ] as [ p -a q ] is not well defined.
+                                        ^-- SC2166 (warning): Prefer [ p ] || [ q ] as [ p -o q ] is not well defined.
+
+
+In /Volumes/heirloom/src/doctools/vgrind/vgrind.sh line 147:
+if [ $filter -eq 1 -a $tspec -eq 1 ] ; then
+                   ^-- SC2166 (warning): Prefer [ p ] && [ q ] as [ p -a q ] is not well defined.
+
+
+In /Volumes/heirloom/src/doctools/vgrind/vgrind.sh line 152:
+if [ $tspec -eq 1 -a \( $twospec -eq 1 -o $pspec -eq 1 \) ] ; then
+                  ^-- SC2166 (warning): Prefer [ p ] && [ q ] as [ p -a q ] is not well defined.
+                                       ^-- SC2166 (warning): Prefer [ p ] || [ q ] as [ p -o q ] is not well defined.
+
+
+In /Volumes/heirloom/src/doctools/vgrind/vgrind.sh line 219:
+    for i in "$files" ; do
+             ^------^ SC2066 (error): Since you double quoted this, it will not word split, and the loop will only run once.
+
+For more information:
+  https://www.shellcheck.net/wiki/SC2066 -- Since you double quoted this, it ...
+  https://www.shellcheck.net/wiki/SC2046 -- Quote this to prevent word splitt...
+  https://www.shellcheck.net/wiki/SC2166 -- Prefer [ p ] && [ q ] as [ p -a q...

@@ -1,0 +1,2541 @@
+/Volumes/heirloom/src/devtools/lex/ldefs.c:137: intermidiate ==> intermediate
+/Volumes/heirloom/src/devtools/lex/ldefs.c:206: pres ==> press
+/Volumes/heirloom/src/devtools/lex/lex.1:50: analyis ==> analysis
+/Volumes/heirloom/src/devtools/lex/once.h:76: pres ==> press
+/Volumes/heirloom/src/devtools/lex/parser.y:414: overriden ==> overridden
+/Volumes/heirloom/src/devtools/lex/parser.y:760: re-usable ==> reusable
+/Volumes/heirloom/src/devtools/lex/parser.y:769: re-use ==> reuse
+/Volumes/heirloom/src/devtools/lex/sub1.c:80: pres ==> press
+/Volumes/heirloom/src/devtools/lex/sub1.c:637: pres ==> press
+/Volumes/heirloom/src/devtools/lex/sub1.c:638: pres ==> press
+/Volumes/heirloom/src/devtools/lex/sub2.c:51: notin ==> noting, not in, notion
+/Volumes/heirloom/src/devtools/lex/sub2.c:55: padd ==> pad, padded
+/Volumes/heirloom/src/devtools/lex/sub2.c:73: padd ==> pad, padded
+/Volumes/heirloom/src/devtools/lex/sub2.c:422: notin ==> noting, not in, notion
+/Volumes/heirloom/src/devtools/lex/sub2.c:497: notin ==> noting, not in, notion
+/Volumes/heirloom/src/devtools/lex/sub2.c:1129: polution ==> pollution
+/Volumes/heirloom/src/devtools/lex/sub2.c:1195: padd ==> pad, padded
+/Volumes/heirloom/src/devtools/lex/sub3.c:41: arround ==> around
+/Volumes/heirloom/src/devtools/lex/sub3.c:72: wrting ==> writing
+/Volumes/heirloom/src/devtools/lex/sub3.c:173: determind ==> determined
+/Volumes/heirloom/src/devtools/lex/sub3.c:282: guranteed ==> guaranteed
+/Volumes/heirloom/src/devtools/sccs/man/get.1:209: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/devtools/sccs/man/get.1:288: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/devtools/sccs/man/prs.1:220: ND ==> AND, 2ND
+/Volumes/heirloom/src/devtools/sccs/man/prs.1:262: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/devtools/sccs/man/prt.1b:78: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/devtools/sccs/man/prt.1b:81: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/devtools/sccs/man/prt.1b:84: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/devtools/sccs/man/prt.1b:87: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/devtools/sccs/man/prt.1b:90: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/devtools/sccs/man/prt.1b:93: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/devtools/sccs/man/prt.1b:96: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/devtools/sccs/man/prt.1b:99: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/devtools/sccs/man/prt.1b:102: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/devtools/sccs/man/prt.1b:105: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/devtools/sccs/man/prt.1b:108: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/devtools/sccs/man/prt.1b:111: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/devtools/sccs/man/prt.1b:114: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/devtools/sccs/man/prt.1b:117: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/devtools/sccs/man/prt.1b:120: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/devtools/sccs/man/prt.1b:123: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/devtools/sccs/man/prt.1b:126: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/devtools/sccs/man/prt.1b:129: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/devtools/sccs/man/prt.1b:132: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/devtools/sccs/man/prt.1b:135: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/devtools/sccs/man/sact.1:38: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/devtools/sccs/man/sact.1:41: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/devtools/sccs/man/sact.1:44: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/devtools/sccs/man/sact.1:47: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/devtools/sccs/man/sact.1:50: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/devtools/sccs/man/sccs.1b:16: acknowedgement ==> acknowledgement
+/Volumes/heirloom/src/devtools/sccs/cassi/deltack.c:60: peforms ==> performs
+/Volumes/heirloom/src/devtools/sccs/cassi/deltack.c:60: nessesary ==> necessary
+/Volumes/heirloom/src/devtools/sccs/cassi/deltack.c:76: existance ==> existence
+/Volumes/heirloom/src/devtools/sccs/cassi/deltack.c:79: existant ==> existent
+/Volumes/heirloom/src/devtools/sccs/cassi/deltack.c:103: inconsistancy ==> inconsistency
+/Volumes/heirloom/src/devtools/sccs/cassi/deltack.c:189: seperated ==> separated
+/Volumes/heirloom/src/devtools/sccs/cassi/filehand.c:261: Seperate ==> Separate
+/Volumes/heirloom/src/devtools/sccs/cassi/filehand.c:262: seperate ==> separate
+/Volumes/heirloom/src/devtools/sccs/cassi/filehand.c:263: Seperates ==> Separates
+/Volumes/heirloom/src/devtools/sccs/cassi/filehand.c:279: terminater ==> terminator, terminated, terminates, terminate
+/Volumes/heirloom/src/devtools/sccs/cassi/filehand.c:302: seperator ==> separator
+/Volumes/heirloom/src/devtools/sccs/cassi/filehand.c:303: seperator ==> separator
+/Volumes/heirloom/src/devtools/sccs/cassi/filehand.c:308: seperate ==> separate
+/Volumes/heirloom/src/devtools/sccs/cassi/filehand.c:503: Seperate ==> Separate
+/Volumes/heirloom/src/devtools/sccs/hdr/defines.h:176: idel ==> idle
+/Volumes/heirloom/src/devtools/sccs/hdr/defines.h:210: idel ==> idle
+/Volumes/heirloom/src/devtools/sccs/hdr/defines.h:265: idel ==> idle
+/Volumes/heirloom/src/devtools/sccs/hdr/filehand.h:81: seperate ==> separate
+/Volumes/heirloom/src/devtools/sccs/hdr/filehand.h:83: seperate ==> separate
+/Volumes/heirloom/src/devtools/sccs/hdr/filehand.h:117: occured ==> occurred
+/Volumes/heirloom/src/devtools/sccs/hdr/macros.h:88: prefered ==> preferred
+/Volumes/heirloom/src/devtools/sccs/mpwlib/sname.c:44: preceeding ==> preceding, proceeding
+/Volumes/heirloom/src/devtools/sccs/help.d/Makefile:108: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/devtools/sccs/help.d/Makefile.mk:1: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/devtools/sccs/help.d/bu:1: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/devtools/sccs/help.d/cm:57: tryed ==> tried
+/Volumes/heirloom/src/devtools/sccs/help.d/cmds:142: ND ==> AND, 2ND
+/Volumes/heirloom/src/devtools/sccs/help.d/co:65: accidently ==> accidentally
+/Volumes/heirloom/src/devtools/sccs/help.d/co:84: syntatically ==> syntactically
+/Volumes/heirloom/src/devtools/sccs/help.d/de:128: differencies ==> differences
+/Volumes/heirloom/src/devtools/sccs/help.d/prs:34: assistence ==> assistance
+/Volumes/heirloom/src/devtools/sccs/help.d/prs:39: assistence ==> assistance
+/Volumes/heirloom/src/devtools/sccs/help.d/ut:70: occured ==> occurred
+/Volumes/heirloom/src/devtools/sccs/help.d/ut:88: occure ==> occur, occurred
+/Volumes/heirloom/src/devtools/sccs/help.d/vc:40: occured ==> occurred
+/Volumes/heirloom/src/devtools/sccs/help.d/vc:74: occured ==> occurred
+/Volumes/heirloom/src/devtools/sccs/comobj/dodelt.c:53: idel ==> idle
+/Volumes/heirloom/src/devtools/sccs/comobj/dodelt.c:59: idel ==> idle
+/Volumes/heirloom/src/devtools/sccs/comobj/dodelt.c:73: idel ==> idle
+/Volumes/heirloom/src/devtools/sccs/comobj/dofile.c:57: arguements ==> arguments
+/Volumes/heirloom/src/devtools/sccs/comobj/getser.c:45: idel ==> idle
+/Volumes/heirloom/src/devtools/sccs/comobj/getser.c:46: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/comobj/getser.c:59: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/comobj/getser.c:66: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/comobj/getser.c:82: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/comobj/getser.c:99: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/comobj/getser.c:102: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/comobj/getser.c:108: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/comobj/getser.c:110: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/comobj/getser.c:112: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/comobj/getser.c:116: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/comobj/rdmod.c:47: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/comobj/rdmod.c:76: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/comobj/rdmod.c:77: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/comobj/rdmod.c:77: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/comobj/rdmod.c:80: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/comobj/rdmod.c:82: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/comobj/rdmod.c:83: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/comobj/rdmod.c:86: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/comobj/rdmod.c:98: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/comobj/rdmod.c:103: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/comobj/rdmod.c:106: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/comobj/rdmod.c:115: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/comobj/rdmod.c:128: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/comobj/rdmod.c:133: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/comobj/sidtoser.c:45: idel ==> idle
+/Volumes/heirloom/src/devtools/sccs/src/admin.c:516: afile ==> a file, agile
+/Volumes/heirloom/src/devtools/sccs/src/admin.c:551: afile ==> a file, agile
+/Volumes/heirloom/src/devtools/sccs/src/admin.c:578: afile ==> a file, agile
+/Volumes/heirloom/src/devtools/sccs/src/admin.c:584: afile ==> a file, agile
+/Volumes/heirloom/src/devtools/sccs/src/admin.c:598: afile ==> a file, agile
+/Volumes/heirloom/src/devtools/sccs/src/admin.c:617: afile ==> a file, agile
+/Volumes/heirloom/src/devtools/sccs/src/admin.c:622: afile ==> a file, agile
+/Volumes/heirloom/src/devtools/sccs/src/admin.c:640: afile ==> a file, agile
+/Volumes/heirloom/src/devtools/sccs/src/admin.c:645: afile ==> a file, agile
+/Volumes/heirloom/src/devtools/sccs/src/admin.c:646: afile ==> a file, agile
+/Volumes/heirloom/src/devtools/sccs/src/admin.c:648: afile ==> a file, agile
+/Volumes/heirloom/src/devtools/sccs/src/admin.c:650: afile ==> a file, agile
+/Volumes/heirloom/src/devtools/sccs/src/admin.c:1089: afile ==> a file, agile
+/Volumes/heirloom/src/devtools/sccs/src/admin.c:1168: afile ==> a file, agile
+/Volumes/heirloom/src/devtools/sccs/src/admin.c:1419: afile ==> a file, agile
+/Volumes/heirloom/src/devtools/sccs/src/admin.c:1431: afile ==> a file, agile
+/Volumes/heirloom/src/devtools/sccs/src/admin.c:1436: afile ==> a file, agile
+/Volumes/heirloom/src/devtools/sccs/src/comb.c:59: idel ==> idle
+/Volumes/heirloom/src/devtools/sccs/src/comb.c:60: idel ==> idle
+/Volumes/heirloom/src/devtools/sccs/src/comb.c:172: idel ==> idle
+/Volumes/heirloom/src/devtools/sccs/src/comb.c:344: idel ==> idle
+/Volumes/heirloom/src/devtools/sccs/src/comb.c:345: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/src/comb.c:352: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/src/comb.c:366: idel ==> idle
+/Volumes/heirloom/src/devtools/sccs/src/comb.c:368: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/src/comb.c:370: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/src/comb.c:373: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/src/delta.c:248: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/src/delta.c:315: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/src/delta.c:321: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/src/delta.c:336: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/src/delta.c:927: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/src/delta.c:933: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/src/delta.c:953: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/src/delta.c:958: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/src/delta.c:963: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/src/delta.c:966: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/src/get.c:65: Ser ==> Set
+/Volumes/heirloom/src/devtools/sccs/src/get.c:166: Ser ==> Set
+/Volumes/heirloom/src/devtools/sccs/src/get.c:298: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/src/get.c:371: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/src/get.c:373: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/src/get.c:373: Ser ==> Set
+/Volumes/heirloom/src/devtools/sccs/src/get.c:375: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/src/get.c:384: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/src/get.c:1081: seperated ==> separated
+/Volumes/heirloom/src/devtools/sccs/src/prs.c:58: direcory ==> directory
+/Volumes/heirloom/src/devtools/sccs/src/prs.c:323: comparision ==> comparison
+/Volumes/heirloom/src/devtools/sccs/src/prs.c:754: Boundry ==> Boundary
+/Volumes/heirloom/src/devtools/sccs/src/prs.c:759: Boundry ==> Boundary
+/Volumes/heirloom/src/devtools/sccs/src/prs.c:769: ND ==> AND, 2ND
+/Volumes/heirloom/src/devtools/sccs/src/prs.c:889: inputed ==> inputted
+/Volumes/heirloom/src/devtools/sccs/src/prs.c:1030: statisitics ==> statistics
+/Volumes/heirloom/src/devtools/sccs/src/prs.c:1130: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/src/prs.c:1148: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/src/prs.c:1150: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/src/prs.c:1152: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/src/prs.c:1365: preceeded ==> preceded, proceeded
+/Volumes/heirloom/src/devtools/sccs/src/rmchg.c:215: compatable ==> compatible
+/Volumes/heirloom/src/devtools/sccs/src/rmchg.c:382: idel ==> idle
+/Volumes/heirloom/src/devtools/sccs/src/rmchg.c:464: incompatablity ==> incompatibility
+/Volumes/heirloom/src/devtools/sccs/src/rmchg.c:693: agains ==> against, again
+/Volumes/heirloom/src/devtools/sccs/src/sccs.c:115: followd ==> followed, follows, follow
+/Volumes/heirloom/src/devtools/sccs/src/sccs.c:2279: editting ==> editing
+/Volumes/heirloom/src/devtools/sccs/src/sccs.c:2280: editting ==> editing
+/Volumes/heirloom/src/devtools/sccs/src/sccs.c:2749: doesnt ==> doesn't, does not
+/Volumes/heirloom/src/devtools/sccs/src/sccs.c:2750: doesnt ==> doesn't, does not
+/Volumes/heirloom/src/devtools/sccs/src/sccsdiff:41: directtory ==> directory
+/Volumes/heirloom/src/devtools/sccs/src/sccsdiff.sh:41: directtory ==> directory
+/Volumes/heirloom/src/devtools/sccs/src/unget.c:183: envoked ==> invoked, evoked
+/Volumes/heirloom/src/devtools/sccs/src/unget.c:223: envoked ==> invoked, evoked
+/Volumes/heirloom/src/devtools/sccs/src/val.c:476: occured ==> occurred
+/Volumes/heirloom/src/devtools/sccs/src/val.c:528: inputed ==> inputted
+/Volumes/heirloom/src/devtools/sccs/src/val.c:641: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/src/val.c:655: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/src/val.c:657: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/src/val.c:659: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/src/val.c:661: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/src/val.c:664: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/src/val.c:667: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/src/val.c:677: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/src/val.c:682: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/src/val.c:684: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/src/val.c:688: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/src/val.c:701: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/src/val.c:706: ser ==> set
+/Volumes/heirloom/src/devtools/sccs/src/val.c:781: specifed ==> specified
+/Volumes/heirloom/src/devtools/sccs/src/vc.c:361: interperting ==> interpreting
+/Volumes/heirloom/src/devtools/sccs/src/vc.c:571: begining ==> beginning
+/Volumes/heirloom/src/devtools/sccs/src/vc.c:576: begining ==> beginning
+/Volumes/heirloom/src/devtools/sccs/src/version.c:69: prefered ==> preferred
+/Volumes/heirloom/src/devtools/make/mksh/macro.cc:722: cant ==> can't
+/Volumes/heirloom/src/devtools/make/mksh/misc.cc:142: funtion ==> function
+/Volumes/heirloom/src/devtools/make/mksh/misc.cc:563: isnt ==> isn't
+/Volumes/heirloom/src/devtools/make/mksh/misc.cc:717: nessecary ==> necessary
+/Volumes/heirloom/src/devtools/make/mksh/misc.cc:830: nessecary ==> necessary
+/Volumes/heirloom/src/devtools/make/vroot/lock.cc:81: vunerability ==> vulnerability
+/Volumes/heirloom/src/devtools/make/vroot/lock.cc:85: accidentily ==> accidentally
+/Volumes/heirloom/src/devtools/make/include/mksh/defs.h:755: dependecies ==> dependencies
+/Volumes/heirloom/src/devtools/make/makestate/lock.c:70: vunerability ==> vulnerability
+/Volumes/heirloom/src/devtools/make/makestate/lock.c:74: accidentily ==> accidentally
+/Volumes/heirloom/src/devtools/make/src/ar.cc:47: isnt ==> isn't
+/Volumes/heirloom/src/devtools/make/src/ar.cc:103: doesnt ==> doesn't, does not
+/Volumes/heirloom/src/devtools/make/src/ar.cc:106: compatability ==> compatibility
+/Volumes/heirloom/src/devtools/make/src/ar.cc:151: distiguish ==> distinguish
+/Volumes/heirloom/src/devtools/make/src/ar.cc:492: propogates ==> propagates
+/Volumes/heirloom/src/devtools/make/src/doname.cc:321: Indiates ==> Indicates
+/Volumes/heirloom/src/devtools/make/src/doname.cc:325: nessecary ==> necessary
+/Volumes/heirloom/src/devtools/make/src/doname.cc:1183: statemnt ==> statement
+/Volumes/heirloom/src/devtools/make/src/doname.cc:1386: preceeding ==> preceding, proceeding
+/Volumes/heirloom/src/devtools/make/src/doname.cc:1709: eventhough ==> even though
+/Volumes/heirloom/src/devtools/make/src/doname.cc:2455: befor ==> before
+/Volumes/heirloom/src/devtools/make/src/doname.cc:2988: didnt ==> didn't
+/Volumes/heirloom/src/devtools/make/src/doname.cc:3110: cant ==> can't
+/Volumes/heirloom/src/devtools/make/src/doname.cc:3370: retoring ==> restoring
+/Volumes/heirloom/src/devtools/make/src/doname.cc:3645: interruptable ==> interruptible
+/Volumes/heirloom/src/devtools/make/src/files.cc:494: doesnt ==> doesn't, does not
+/Volumes/heirloom/src/devtools/make/src/implicit.cc:106: attemps ==> attempts
+/Volumes/heirloom/src/devtools/make/src/implicit.cc:223: wont ==> won't
+/Volumes/heirloom/src/devtools/make/src/main.cc:408: standart ==> standard
+/Volumes/heirloom/src/devtools/make/src/main.cc:1514: Singe ==> Single
+/Volumes/heirloom/src/devtools/make/src/main.cc:2130: makfile ==> makefile
+/Volumes/heirloom/src/devtools/make/src/main.cc:3421: doesnt ==> doesn't, does not
+/Volumes/heirloom/src/devtools/make/src/make.1:423: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/devtools/make/src/misc.cc:318: isnt ==> isn't
+/Volumes/heirloom/src/devtools/make/src/misc.cc:834: Dissassembly ==> Disassembly
+/Volumes/heirloom/src/devtools/make/src/misc.cc:896: resultion ==> resolution
+/Volumes/heirloom/src/devtools/make/src/read.cc:2286: begining ==> beginning
+/Volumes/heirloom/src/devtools/make/src/read2.cc:667: doesnt ==> doesn't, does not
+/Volumes/heirloom/src/devtools/make/src/read2.cc:848: dependancies ==> dependencies
+/Volumes/heirloom/src/devtools/make/src/read2.cc:873: dependeny ==> dependency
+/Volumes/heirloom/src/devtools/m4/m4.c:453: nam ==> name
+/Volumes/heirloom/src/devtools/m4/m4.c:460: nam ==> name
+/Volumes/heirloom/src/devtools/m4/m4.c:462: nam ==> name
+/Volumes/heirloom/src/devtools/m4/m4.c:466: nam ==> name
+/Volumes/heirloom/src/devtools/m4/m4.h:63: vaule ==> value
+/Volumes/heirloom/src/devtools/m4/m4macs.c:517: nam ==> name
+/Volumes/heirloom/src/devtools/m4/m4macs.c:521: nam ==> name
+/Volumes/heirloom/src/devtools/m4/m4macs.c:602: substitued ==> substituted, substitute
+/Volumes/heirloom/src/devtools/m4/m4macs.c:607: lenght ==> length
+/Volumes/heirloom/src/devtools/yacc/y1.c:110: pres ==> press
+/Volumes/heirloom/src/devtools/yacc/y1.c:193: pres ==> press
+/Volumes/heirloom/src/devtools/yacc/y1.c:204: pres ==> press
+/Volumes/heirloom/src/devtools/yacc/y1.c:509: pres ==> press
+/Volumes/heirloom/src/devtools/yacc/y1.c:533: pres ==> press
+/Volumes/heirloom/src/devtools/yacc/y1.c:539: pres ==> press
+/Volumes/heirloom/src/devtools/yacc/y1.c:543: pres ==> press
+/Volumes/heirloom/src/devtools/yacc/y1.c:563: pres ==> press
+/Volumes/heirloom/src/devtools/yacc/y1.c:565: pres ==> press
+/Volumes/heirloom/src/devtools/yacc/y1.c:583: pres ==> press
+/Volumes/heirloom/src/devtools/yacc/y1.c:584: pres ==> press
+/Volumes/heirloom/src/devtools/yacc/y1.c:717: WHOKNOWS ==> WHO KNOWS
+/Volumes/heirloom/src/devtools/yacc/y1.c:727: WHOKNOWS ==> WHO KNOWS
+/Volumes/heirloom/src/devtools/yacc/y1.c:738: WHOKNOWS ==> WHO KNOWS
+/Volumes/heirloom/src/devtools/yacc/y1.c:772: WHOKNOWS ==> WHO KNOWS
+/Volumes/heirloom/src/devtools/yacc/y1.c:774: WHOKNOWS ==> WHO KNOWS
+/Volumes/heirloom/src/devtools/yacc/y1.c:781: WHOKNOWS ==> WHO KNOWS
+/Volumes/heirloom/src/devtools/yacc/y1.c:943: pres ==> press
+/Volumes/heirloom/src/devtools/yacc/y1.c:944: pres ==> press
+/Volumes/heirloom/src/devtools/yacc/y2.c:88: defin ==> define
+/Volumes/heirloom/src/devtools/yacc/y2.c:180: sequencial ==> sequential
+/Volumes/heirloom/src/devtools/yacc/y2.c:310: defin ==> define
+/Volumes/heirloom/src/devtools/yacc/y2.c:312: defin ==> define
+/Volumes/heirloom/src/devtools/yacc/y2.c:313: defin ==> define
+/Volumes/heirloom/src/devtools/yacc/y2.c:363: idented ==> indented
+/Volumes/heirloom/src/devtools/yacc/y2.c:773: defin ==> define
+/Volumes/heirloom/src/devtools/yacc/y2.c:1118: defin ==> define
+/Volumes/heirloom/src/devtools/yacc/y2.c:1706: treate ==> treat
+/Volumes/heirloom/src/devtools/yacc/y3.c:214: begining ==> beginning
+/Volumes/heirloom/src/doctools/CHANGES:57: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/CHANGES:135: lenght ==> length
+/Volumes/heirloom/src/doctools/CHANGES:196: occured ==> occurred
+/Volumes/heirloom/src/doctools/CHANGES:310: horizonal ==> horizontal
+/Volumes/heirloom/src/doctools/CHANGES:355: compability ==> compatibility
+/Volumes/heirloom/src/doctools/CHANGES:724: substracted ==> subtracted
+/Volumes/heirloom/src/doctools/CHANGES:792: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/CHANGES:891: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/CHANGES:922: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/CHANGES:940: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/CHANGES:940: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/CHANGES:958: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/CHANGES:960: utilites ==> utilities
+/Volumes/heirloom/src/doctools/CHANGES:1008: resistent ==> resistant
+/Volumes/heirloom/src/doctools/README:8: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/makefile:7: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile:122: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile:132: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile:132: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile:134: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile:135: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile:137: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile:140: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile:140: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile:141: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile:143: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile:143: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile:144: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile:144: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile:147: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile:147: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile:151: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile:152: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile:153: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile:154: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile:154: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile:154: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile:155: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile:156: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile:157: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile:158: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile:159: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile:160: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile:161: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile:162: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile.mk:1: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile.mk:11: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile.mk:11: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile.mk:13: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile.mk:14: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile.mk:16: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile.mk:19: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile.mk:19: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile.mk:20: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile.mk:22: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile.mk:22: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile.mk:23: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile.mk:23: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile.mk:26: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile.mk:26: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile.mk:30: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile.mk:31: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile.mk:32: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile.mk:33: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile.mk:33: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile.mk:33: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile.mk:34: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile.mk:35: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile.mk:36: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile.mk:37: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile.mk:38: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile.mk:39: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile.mk:40: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/Makefile.mk:41: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/coord.c:4: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/coord.c:16: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/for.c:4: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/for.c:15: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/frame.c:4: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/frame.c:15: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.1:4: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.1:11: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.1:12: GRAP ==> GREP, GRAPE, GRAPH, GRASP
+/Volumes/heirloom/src/doctools/grap/grap.1:14: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.1:16: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.1:18: Grap ==> Grep, Grape, Graph, Grasp
+/Volumes/heirloom/src/doctools/grap/grap.1:36: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.1:265: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.1:418: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.1:421: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.1:427: GRAP ==> GREP, GRAPE, GRAPH, GRASP
+/Volumes/heirloom/src/doctools/grap/grap.c:225: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:230: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:238: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:243: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2008: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2013: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2018: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2023: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2028: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2033: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2038: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2043: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2048: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2053: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2058: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2063: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2068: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2073: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2078: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2083: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2088: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2093: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2098: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2103: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2108: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2113: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2118: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2123: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2128: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2133: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2138: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2143: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2148: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2153: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2158: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2163: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2168: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2173: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2178: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2183: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2188: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2193: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2198: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2203: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2208: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2213: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2218: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2223: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2228: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2233: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2238: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2243: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2248: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2253: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2258: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2263: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2268: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2273: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2278: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2283: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2288: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2293: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2298: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2303: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2308: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2313: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2318: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2323: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2328: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2333: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2338: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2343: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2348: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2353: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2358: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2363: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2368: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2373: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2378: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2383: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2388: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2393: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2398: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2403: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2408: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2413: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2418: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2423: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2428: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2433: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2438: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2443: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2448: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2453: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2458: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2463: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2468: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2473: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2478: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2483: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2488: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2493: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2498: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2503: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2508: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2513: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2518: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2523: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2528: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2533: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2538: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2543: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2548: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2553: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2558: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2563: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2568: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2573: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2578: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2583: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2588: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2593: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2598: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2603: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2608: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2613: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2618: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2623: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2628: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2633: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2640: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2647: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2652: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2657: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2662: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2667: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2672: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2677: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2682: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2687: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2692: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2697: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2702: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2707: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2712: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2717: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2722: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2727: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2732: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2737: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2742: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2747: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2752: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2757: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2762: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.c:2767: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.defines:4: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.defines:12: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.defines:17: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/grap/grap.h:4: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.h:12: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.y:5: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.y:13: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grap.y:18: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grapl.c:665: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grapl.c:685: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grapl.c:704: clen ==> clean, clan
+/Volumes/heirloom/src/doctools/grap/grapl.c:705: clen ==> clean, clan
+/Volumes/heirloom/src/doctools/grap/grapl.c:709: clen ==> clean, clan
+/Volumes/heirloom/src/doctools/grap/grapl.c:1513: clen ==> clean, clan
+/Volumes/heirloom/src/doctools/grap/grapl.c:1528: clen ==> clean, clan
+/Volumes/heirloom/src/doctools/grap/grapl.c:1540: clen ==> clean, clan
+/Volumes/heirloom/src/doctools/grap/grapl.c:1540: clen ==> clean, clan
+/Volumes/heirloom/src/doctools/grap/grapl.c:1545: clen ==> clean, clan
+/Volumes/heirloom/src/doctools/grap/grapl.c:1545: clen ==> clean, clan
+/Volumes/heirloom/src/doctools/grap/grapl.l:5: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grapl.l:26: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/grapl.l:45: clen ==> clean, clan
+/Volumes/heirloom/src/doctools/grap/grapl.l:46: clen ==> clean, clan
+/Volumes/heirloom/src/doctools/grap/grapl.l:50: clen ==> clean, clan
+/Volumes/heirloom/src/doctools/grap/grapl.l:226: clen ==> clean, clan
+/Volumes/heirloom/src/doctools/grap/grapl.l:232: clen ==> clean, clan
+/Volumes/heirloom/src/doctools/grap/grapl.l:235: clen ==> clean, clan
+/Volumes/heirloom/src/doctools/grap/grapl.l:235: clen ==> clean, clan
+/Volumes/heirloom/src/doctools/grap/grapl.l:236: clen ==> clean, clan
+/Volumes/heirloom/src/doctools/grap/grapl.l:236: clen ==> clean, clan
+/Volumes/heirloom/src/doctools/grap/input.c:4: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/input.c:18: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/label.c:4: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/label.c:15: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/main.c:4: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/main.c:19: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/main.c:24: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/main.c:63: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/main.c:90: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/misc.c:4: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/misc.c:17: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/plot.c:4: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/plot.c:16: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/plot.c:72: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/grap/print.c:4: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/print.c:18: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/print.c:204: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/print.c:244: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/ticks.c:4: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/ticks.c:17: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/version.c:8: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/version.c:15: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/version.c:15: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/version.c:16: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/version.c:17: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/version.c:17: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/version.c:18: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/version.c:18: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/version.c:29: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/grap/version.c:29: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/troff/ext.h:151: olt ==> old
+/Volumes/heirloom/src/doctools/troff/ext.h:325: copys ==> copies
+/Volumes/heirloom/src/doctools/troff/ext.h:449: findn ==> find
+/Volumes/heirloom/src/doctools/troff/ext.h:538: alph ==> alpha
+/Volumes/heirloom/src/doctools/troff/n1.c:1256: mot ==> not
+/Volumes/heirloom/src/doctools/troff/n1.c:1260: mot ==> not
+/Volumes/heirloom/src/doctools/troff/n2.c:179: OLT ==> OLD
+/Volumes/heirloom/src/doctools/troff/n2.c:180: olt ==> old
+/Volumes/heirloom/src/doctools/troff/n2.c:180: olt ==> old
+/Volumes/heirloom/src/doctools/troff/n2.c:180: olt ==> old
+/Volumes/heirloom/src/doctools/troff/n2.c:205: olt ==> old
+/Volumes/heirloom/src/doctools/troff/n3.c:470: copys ==> copies
+/Volumes/heirloom/src/doctools/troff/n3.c:758: copys ==> copies
+/Volumes/heirloom/src/doctools/troff/n3.c:1323: nd ==> and, 2nd
+/Volumes/heirloom/src/doctools/troff/n3.c:1325: nd ==> and, 2nd
+/Volumes/heirloom/src/doctools/troff/n3.c:1330: nd ==> and, 2nd
+/Volumes/heirloom/src/doctools/troff/n5.c:676: findn ==> find
+/Volumes/heirloom/src/doctools/troff/n5.c:760: OLT ==> OLD
+/Volumes/heirloom/src/doctools/troff/n5.c:765: findn ==> find
+/Volumes/heirloom/src/doctools/troff/n7.c:723: olt ==> old
+/Volumes/heirloom/src/doctools/troff/n7.c:725: olt ==> old
+/Volumes/heirloom/src/doctools/troff/n7.c:726: olt ==> old
+/Volumes/heirloom/src/doctools/troff/n7.c:736: findn ==> find
+/Volumes/heirloom/src/doctools/troff/n7.c:2144: savin ==> saving, satin, sarin
+/Volumes/heirloom/src/doctools/troff/n7.c:2148: savin ==> saving, satin, sarin
+/Volumes/heirloom/src/doctools/troff/n7.c:2198: savin ==> saving, satin, sarin
+/Volumes/heirloom/src/doctools/troff/n7.c:2204: savin ==> saving, satin, sarin
+/Volumes/heirloom/src/doctools/troff/n7.c:2253: savin ==> saving, satin, sarin
+/Volumes/heirloom/src/doctools/troff/n7.c:2258: savin ==> saving, satin, sarin
+/Volumes/heirloom/src/doctools/troff/n8.c:104: alph ==> alpha
+/Volumes/heirloom/src/doctools/troff/n8.c:107: alph ==> alpha
+/Volumes/heirloom/src/doctools/troff/n8.c:130: alph ==> alpha
+/Volumes/heirloom/src/doctools/troff/n8.c:170: alph ==> alpha
+/Volumes/heirloom/src/doctools/troff/n8.c:178: alph ==> alpha
+/Volumes/heirloom/src/doctools/troff/n8.c:368: alph ==> alpha
+/Volumes/heirloom/src/doctools/troff/n9.c:231: MOT ==> NOT
+/Volumes/heirloom/src/doctools/troff/n9.c:234: MOT ==> NOT
+/Volumes/heirloom/src/doctools/troff/n9.c:251: MOT ==> NOT
+/Volumes/heirloom/src/doctools/troff/n9.c:254: MOT ==> NOT
+/Volumes/heirloom/src/doctools/troff/n9.c:390: MOT ==> NOT
+/Volumes/heirloom/src/doctools/troff/n9.c:392: MOT ==> NOT
+/Volumes/heirloom/src/doctools/troff/n9.c:403: MOT ==> NOT
+/Volumes/heirloom/src/doctools/troff/n9.c:405: MOT ==> NOT
+/Volumes/heirloom/src/doctools/troff/n9.c:567: MOT ==> NOT
+/Volumes/heirloom/src/doctools/troff/nii.c:175: olt ==> old
+/Volumes/heirloom/src/doctools/troff/tdef.h:159: OLT ==> OLD
+/Volumes/heirloom/src/doctools/troff/tdef.h:239: MOT ==> NOT
+/Volumes/heirloom/src/doctools/troff/tdef.h:247: MOT ==> NOT
+/Volumes/heirloom/src/doctools/troff/tdef.h:248: MOT ==> NOT
+/Volumes/heirloom/src/doctools/troff/tdef.h:268: MOT ==> NOT
+/Volumes/heirloom/src/doctools/troff/troff.d/README:148: comands ==> commands
+/Volumes/heirloom/src/doctools/troff/troff.d/afm.c:65: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/afm.c:149: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/afm.c:179: te ==> the, be, we, to
+/Volumes/heirloom/src/doctools/troff/troff.d/pt.h:32: mot ==> not
+/Volumes/heirloom/src/doctools/troff/troff.d/t10.c:441: occured ==> occurred
+/Volumes/heirloom/src/doctools/troff/troff.d/t6.c:115: MOT ==> NOT
+/Volumes/heirloom/src/doctools/troff/troff.d/t6.c:1130: mot ==> not
+/Volumes/heirloom/src/doctools/troff/troff.d/t6.c:1137: mot ==> not
+/Volumes/heirloom/src/doctools/troff/troff.d/t6.c:1141: mot ==> not
+/Volumes/heirloom/src/doctools/troff/troff.d/t6.c:1187: MOT ==> NOT
+/Volumes/heirloom/src/doctools/troff/troff.d/t6.c:1645: successtion ==> succession, suggestion
+/Volumes/heirloom/src/doctools/troff/troff.d/t6.c:1891: MOT ==> NOT
+/Volumes/heirloom/src/doctools/troff/troff.d/t6.c:1893: MOT ==> NOT
+/Volumes/heirloom/src/doctools/troff/troff.d/t6.c:2257: heigth ==> height
+/Volumes/heirloom/src/doctools/troff/troff.d/t6.c:2324: heigth ==> height
+/Volumes/heirloom/src/doctools/troff/troff.d/devaps/B:135: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/devaps/BI:133: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/devaps/C:133: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/devaps/CE:133: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/devaps/CI:133: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/devaps/CT:126: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/devaps/CX:134: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/devaps/DESC:50: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/devaps/G:133: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/devaps/GI:135: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/devaps/GS:129: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/devaps/H:133: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/devaps/HB:133: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/devaps/HB.out:133: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/devaps/HI:135: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/devaps/HK:134: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/devaps/HL:133: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/devaps/HM.out:133: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/devaps/HX:134: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/devaps/I:135: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/devaps/MB:133: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/devaps/MI:133: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/devaps/MR:133: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/devaps/MX:133: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/devaps/PA:133: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/devaps/PB:133: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/devaps/PI:133: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/devaps/PX:134: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/devaps/R:135: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/devaps/S:108: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/devaps/SC:129: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/devaps/SM:128: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/devaps/TB:133: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/devaps/TX:134: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/devaps/daps.c:246: procees ==> process
+/Volumes/heirloom/src/doctools/troff/troff.d/devaps/daps.c:311: privelege ==> privilege
+/Volumes/heirloom/src/doctools/troff/troff.d/devaps/daps.c:356: privelege ==> privilege
+/Volumes/heirloom/src/doctools/troff/troff.d/devaps/daps.c:855: privelege ==> privilege
+/Volumes/heirloom/src/doctools/troff/troff.d/devaps/daps.c:2112: incrment ==> increment
+/Volumes/heirloom/src/doctools/troff/troff.d/devaps/daps.c:2175: guarenteed ==> guaranteed
+/Volumes/heirloom/src/doctools/troff/troff.d/devaps/daps.c:2333: preceed ==> precede, proceed
+/Volumes/heirloom/src/doctools/troff/troff.d/devaps/daps.c:2587: explination ==> explanation
+/Volumes/heirloom/src/doctools/troff/troff.d/devaps/daps.c:2591: charater ==> character
+/Volumes/heirloom/src/doctools/troff/troff.d/devaps/daps.c:2599: finially ==> finally
+/Volumes/heirloom/src/doctools/troff/troff.d/devaps/daps.c:2602: finially ==> finally
+/Volumes/heirloom/src/doctools/troff/troff.d/devaps/daps.c:2742: Finially ==> Finally
+/Volumes/heirloom/src/doctools/troff/troff.d/devaps/daps.g:56: privelege ==> privilege
+/Volumes/heirloom/src/doctools/troff/troff.d/devaps/daps.g:56: priveleged ==> privileged
+/Volumes/heirloom/src/doctools/troff/troff.d/devaps/daps.g:181: finially ==> finally
+/Volumes/heirloom/src/doctools/troff/troff.d/dpost.d/color.c:89: aguments ==> arguments, augments
+/Volumes/heirloom/src/doctools/troff/troff.d/dpost.d/color.c:89: approrpriate ==> appropriate
+/Volumes/heirloom/src/doctools/troff/troff.d/dpost.d/color.c:193: Berkley ==> Berkeley
+/Volumes/heirloom/src/doctools/troff/troff.d/dpost.d/comments.h:150: utililty ==> utility
+/Volumes/heirloom/src/doctools/troff/troff.d/dpost.d/dpost.c:108: avaliable ==> available
+/Volumes/heirloom/src/doctools/troff/troff.d/dpost.d/dpost.c:117: preceed ==> precede, proceed
+/Volumes/heirloom/src/doctools/troff/troff.d/dpost.d/dpost.c:176: preceeded ==> preceded, proceeded
+/Volumes/heirloom/src/doctools/troff/troff.d/dpost.d/dpost.c:594: lenght ==> length
+/Volumes/heirloom/src/doctools/troff/troff.d/dpost.d/dpost.c:3435: positon ==> position, positron
+/Volumes/heirloom/src/doctools/troff/troff.d/dpost.d/draw.c:455: verion ==> version
+/Volumes/heirloom/src/doctools/troff/troff.d/dpost.d/draw.c:560: grahics ==> graphics
+/Volumes/heirloom/src/doctools/troff/troff.d/dpost.d/draw.c:757: preceeded ==> preceded, proceeded
+/Volumes/heirloom/src/doctools/troff/troff.d/dpost.d/ext.h:36: varible ==> variable
+/Volumes/heirloom/src/doctools/troff/troff.d/dpost.d/pictures.c:295: preceeded ==> preceded, proceeded
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/Makefile:124: ths ==> the, this
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/Makefile.mk:3: ths ==> the, this
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/color:33: preceeding ==> preceding, proceeding
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/color:44: paramenters ==> parameters
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/doc:81: reuqest ==> request
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/doc:1737: bU ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/doc:2055: bU ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/doc:2062: bU ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/doc:2064: bU ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/doc:2064: bU ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/doc:2065: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/doc:2070: bU ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/doc:2070: bU ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/doc:2453: Ot ==> To, Of, Or, Not, It
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/doc:2472: oT ==> to, of, or, not, it
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/doc:2506: Ot ==> To, Of, Or, Not, It
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/doc:2507: oT ==> to, of, or, not, it
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/doc:2508: oT ==> to, of, or, not, it
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/doc:2509: Ot ==> To, Of, Or, Not, It
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/doc:2510: oT ==> to, of, or, not, it
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/doc:2570: interal ==> internal, interval, integral
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/doc:2827: inbetween ==> between, in between
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/doc:2853: wee ==> we
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/doc-common:289: Nd ==> And, 2nd
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/doc-ditroff:240: oT ==> to, of, or, not, it
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/doc-nroff:199: oT ==> to, of, or, not, it
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/doc.in:81: reuqest ==> request
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/doc.in:1737: bU ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/doc.in:2055: bU ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/doc.in:2062: bU ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/doc.in:2064: bU ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/doc.in:2064: bU ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/doc.in:2065: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/doc.in:2070: bU ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/doc.in:2070: bU ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/doc.in:2453: Ot ==> To, Of, Or, Not, It
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/doc.in:2472: oT ==> to, of, or, not, it
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/doc.in:2506: Ot ==> To, Of, Or, Not, It
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/doc.in:2507: oT ==> to, of, or, not, it
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/doc.in:2508: oT ==> to, of, or, not, it
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/doc.in:2509: Ot ==> To, Of, Or, Not, It
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/doc.in:2510: oT ==> to, of, or, not, it
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/doc.in:2570: interal ==> internal, interval, integral
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/doc.in:2827: inbetween ==> between, in between
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/doc.in:2853: wee ==> we
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/mmn:49: BU ==> BY, BE, BUT, BUG, BUN, BUD, BUY, BUM
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/mmn:49: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/mmn:375: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/mmn:376: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/mmn:393: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/mmn:424: BU ==> BY, BE, BUT, BUG, BUN, BUD, BUY, BUM
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/mmn:425: BU ==> BY, BE, BUT, BUG, BUN, BUD, BUY, BUM
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/mmn:632: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/mmn:636: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/mmn:661: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/mmn:662: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/mmn:1850: ND ==> AND, 2ND
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/mmn:1851: ND ==> AND, 2ND
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/mmn:2737: BU ==> BY, BE, BUT, BUG, BUN, BUD, BUY, BUM
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/mmt:48: BU ==> BY, BE, BUT, BUG, BUN, BUD, BUY, BUM
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/mmt:48: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/mmt:360: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/mmt:361: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/mmt:378: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/mmt:406: BU ==> BY, BE, BUT, BUG, BUN, BUD, BUY, BUM
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/mmt:407: BU ==> BY, BE, BUT, BUG, BUN, BUD, BUY, BUM
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/mmt:408: BU ==> BY, BE, BUT, BUG, BUN, BUD, BUY, BUM
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/mmt:409: BU ==> BY, BE, BUT, BUG, BUN, BUD, BUY, BUM
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/mmt:613: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/mmt:617: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/mmt:642: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/mmt:643: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/mmt:1842: ND ==> AND, 2ND
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/mmt:1843: ND ==> AND, 2ND
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/ms.tbl:68: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/ms.tbl:69: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/ms.ths:25: ths ==> the, this
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/pictures:24: postion ==> position
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/pictures:129: Ot ==> To, Of, Or, Not, It
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/pictures:130: Ot ==> To, Of, Or, Not, It
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/pictures:131: Ot ==> To, Of, Or, Not, It
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/pictures:132: Ot ==> To, Of, Or, Not, It
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/pictures:133: Ot ==> To, Of, Or, Not, It
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/pictures:134: Ot ==> To, Of, Or, Not, It
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/pictures:163: Ot ==> To, Of, Or, Not, It
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/pictures:163: Otu ==> Out
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/pictures:164: Ot ==> To, Of, Or, Not, It
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/pm:124: ND ==> AND, 2ND
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/pm:125: ND ==> AND, 2ND
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/pm:286: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/pm:326: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/pm:327: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/pm:341: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/pm:342: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/pm.in:124: ND ==> AND, 2ND
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/pm.in:125: ND ==> AND, 2ND
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/pm.in:286: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/pm.in:326: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/pm.in:327: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/pm.in:341: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/pm.in:342: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/s:699: ND ==> AND, 2ND
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/s:704: ND ==> AND, 2ND
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/s:723: ND ==> AND, 2ND
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/s:815: ND ==> AND, 2ND
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/s:816: ND ==> AND, 2ND
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/s:983: ths ==> the, this
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/s.in:699: ND ==> AND, 2ND
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/s.in:704: ND ==> AND, 2ND
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/s.in:723: ND ==> AND, 2ND
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/s.in:815: ND ==> AND, 2ND
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/s.in:816: ND ==> AND, 2ND
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/s.in:983: ths ==> the, this
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/tbl.me:61: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/v:385: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/v:421: Bu ==> By, Be, But, Bug, Bun, Bud, Buy, Bum
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/v:423: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/v:427: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/v:442: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/v:540: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/v:542: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/vgrind:29: overriden ==> overridden
+/Volumes/heirloom/src/doctools/troff/troff.d/tmac.d/vgrind:70: corrent ==> correct, current
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpost/AB:115: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpost/AI:115: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpost/AR:115: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpost/AX:115: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpost/B:126: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpost/BI:123: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpost/CB:127: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpost/CI:135: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpost/CO:127: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpost/CW:135: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpost/CX:135: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpost/DESC:55: te ==> the, be, we, to
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpost/DESC:60: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpost/DESC.big:41: te ==> the, be, we, to
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpost/DESC.big:45: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpost/DESC.small:25: accomodate ==> accommodate
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpost/DESC.small:45: te ==> the, be, we, to
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpost/DESC.small:49: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpost/H:123: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpost/HB:123: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpost/HI:123: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpost/HX:123: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpost/Hb:115: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpost/Hi:115: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpost/Hr:115: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpost/Hx:115: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpost/I:126: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpost/KB:115: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpost/KI:115: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpost/KR:115: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpost/KX:115: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpost/NB:115: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpost/NI:115: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpost/NR:115: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpost/NX:115: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpost/PA:123: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpost/PB:123: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpost/PI:123: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpost/PX:123: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpost/R:126: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpost/S:51: te ==> the, be, we, to
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpost/S:165: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpost/S.big:43: te ==> the, be, we, to
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpost/S.big:157: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpost/S.small:40: te ==> the, be, we, to
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpost/S.small:117: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpost/VB:118: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpost/VI:118: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpost/VR:118: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpost/VX:118: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpost/ZD:135: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpost/ZI:115: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpslow/DESC:52: te ==> the, be, we, to
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpslow/DESC:57: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpsmed/DESC:53: te ==> the, be, we, to
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devpsmed/DESC:58: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devps/DESC:54: te ==> the, be, we, to
+/Volumes/heirloom/src/doctools/troff/troff.d/font/devps/DESC:59: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/libhnj/hyphen.c:49: UNX ==> UNIX
+/Volumes/heirloom/src/doctools/troff/libhnj/hyphen.d/substring.pl:94: expresed ==> expressed
+/Volumes/heirloom/src/doctools/troff/nroff.d/n10.c:152: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/nroff.d/n10.c:310: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/nroff.d/n10.c:424: te ==> the, be, we, to
+/Volumes/heirloom/src/doctools/troff/nroff.d/n10.c:1018: begining ==> beginning
+/Volumes/heirloom/src/doctools/troff/nroff.d/n6.c:77: MOT ==> NOT
+/Volumes/heirloom/src/doctools/troff/nroff.d/n6.c:410: mot ==> not
+/Volumes/heirloom/src/doctools/troff/nroff.d/n6.c:418: mot ==> not
+/Volumes/heirloom/src/doctools/troff/nroff.d/n6.c:423: mot ==> not
+/Volumes/heirloom/src/doctools/troff/nroff.d/n6.c:471: MOT ==> NOT
+/Volumes/heirloom/src/doctools/troff/nroff.d/n6.c:604: MOT ==> NOT
+/Volumes/heirloom/src/doctools/troff/nroff.d/n6.c:606: MOT ==> NOT
+/Volumes/heirloom/src/doctools/troff/nroff.d/pt.h:38: mot ==> not
+/Volumes/heirloom/src/doctools/troff/nroff.d/terms.d/README:115: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/nroff.d/terms.d/ab.37:34: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/nroff.d/terms.d/ab.8510:34: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/nroff.d/terms.d/ab.X:34: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/nroff.d/terms.d/ab.tn300:34: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/nroff.d/terms.d/b.300:7: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/nroff.d/terms.d/b.lp:7: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/nroff.d/terms.d/tab.2631:34: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/nroff.d/terms.d/tab.2631-c:34: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/nroff.d/terms.d/tab.2631-e:34: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/nroff.d/terms.d/tab.300:34: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/nroff.d/terms.d/tab.300-12:34: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/nroff.d/terms.d/tab.300S:34: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/nroff.d/terms.d/tab.300S-12:34: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/nroff.d/terms.d/tab.300s:34: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/nroff.d/terms.d/tab.300s-12:34: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/nroff.d/terms.d/tab.37:34: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/nroff.d/terms.d/tab.382:34: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/nroff.d/terms.d/tab.4000A:34: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/nroff.d/terms.d/tab.4000a:34: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/nroff.d/terms.d/tab.450:34: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/nroff.d/terms.d/tab.450-12:34: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/nroff.d/terms.d/tab.832:34: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/nroff.d/terms.d/tab.8510:34: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/nroff.d/terms.d/tab.X:34: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/nroff.d/terms.d/tab.lp:34: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/troff/nroff.d/terms.d/tab.tn300:34: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/refer/addbib.1b:19: acknowedgement ==> acknowledgement
+/Volumes/heirloom/src/doctools/refer/glue4.c:42: alph ==> alpha
+/Volumes/heirloom/src/doctools/refer/glue4.c:58: alph ==> alpha
+/Volumes/heirloom/src/doctools/refer/glue4.c:58: alph ==> alpha
+/Volumes/heirloom/src/doctools/refer/glue4.c:59: alph ==> alpha
+/Volumes/heirloom/src/doctools/refer/glue4.c:61: alph ==> alpha
+/Volumes/heirloom/src/doctools/refer/lookbib.1b:19: acknowedgement ==> acknowledgement
+/Volumes/heirloom/src/doctools/refer/mkey2.c:32: alph ==> alpha
+/Volumes/heirloom/src/doctools/refer/mkey2.c:44: alph ==> alpha
+/Volumes/heirloom/src/doctools/refer/mkey2.c:53: alph ==> alpha
+/Volumes/heirloom/src/doctools/refer/mkey2.c:63: alph ==> alpha
+/Volumes/heirloom/src/doctools/refer/mkey2.c:139: alph ==> alpha
+/Volumes/heirloom/src/doctools/refer/mkey2.c:165: alph ==> alpha
+/Volumes/heirloom/src/doctools/refer/refer.1b:18: acknowedgement ==> acknowledgement
+/Volumes/heirloom/src/doctools/refer/refer2.c:42: alph ==> alpha
+/Volumes/heirloom/src/doctools/refer/refer2.c:76: alph ==> alpha
+/Volumes/heirloom/src/doctools/refer/refer2.c:79: alph ==> alpha
+/Volumes/heirloom/src/doctools/refer/refer2.c:85: alph ==> alpha
+/Volumes/heirloom/src/doctools/refer/refer2.c:90: alph ==> alpha
+/Volumes/heirloom/src/doctools/refer/refer2.c:98: alph ==> alpha
+/Volumes/heirloom/src/doctools/refer/refer5.c:159: Seperate ==> Separate
+/Volumes/heirloom/src/doctools/refer/refer6.c:179: alph ==> alpha
+/Volumes/heirloom/src/doctools/refer/refer6.c:182: alph ==> alpha
+/Volumes/heirloom/src/doctools/refer/refer6.c:185: alph ==> alpha
+/Volumes/heirloom/src/doctools/refer/refer6.c:191: alph ==> alpha
+/Volumes/heirloom/src/doctools/refer/refer6.c:200: alph ==> alpha
+/Volumes/heirloom/src/doctools/refer/refer6.c:200: alph ==> alpha
+/Volumes/heirloom/src/doctools/refer/refer6.c:202: alph ==> alpha
+/Volumes/heirloom/src/doctools/refer/roffbib.1b:19: acknowedgement ==> acknowledgement
+/Volumes/heirloom/src/doctools/refer/sortbib.1b:19: acknowedgement ==> acknowledgement
+/Volumes/heirloom/src/doctools/refer/tick.c:36: systm ==> system
+/Volumes/heirloom/src/doctools/refer/tick.c:45: systm ==> system
+/Volumes/heirloom/src/doctools/refer/tick.c:59: systm ==> system
+/Volumes/heirloom/src/doctools/eqn/io.c:187: suppposed ==> supposed
+/Volumes/heirloom/src/doctools/eqn/eqn.d/eqnchar.7b:106: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/eqn/eqnchar.d/eqnchar:71: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/tbl/Makefile:122: te ==> the, be, we, to
+/Volumes/heirloom/src/doctools/tbl/Makefile:158: te ==> the, be, we, to
+/Volumes/heirloom/src/doctools/tbl/Makefile:158: te ==> the, be, we, to
+/Volumes/heirloom/src/doctools/tbl/Makefile.mk:1: te ==> the, be, we, to
+/Volumes/heirloom/src/doctools/tbl/Makefile.mk:37: te ==> the, be, we, to
+/Volumes/heirloom/src/doctools/tbl/Makefile.mk:37: te ==> the, be, we, to
+/Volumes/heirloom/src/doctools/tbl/t..c:158: te ==> the, be, we, to
+/Volumes/heirloom/src/doctools/tbl/t3.c:52: GRAPICS ==> GRAPHICS
+/Volumes/heirloom/src/doctools/tbl/t5.c:43: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/doctools/tbl/t5.c:162: strig ==> string
+/Volumes/heirloom/src/doctools/tbl/t5.c:173: strig ==> string
+/Volumes/heirloom/src/doctools/tbl/t5.c:177: strig ==> string
+/Volumes/heirloom/src/doctools/tbl/t9.c:48: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/doctools/tbl/tbl.1b:51: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/doctools/tbl/tbl.1b:80: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/doctools/tbl/tbl.1b:101: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/doctools/tbl/te.c:16: te ==> the, be, we, to
+/Volumes/heirloom/src/doctools/tbl/te.c:21: te ==> the, be, we, to
+/Volumes/heirloom/src/doctools/tbl/te.c:24: te ==> the, be, we, to
+/Volumes/heirloom/src/doctools/tbl/tu.c:177: stopp ==> stop
+/Volumes/heirloom/src/doctools/tbl/tu.c:178: stopp ==> stop
+/Volumes/heirloom/src/doctools/tbl/tu.c:186: stopp ==> stop
+/Volumes/heirloom/src/doctools/tbl/version.c:24: te ==> the, be, we, to
+/Volumes/heirloom/src/doctools/tbl/version.c:24: te ==> the, be, we, to
+/Volumes/heirloom/src/doctools/soelim/soelim.1b:16: acknowedgement ==> acknowledgement
+/Volumes/heirloom/src/doctools/stuff/odt2tr.xsl:128: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/doctools/stuff/odt2tr.xsl:575: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/doctools/pic/pic.1:357: grap ==> grep, grape, graph, grasp
+/Volumes/heirloom/src/doctools/pic/picl.c:907: clen ==> clean, clan
+/Volumes/heirloom/src/doctools/pic/picl.c:908: clen ==> clean, clan
+/Volumes/heirloom/src/doctools/pic/picl.c:911: clen ==> clean, clan
+/Volumes/heirloom/src/doctools/pic/picl.c:1970: clen ==> clean, clan
+/Volumes/heirloom/src/doctools/pic/picl.c:1975: clen ==> clean, clan
+/Volumes/heirloom/src/doctools/pic/picl.c:1981: clen ==> clean, clan
+/Volumes/heirloom/src/doctools/pic/picl.c:1987: clen ==> clean, clan
+/Volumes/heirloom/src/doctools/pic/picl.c:1992: clen ==> clean, clan
+/Volumes/heirloom/src/doctools/pic/picl.c:1997: clen ==> clean, clan
+/Volumes/heirloom/src/doctools/pic/picl.l:59: clen ==> clean, clan
+/Volumes/heirloom/src/doctools/pic/picl.l:60: clen ==> clean, clan
+/Volumes/heirloom/src/doctools/pic/picl.l:63: clen ==> clean, clan
+/Volumes/heirloom/src/doctools/pic/picl.l:266: ine ==> one, in, dine, fine, line, mine, nine, pine, sine, tine, vine, wine
+/Volumes/heirloom/src/doctools/pic/picl.l:269: nd ==> and, 2nd
+/Volumes/heirloom/src/doctools/pic/picl.l:293: clen ==> clean, clan
+/Volumes/heirloom/src/doctools/pic/picl.l:294: clen ==> clean, clan
+/Volumes/heirloom/src/doctools/pic/picl.l:295: clen ==> clean, clan
+/Volumes/heirloom/src/doctools/pic/picl.l:297: clen ==> clean, clan
+/Volumes/heirloom/src/doctools/pic/picl.l:298: clen ==> clean, clan
+/Volumes/heirloom/src/doctools/pic/picl.l:299: clen ==> clean, clan
+/Volumes/heirloom/src/doctools/mpm/README:15: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/doctools/mpm/README:29: pre-empted ==> preempted
+/Volumes/heirloom/src/doctools/mpm/README:116: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/doctools/mpm/range.cc:22: imbedded ==> embedded
+/Volumes/heirloom/src/doctools/mpm/slug.cc:342: firstH ==> first
+/Volumes/heirloom/src/doctools/mpm/slug.cc:384: firstH ==> first
+/Volumes/heirloom/src/doctools/checknr/checknr.1b:21: acknowedgement ==> acknowledgement
+/Volumes/heirloom/src/doctools/checknr/checknr.1b:73: Delimeters ==> Delimiters
+/Volumes/heirloom/src/doctools/checknr/checknr.1b:80: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/doctools/checknr/checknr.c:110: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/doctools/checknr/checknr.c:132: ND ==> AND, 2ND
+/Volumes/heirloom/src/doctools/checknr/checknr.c:135: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:525: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:1252: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:2075: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:2135: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:2233: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:2412: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:2611: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:2720: imbedding ==> embedding
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:2772: imbedding ==> embedding
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:2827: imbed ==> embed
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:2893: imbed ==> embed
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:3328: imbedded ==> embedded
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:3336: imbedding ==> embedding
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:3415: substact ==> subtract
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:3491: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:3702: imbedded ==> embedded
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:3962: build-in ==> built-in
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:3989: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:4014: imbedded ==> embedded
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:4015: imbedded ==> embedded
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:4097: imbed ==> embed
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:4278: occurence ==> occurrence
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:4280: occurence ==> occurrence
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:4456: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:4535: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:4608: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:4773: occurences ==> occurrences
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:4776: subtitution ==> substitution
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:4970: imbed ==> embed
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:5001: imbedded ==> embedded
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:5059: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:5071: imbedded ==> embedded
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:5323: imbedded ==> embedded
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:5449: imbedded ==> embedded
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:5652: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:6024: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:6282: advices ==> advice
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:6413: advices ==> advice
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:6416: advices ==> advice
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:6418: advices ==> advice
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:6594: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:6595: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:6596: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:6597: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:6598: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:6599: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:6600: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:6601: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:6603: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:6614: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:6615: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:7155: te ==> the, be, we, to
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:7550: imbedding ==> embedding
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:7701: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:7833: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/doc/troff/doc.tr:7833: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/doctools/doc/just/doc.tr:191: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/doctools/doc/just/doc.tr:551: noticable ==> noticeable
+/Volumes/heirloom/src/doctools/doc/just/doc.tr:725: shrinked ==> shrunk, shrank
+/Volumes/heirloom/src/doctools/doc/fonts/doc.tr:150: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/doctools/doc/fonts/doc.tr:348: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/doctools/vgrind/regexp.c:117: ure ==> sure, ire, are, urea, rue
+/Volumes/heirloom/src/doctools/vgrind/regexp.c:134: ure ==> sure, ire, are, urea, rue
+/Volumes/heirloom/src/doctools/vgrind/regexp.c:152: pinter ==> pointer, printer
+/Volumes/heirloom/src/doctools/vgrind/regexp.c:158: ure ==> sure, ire, are, urea, rue
+/Volumes/heirloom/src/doctools/vgrind/regexp.c:159: ure ==> sure, ire, are, urea, rue
+/Volumes/heirloom/src/doctools/vgrind/regexp.c:162: ure ==> sure, ire, are, urea, rue
+/Volumes/heirloom/src/doctools/vgrind/regexp.c:267: filles ==> files, fills, filled
+/Volumes/heirloom/src/doctools/vgrind/regexp.c:297: expresion ==> expression
+/Volumes/heirloom/src/doctools/vgrind/vfontedpr.c:99: begining ==> beginning
+/Volumes/heirloom/src/doctools/vgrind/vfontedpr.c:192: possiblity ==> possibility
+/Volumes/heirloom/src/doctools/vgrind/vgrind.1b:21: acknowedgement ==> acknowledgement
+/Volumes/heirloom/src/doctools/vgrind/vgrindefs.src:36: notin ==> noting, not in, notion
+/Volumes/heirloom/src/doctools/picpack/picpack.c:59: preceeded ==> preceded, proceeded
+/Volumes/heirloom/src/doctools/picpack/picpack.c:85: contraints ==> constraints
+/Volumes/heirloom/src/pkgtools/man/installf.1m:261: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/pkgtools/man/pkgadd.1m:60: existance ==> existence
+/Volumes/heirloom/src/pkgtools/man/pkgadd.1m:191: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/pkgtools/man/pkgadd.1m:194: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/pkgtools/man/pkgadd.1m:197: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/pkgtools/man/pkgadd.1m:202: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/pkgtools/man/pkginfo.5:50: paramaters ==> parameters
+/Volumes/heirloom/src/pkgtools/man/pkginfo.5:250: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/pkgtools/man/pkginfo.5:258: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/pkgtools/man/pkginfo.5:266: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/pkgtools/man/pkginfo.5:274: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/pkgtools/man/pkginfo.5:282: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/pkgtools/man/pkginfo.5:292: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/pkgtools/man/pkginfo.5:300: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/pkgtools/man/pkginfo.5:308: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/pkgtools/man/pkginfo.5:326: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/pkgtools/man/pkginfo.5:337: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/pkgtools/man/pkginfo.5:345: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/pkgtools/man/pkginfo.5:367: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/pkgtools/man/pkginfo.5:375: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/pkgtools/man/pkginfo.5:388: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/pkgtools/man/pkginfo.5:397: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/pkgtools/man/pkginfo.5:408: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/pkgtools/man/pkginfo.5:417: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/pkgtools/man/pkginfo.5:426: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/pkgtools/man/pkginfo.5:435: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/pkgtools/man/pkginfo.5:444: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/pkgtools/man/pkginfo.5:464: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/pkgtools/man/pkginfo.5:472: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/pkgtools/man/pkginfo.5:483: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/pkgtools/man/pkginfo.5:491: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/pkgtools/hdrs/devmgmt.h:52: namess ==> names
+/Volumes/heirloom/src/pkgtools/hdrs/sys/dklabel.h:130: permision ==> permission
+/Volumes/heirloom/src/pkgtools/hdrs/sys/vtoc.h:62: retunred ==> returned, retuned
+/Volumes/heirloom/src/pkgtools/hdrs/sys/vtoc.h:106: permision ==> permission
+/Volumes/heirloom/src/pkgtools/hdrs/sys/vtoc.h:127: permision ==> permission
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgcond/main.c:419: preceed ==> precede, proceed
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgcond/main.c:580: preceeding ==> preceding, proceeding
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgcond/main.c:807: preceeding ==> preceding, proceeding
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgcond/main.c:1731: syste ==> system
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgcond/main.c:1870: syste ==> system
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgcond/main.c:2009: syste ==> system
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgcond/main.c:2311: preceeding ==> preceding, proceeding
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgcond/main.c:2467: preceeding ==> preceding, proceeding
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgcond/main.c:2581: IMPLEMENATION ==> IMPLEMENTATION
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgcond/main.c:3013: syste ==> system
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgcond/main.c:4232: strucutre ==> structure
+/Volumes/heirloom/src/pkgtools/pkgcmds/installf/dofinal.c:67: indx ==> index
+/Volumes/heirloom/src/pkgtools/pkgcmds/installf/dofinal.c:73: indx ==> index
+/Volumes/heirloom/src/pkgtools/pkgcmds/installf/dofinal.c:75: indx ==> index
+/Volumes/heirloom/src/pkgtools/pkgcmds/installf/dofinal.c:75: indx ==> index
+/Volumes/heirloom/src/pkgtools/pkgcmds/installf/dofinal.c:76: indx ==> index
+/Volumes/heirloom/src/pkgtools/pkgcmds/installf/main.c:373: execption ==> exception
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgremove/check.c:83: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgremove/check.c:148: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgremove/check.c:155: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgremove/check.c:166: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgremove/check.c:170: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgremove/check.c:176: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgremove/check.c:187: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgremove/check.c:233: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgremove/check.c:240: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgremove/check.c:262: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgremove/check.c:269: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgremove/check.c:284: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgremove/check.c:322: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgremove/check.c:329: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgremove/delmap.c:80: re-use ==> reuse
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgremove/main.c:640: retreival ==> retrieval
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgremove/main.c:769: execption ==> exception
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgremove/main.c:873: priviledged ==> privileged
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgremove/main.c:911: priviledged ==> privileged
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgadm/certs.c:181: alll ==> all, ally
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgadm/lock.c:48: extentions ==> extensions
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgadm/lock.c:659: aquire ==> acquire
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgadm/lock.c:748: aquire ==> acquire
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgadm/lock.c:1394: doesnt ==> doesn't, does not
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgadm/lock.c:1509: begining ==> beginning
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgadm/lock.c:1625: doesnt ==> doesn't, does not
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgadm/pkgadm.h:56: comparitor ==> comparator
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgadm/pkgadm.h:87: APOSTRAPHE ==> APOSTROPHE
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgadm/pkgadm_db.c:563: hygene ==> hygiene
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgadm/pkgadm_db.c:679: hygene ==> hygiene
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgadm/pkgadm_db.c:679: wont ==> won't
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgadm/pkgadm_db.c:679: doesnt ==> doesn't, does not
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgadm/pkgadm_msgs.h:104: corect ==> correct
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgadm/pkgadm_msgs.h:197: Intenal ==> Internal
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgadm/pkgadm_msgs.h:604: comparision ==> comparison
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgadm/pkgadm_msgs.h:613: comparision ==> comparison
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgadm/pkgadm_special.c:459: redundent ==> redundant
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgadm/pkgadm_special.c:461: redundent ==> redundant
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgadm/pkgadm_special.c:574: redundent ==> redundant
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgchk/main.c:454: execption ==> exception
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgadd/check.c:160: occurance ==> occurrence
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgadd/check.c:173: occurance ==> occurrence
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgadd/check.c:517: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgadd/check.c:577: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgadd/check.c:589: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgadd/check.c:591: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgadd/check.c:910: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgadd/check.c:931: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgadd/check.c:943: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgadd/check.c:945: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgadd/main.c:2556: exisiting ==> existing
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgadd/main.c:2704: nam ==> name
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgadd/main.c:3017: supress ==> suppress
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgadd/main.c:3141: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgadd/main.c:3176: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgadd/main.c:3182: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgadd/main.c:4060: becuase ==> because
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/check.c:101: inapropriate ==> inappropriate
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/check.c:122: inapropriate ==> inappropriate
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/check.c:211: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/check.c:240: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/check.c:245: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/check.c:274: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/check.c:279: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/check.c:304: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/check.c:384: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/check.c:391: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/check.c:415: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/check.c:453: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/check.c:458: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/check.c:493: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/check.c:533: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/check.c:538: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/check.c:680: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/check.c:796: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/check.c:801: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/check.c:806: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/check.c:811: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/check.c:836: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/check.c:957: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/check.c:961: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/check.c:965: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/check.c:969: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/check.c:997: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/check.c:1042: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/check.c:1047: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/getinst.c:254: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/getinst.c:265: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/getinst.c:270: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/getinst.c:290: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/getinst.c:292: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/instvol.c:329: useable ==> usable
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/instvol.c:824: accomodate ==> accommodate
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/instvol.c:869: CAF ==> CALF
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/instvol.c:870: CAF ==> CALF
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/instvol.c:1665: volitale ==> volatile
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/instvol.c:1705: charcter ==> character
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/instvol.c:1746: directoy ==> directory
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/instvol.c:1748: varaiable ==> variable
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/main.c:367: noO ==> no
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/main.c:1267: aquire ==> acquire
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/main.c:1325: execption ==> exception
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/main.c:1913: priviledged ==> privileged
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/main.c:1918: neccessary ==> necessary
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/main.c:1965: priviledged ==> privileged
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/main.c:1970: neccessary ==> necessary
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/main.c:2041: neccessary ==> necessary
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/reqexec.c:61: inport ==> import
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/reqexec.c:312: non-priveledged ==> non-privileged
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/reqexec.c:327: inport ==> import
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/reqexec.c:389: inport ==> import
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginstall/reqexec.c:392: inport ==> import
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgrm/check.c:122: occurance ==> occurrence
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgrm/check.c:152: occurance ==> occurrence
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgrm/check.c:413: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgrm/check.c:474: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgrm/check.c:486: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgrm/check.c:488: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgrm/main.c:864: supresses ==> suppresses
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgrm/main.c:888: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgrm/main.c:965: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgrm/main.c:971: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgrm/main.c:1152: exisiting ==> existing
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgrm/main.c:1947: avialable ==> available
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgrm/main.c:2288: avialable ==> available
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgrm/main.c:2409: avialable ==> available
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgrm/main.c:2508: avialable ==> available
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgrm/main.c:2602: avialable ==> available
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgrm/main.c:2948: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgrm/main.c:2977: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgrm/main.c:2983: ans ==> and
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgrm/main.c:3010: supress ==> suppress
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgproto/main.c:215: non-existant ==> non-existent
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgmk/main.c:441: execption ==> exception
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgmk/main.c:625: neccessary ==> necessary
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgmk/mkpkgmap.c:379: parmeters ==> parameters
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgscripts/i.awk:26: frop ==> drop
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkgscripts/i.awk.in:26: frop ==> drop
+/Volumes/heirloom/src/pkgtools/pkgcmds/pkginfo/pkginfo.c:378: catgory ==> category
+/Volumes/heirloom/src/pkgtools/libinst/copyf.c:332: mmaped ==> mapped
+/Volumes/heirloom/src/pkgtools/libinst/echo.c:78: interation ==> iteration, interaction, integration
+/Volumes/heirloom/src/pkgtools/libinst/fixpath.c:422: heirarchy ==> hierarchy
+/Volumes/heirloom/src/pkgtools/libinst/fixpath.c:586: ans ==> and
+/Volumes/heirloom/src/pkgtools/libinst/fixpath.c:601: ans ==> and
+/Volumes/heirloom/src/pkgtools/libinst/fixpath.c:604: ans ==> and
+/Volumes/heirloom/src/pkgtools/libinst/fixpath.c:620: ans ==> and
+/Volumes/heirloom/src/pkgtools/libinst/fixpath.c:623: ans ==> and
+/Volumes/heirloom/src/pkgtools/libinst/fixpath.c:836: procede ==> proceed, precede
+/Volumes/heirloom/src/pkgtools/libinst/open_package_datastream.c:145: analagous ==> analogous
+/Volumes/heirloom/src/pkgtools/libinst/open_package_datastream.c:153: accessable ==> accessible
+/Volumes/heirloom/src/pkgtools/libinst/open_package_datastream.c:177: accessable ==> accessible
+/Volumes/heirloom/src/pkgtools/libinst/open_package_datastream.c:290: aquire ==> acquire
+/Volumes/heirloom/src/pkgtools/libinst/pkgdbmerg.c:320: iniside ==> inside
+/Volumes/heirloom/src/pkgtools/libinst/pkgops.c:736: paramter ==> parameter
+/Volumes/heirloom/src/pkgtools/libinst/pkgops.c:738: paramter ==> parameter
+/Volumes/heirloom/src/pkgtools/libinst/pkgops.c:770: paramter ==> parameter
+/Volumes/heirloom/src/pkgtools/libinst/pkgops.c:1156: paackage ==> package
+/Volumes/heirloom/src/pkgtools/libinst/psvr4ck.c:122: Analzyer ==> Analyzer
+/Volumes/heirloom/src/pkgtools/libinst/psvr4ck.c:138: pakage ==> package
+/Volumes/heirloom/src/pkgtools/libinst/psvr4ck.c:146: HSI ==> HIS
+/Volumes/heirloom/src/pkgtools/libinst/psvr4ck.c:300: ans ==> and
+/Volumes/heirloom/src/pkgtools/libinst/psvr4ck.c:308: ans ==> and
+/Volumes/heirloom/src/pkgtools/libinst/psvr4ck.c:311: ans ==> and
+/Volumes/heirloom/src/pkgtools/libinst/psvr4ck.c:334: ans ==> and
+/Volumes/heirloom/src/pkgtools/libinst/psvr4ck.c:339: ans ==> and
+/Volumes/heirloom/src/pkgtools/libinst/psvr4ck.c:343: ans ==> and
+/Volumes/heirloom/src/pkgtools/libinst/psvr4ck.c:353: ans ==> and
+/Volumes/heirloom/src/pkgtools/libinst/psvr4ck.c:387: ans ==> and
+/Volumes/heirloom/src/pkgtools/libinst/psvr4ck.c:390: ans ==> and
+/Volumes/heirloom/src/pkgtools/libinst/qreason.c:84: imbedded ==> embedded
+/Volumes/heirloom/src/pkgtools/libinst/scriptvfy.c:996: Openned ==> Opened
+/Volumes/heirloom/src/pkgtools/libinst/scriptvfy.l:621: Openned ==> Opened
+/Volumes/heirloom/src/pkgtools/libinst/setadmin.c:94: paramter ==> parameter
+/Volumes/heirloom/src/pkgtools/libinst/setlist.c:327: occurrance ==> occurrence
+/Volumes/heirloom/src/pkgtools/libinst/sml.c:615: occurance ==> occurrence
+/Volumes/heirloom/src/pkgtools/libinst/sml.c:667: doesnt ==> doesn't, does not
+/Volumes/heirloom/src/pkgtools/libinst/sml.c:673: doesnt ==> doesn't, does not
+/Volumes/heirloom/src/pkgtools/libinst/sml.c:724: occurance ==> occurrence
+/Volumes/heirloom/src/pkgtools/libinst/sml.c:778: doesnt ==> doesn't, does not
+/Volumes/heirloom/src/pkgtools/libinst/sml.c:784: doesnt ==> doesn't, does not
+/Volumes/heirloom/src/pkgtools/libinst/sml.c:891: occurance ==> occurrence
+/Volumes/heirloom/src/pkgtools/libinst/sml.c:1277: fro ==> for, from
+/Volumes/heirloom/src/pkgtools/libinst/sml.c:2431: delimters ==> delimiters
+/Volumes/heirloom/src/pkgtools/libinst/sml.c:2465: delimters ==> delimiters
+/Volumes/heirloom/src/pkgtools/libpkg/dbsql.c:93: APOSTRAPHE ==> APOSTROPHE
+/Volumes/heirloom/src/pkgtools/libpkg/dbsql.c:101: accomodate ==> accommodate
+/Volumes/heirloom/src/pkgtools/libpkg/dbsql.c:1108: gobal ==> global
+/Volumes/heirloom/src/pkgtools/libpkg/dbsql.c:1239: pased ==> passed, parsed
+/Volumes/heirloom/src/pkgtools/libpkg/dbsql.c:1443: seperator ==> separator
+/Volumes/heirloom/src/pkgtools/libpkg/dbsql.c:2710: dyanamic ==> dynamic
+/Volumes/heirloom/src/pkgtools/libpkg/dbsql.c:2736: APOSTRAPHE ==> APOSTROPHE
+/Volumes/heirloom/src/pkgtools/libpkg/dbsql.c:2741: APOSTRAPHE ==> APOSTROPHE
+/Volumes/heirloom/src/pkgtools/libpkg/dbsql.c:3071: APOSTRAPHE ==> APOSTROPHE
+/Volumes/heirloom/src/pkgtools/libpkg/dbsql.c:3079: APOSTRAPHE ==> APOSTROPHE
+/Volumes/heirloom/src/pkgtools/libpkg/dbsql.c:3087: APOSTRAPHE ==> APOSTROPHE
+/Volumes/heirloom/src/pkgtools/libpkg/dbsql.c:3241: delimeters ==> delimiters
+/Volumes/heirloom/src/pkgtools/libpkg/dbsql.c:3313: hte ==> the
+/Volumes/heirloom/src/pkgtools/libpkg/dbsql.c:3552: apostraphe ==> apostrophe
+/Volumes/heirloom/src/pkgtools/libpkg/dbsql.c:3580: APOSTRAPHE ==> APOSTROPHE
+/Volumes/heirloom/src/pkgtools/libpkg/dbsql.c:3581: APOSTRAPHE ==> APOSTROPHE
+/Volumes/heirloom/src/pkgtools/libpkg/dbsql.c:3583: APOSTRAPHE ==> APOSTROPHE
+/Volumes/heirloom/src/pkgtools/libpkg/dbtables.h:46: chacking ==> checking
+/Volumes/heirloom/src/pkgtools/libpkg/dbtables.h:88: informatin ==> information, informing
+/Volumes/heirloom/src/pkgtools/libpkg/dbtables.h:174: depenency ==> dependency
+/Volumes/heirloom/src/pkgtools/libpkg/gpkgmap.c:1102: preceeded ==> preceded, proceeded
+/Volumes/heirloom/src/pkgtools/libpkg/gpkgmap.c:1103: preceeded ==> preceded, proceeded
+/Volumes/heirloom/src/pkgtools/libpkg/keystore.c:1306: exsisting ==> existing
+/Volumes/heirloom/src/pkgtools/libpkg/keystore.c:1895: pasword ==> password
+/Volumes/heirloom/src/pkgtools/libpkg/keystore.c:2036: seprate ==> separate
+/Volumes/heirloom/src/pkgtools/libpkg/ncgrpw.c:121: nam ==> name
+/Volumes/heirloom/src/pkgtools/libpkg/ncgrpw.c:140: nam ==> name
+/Volumes/heirloom/src/pkgtools/libpkg/ncgrpw.c:143: nam ==> name
+/Volumes/heirloom/src/pkgtools/libpkg/ncgrpw.c:146: nam ==> name
+/Volumes/heirloom/src/pkgtools/libpkg/ncgrpw.c:147: nam ==> name
+/Volumes/heirloom/src/pkgtools/libpkg/ncgrpw.c:167: nam ==> name
+/Volumes/heirloom/src/pkgtools/libpkg/ncgrpw.c:190: nam ==> name
+/Volumes/heirloom/src/pkgtools/libpkg/ncgrpw.c:208: nam ==> name
+/Volumes/heirloom/src/pkgtools/libpkg/ncgrpw.c:211: nam ==> name
+/Volumes/heirloom/src/pkgtools/libpkg/ncgrpw.c:214: nam ==> name
+/Volumes/heirloom/src/pkgtools/libpkg/ncgrpw.c:215: nam ==> name
+/Volumes/heirloom/src/pkgtools/libpkg/ncgrpw.c:239: nam ==> name
+/Volumes/heirloom/src/pkgtools/libpkg/ncgrpw.c:604: nam ==> name
+/Volumes/heirloom/src/pkgtools/libpkg/ncgrpw.c:623: nam ==> name
+/Volumes/heirloom/src/pkgtools/libpkg/ncgrpw.c:643: nam ==> name
+/Volumes/heirloom/src/pkgtools/libpkg/ncgrpw.c:662: nam ==> name
+/Volumes/heirloom/src/pkgtools/libpkg/p12lib.c:251: locaiton ==> location
+/Volumes/heirloom/src/pkgtools/libpkg/p12lib.c:1530: locaiton ==> location
+/Volumes/heirloom/src/pkgtools/libpkg/p12lib.c:2243: locaiton ==> location
+/Volumes/heirloom/src/pkgtools/libpkg/p12lib.c:2251: vise ==> vice
+/Volumes/heirloom/src/pkgtools/libpkg/p12lib.c:2295: convered ==> converted, covered, converged, conveyed
+/Volumes/heirloom/src/pkgtools/libpkg/p12lib.c:2563: locaiton ==> location
+/Volumes/heirloom/src/pkgtools/libpkg/pkglib.h:367: comparitor ==> comparator
+/Volumes/heirloom/src/pkgtools/libpkg/pkglib.h:460: nam ==> name
+/Volumes/heirloom/src/pkgtools/libpkg/pkglib.h:461: nam ==> name
+/Volumes/heirloom/src/pkgtools/libpkg/pkglib.h:464: nam ==> name
+/Volumes/heirloom/src/pkgtools/libpkg/pkglib.h:465: nam ==> name
+/Volumes/heirloom/src/pkgtools/libpkg/pkglibmsgs.h:125: unparseable ==> unparsable
+/Volumes/heirloom/src/pkgtools/libpkg/pkglibmsgs.h:375: intialize ==> initialize
+/Volumes/heirloom/src/pkgtools/libpkg/pkglibmsgs.h:382: unparseable ==> unparsable
+/Volumes/heirloom/src/pkgtools/libpkg/pkglibmsgs.h:401: unparseable ==> unparsable
+/Volumes/heirloom/src/pkgtools/libpkg/pkglibmsgs.h:402: unparseable ==> unparsable
+/Volumes/heirloom/src/pkgtools/libpkg/pkgstr.c:814: occurance ==> occurrence
+/Volumes/heirloom/src/pkgtools/libpkg/pkgstr.c:954: occurance ==> occurrence
+/Volumes/heirloom/src/pkgtools/libpkg/pkgstr.c:962: occurance ==> occurrence
+/Volumes/heirloom/src/pkgtools/libpkg/pkgstr.c:1000: occurance ==> occurrence
+/Volumes/heirloom/src/pkgtools/libpkg/pkgstr.c:1004: occurance ==> occurrence
+/Volumes/heirloom/src/pkgtools/libpkg/pkgstr.c:1050: occurance ==> occurrence
+/Volumes/heirloom/src/pkgtools/libpkg/pkgstr.c:1054: occurance ==> occurrence
+/Volumes/heirloom/src/pkgtools/libpkg/pkgweb.c:566: non-existant ==> non-existent
+/Volumes/heirloom/src/pkgtools/libpkg/pkgweb.c:719: certificiate ==> certificate
+/Volumes/heirloom/src/pkgtools/libpkg/pkgweb.c:1104: succeeed ==> succeed, succeeded
+/Volumes/heirloom/src/pkgtools/libpkg/pkgweb.c:1381: betwen ==> between
+/Volumes/heirloom/src/pkgtools/libpkg/pkgweb.c:1579: everythign ==> everything
+/Volumes/heirloom/src/pkgtools/libpkg/pkgweb.c:1843: successfullly ==> successfully
+/Volumes/heirloom/src/pkgtools/libpkg/progerr.c:131: appliation ==> application
+/Volumes/heirloom/src/pkgtools/libpkg/progerr.c:173: specfied ==> specified
+/Volumes/heirloom/src/pkgtools/libpkg/putcfile.c:223: tha ==> than, that, the
+/Volumes/heirloom/src/pkgtools/libpkg/srchcfile.c:925: skiped ==> skipped, skyped
+/Volumes/heirloom/src/pkgtools/libpkg/tputcfent.c:85: editted ==> edited
+/Volumes/heirloom/src/pkgtools/libpkg/vfpops.c:248: minumum ==> minimum
+/Volumes/heirloom/src/pkgtools/libpkg/vfpops.c:782: comitting ==> committing
+/Volumes/heirloom/src/pkgtools/libadm/ckstr.c:59: imbedded ==> embedded
+/Volumes/heirloom/src/pkgtools/libadm/ckstr.c:66: imbedded ==> embedded
+/Volumes/heirloom/src/pkgtools/libadm/devreserv.c:127: devault ==> default
+/Volumes/heirloom/src/pkgtools/libadm/devreserv.c:175: Statics ==> Statistics
+/Volumes/heirloom/src/pkgtools/libadm/devreserv.c:201: Finis ==> Finish
+/Volumes/heirloom/src/pkgtools/libadm/devreserv.c:216: Statics ==> Statistics
+/Volumes/heirloom/src/pkgtools/libadm/devreserv.c:233: Finis ==> Finish
+/Volumes/heirloom/src/pkgtools/libadm/devreserv.c:256: Statics ==> Statistics
+/Volumes/heirloom/src/pkgtools/libadm/devreserv.c:302: Statics ==> Statistics
+/Volumes/heirloom/src/pkgtools/libadm/devreserv.c:338: Statics ==> Statistics
+/Volumes/heirloom/src/pkgtools/libadm/devreserv.c:451: Statics ==> Statistics
+/Volumes/heirloom/src/pkgtools/libadm/devreserv.c:541: Statics ==> Statistics
+/Volumes/heirloom/src/pkgtools/libadm/devreserv.c:606: Statics ==> Statistics
+/Volumes/heirloom/src/pkgtools/libadm/devreserv.c:643: Statics ==> Statistics
+/Volumes/heirloom/src/pkgtools/libadm/devreserv.c:724: Argumetns ==> Arguments
+/Volumes/heirloom/src/pkgtools/libadm/devreserv.c:1090: Statics ==> Statistics
+/Volumes/heirloom/src/pkgtools/libadm/devtab.c:245: Nothin ==> Nothing
+/Volumes/heirloom/src/pkgtools/libadm/devtab.c:271: guarenteed ==> guaranteed
+/Volumes/heirloom/src/pkgtools/libadm/devtab.c:890: Thie ==> The, This
+/Volumes/heirloom/src/pkgtools/libadm/dgrpent.c:337: devault ==> default
+/Volumes/heirloom/src/pkgtools/libadm/dgrpent.c:571: Finis ==> Finish
+/Volumes/heirloom/src/pkgtools/libadm/dgrpent.c:622: Thie ==> The, This
+/Volumes/heirloom/src/pkgtools/libadm/dgrpent.c:665: Finis ==> Finish
+/Volumes/heirloom/src/pkgtools/libadm/fulldevnm.c:87: corretly ==> correctly
+/Volumes/heirloom/src/pkgtools/libadm/getdev.c:600: elememts ==> elements
+/Volumes/heirloom/src/pkgtools/libadm/getdev.c:691: constaint ==> constraint
+/Volumes/heirloom/src/pkgtools/libadm/getvol.c:79: accessable ==> accessible
+/Volumes/heirloom/src/pkgtools/libadm/mkdirp.c:140: vlaue ==> value
+/Volumes/heirloom/src/pkgtools/libadm/pkginfo.c:299: direcotry ==> directory
+/Volumes/heirloom/src/pkgtools/libadm/pkginfo.c:355: compatable ==> compatible
+/Volumes/heirloom/src/pkgtools/libadm/pkgparam.c:73: openned ==> opened
+/Volumes/heirloom/src/pkgtools/libadm/putdev.c:1112: fount ==> found
+/Volumes/heirloom/src/pkgtools/libadm/putdev.c:1174: auxilliary ==> auxiliary
+/Volumes/heirloom/src/pkgtools/libgendb/genericdb.c:58: initates ==> initiates, imitates
+/Volumes/heirloom/src/pkgtools/libgendb/genericdb.c:213: constrainted ==> constrained
+/Volumes/heirloom/src/pkgtools/libgendb/genericdb.h:101: presense ==> presence
+/Volumes/heirloom/src/pkgtools/libgendb/genericdb_private.h:67: encapsualtes ==> encapsulates
+/Volumes/heirloom/src/pkgtools/libgendb/genericdb_private.h:80: IMPLEMENTOR ==> IMPLEMENTER
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:100: boundries ==> boundaries
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:104: boundry ==> boundary
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:253: boundry ==> boundary
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:333: entires ==> entries
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:516: coalesing ==> coalescing
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:1036: pRing ==> print, bring, ping, spring
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:1069: pRing ==> print, bring, ping, spring
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:1070: pRing ==> print, bring, ping, spring
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:1070: pRing ==> print, bring, ping, spring
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:1071: pRing ==> print, bring, ping, spring
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:1109: pRing ==> print, bring, ping, spring
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:1110: pRing ==> print, bring, ping, spring
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:1226: transfered ==> transferred
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:1276: transfered ==> transferred
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:1307: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:1309: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:1311: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:1313: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:1516: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:1517: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:1519: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:1525: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:1528: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:1535: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:1536: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:1538: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:1545: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:1548: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:1564: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:1564: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:1567: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:1571: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:1574: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:1578: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:1588: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:1597: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:1597: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:1615: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:1615: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:1627: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:1629: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:1631: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:1634: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:1636: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:1642: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:1648: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:1658: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:1663: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:1669: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:1672: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:1682: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:1684: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:1686: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:1692: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:1698: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:1703: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:1715: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:1715: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:1724: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:2465: accending ==> ascending
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:2590: non-existant ==> non-existent
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:3053: nd ==> and, 2nd
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:3182: ore ==> or
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.c:3540: implemention ==> implementation
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.h:71: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.h:75: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.h:76: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.h:77: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.h:78: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.h:82: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.h:121: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.h:122: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.h:126: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.h:126: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.h:127: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.h:127: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.h:128: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.h:128: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.h:129: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.h:129: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.h:133: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree.h:134: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree_rb.c:135: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree_rb.c:138: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree_rb.c:139: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree_rb.c:140: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree_rb.c:454: symetric ==> symmetric
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree_rb.c:652: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree_rb.c:657: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree_rb.c:660: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree_rb.c:662: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree_rb.c:804: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree_rb.c:808: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree_rb.c:811: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree_rb.c:818: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree_rb.c:823: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree_rb.c:824: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree_rb.c:825: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree_rb.c:827: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree_rb.c:840: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree_rb.c:1007: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree_rb.c:1016: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree_rb.c:1018: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree_rb.c:1024: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree_rb.c:1033: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree_rb.c:1035: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree_rb.c:1043: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree_rb.c:1045: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree_rb.c:1047: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree_rb.c:1066: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree_rb.c:1068: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree_rb.c:1074: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree_rb.c:1093: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/btree_rb.c:1095: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/copy.c:19: specificially ==> specifically
+/Volumes/heirloom/src/pkgtools/libpkgdb/encode.c:92: occurances ==> occurrences
+/Volumes/heirloom/src/pkgtools/libpkgdb/encode.c:93: occurances ==> occurrences
+/Volumes/heirloom/src/pkgtools/libpkgdb/encode.c:94: occurances ==> occurrences
+/Volumes/heirloom/src/pkgtools/libpkgdb/expr.c:1396: comparision ==> comparison
+/Volumes/heirloom/src/pkgtools/libpkgdb/func.c:213: build-in ==> built-in
+/Volumes/heirloom/src/pkgtools/libpkgdb/func.c:227: build-in ==> built-in
+/Volumes/heirloom/src/pkgtools/libpkgdb/hash.c:159: cantains ==> contains
+/Volumes/heirloom/src/pkgtools/libpkgdb/hash.h:12: implemenation ==> implementation
+/Volumes/heirloom/src/pkgtools/libpkgdb/main.c:127: relys ==> relies
+/Volumes/heirloom/src/pkgtools/libpkgdb/main.c:222: INDEXs ==> indexes, indices
+/Volumes/heirloom/src/pkgtools/libpkgdb/os.c:1003: isNT ==> isn't
+/Volumes/heirloom/src/pkgtools/libpkgdb/os.c:1119: isNT ==> isn't
+/Volumes/heirloom/src/pkgtools/libpkgdb/os.c:1222: isNT ==> isn't
+/Volumes/heirloom/src/pkgtools/libpkgdb/os.c:1324: isNT ==> isn't
+/Volumes/heirloom/src/pkgtools/libpkgdb/pager.c:283: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/pager.c:292: pRes ==> press
+/Volumes/heirloom/src/pkgtools/libpkgdb/pager.c:331: approprate ==> appropriate
+/Volumes/heirloom/src/pkgtools/libpkgdb/pager.c:1059: ot ==> to, of, or, not, it
+/Volumes/heirloom/src/pkgtools/libpkgdb/pager.c:1661: ckeckpoint ==> checkpoint
+/Volumes/heirloom/src/pkgtools/libpkgdb/pager.c:1727: simplier ==> simpler
+/Volumes/heirloom/src/pkgtools/libpkgdb/printf.c:428: Wierd ==> Weird
+/Volumes/heirloom/src/pkgtools/libpkgdb/select.c:62: preceeding ==> preceding, proceeding
+/Volumes/heirloom/src/pkgtools/libpkgdb/select.c:874: presistent ==> persistent
+/Volumes/heirloom/src/pkgtools/libpkgdb/select.c:877: accomodate ==> accommodate
+/Volumes/heirloom/src/pkgtools/libpkgdb/select.c:1074: DROPed ==> dropped
+/Volumes/heirloom/src/pkgtools/libpkgdb/select.c:1270: comparision ==> comparison
+/Volumes/heirloom/src/pkgtools/libpkgdb/select.c:1273: contraversy ==> controversy
+/Volumes/heirloom/src/pkgtools/libpkgdb/select.c:1622: simpification ==> simplification
+/Volumes/heirloom/src/pkgtools/libpkgdb/select.c:1853: Finially ==> Finally
+/Volumes/heirloom/src/pkgtools/libpkgdb/select.c:2249: possiblity ==> possibility
+/Volumes/heirloom/src/pkgtools/libpkgdb/sqlite.h:163: contraint ==> constraint
+/Volumes/heirloom/src/pkgtools/libpkgdb/sqlite.h:472: implmentation ==> implementation
+/Volumes/heirloom/src/pkgtools/libpkgdb/sqliteInt.h:261: occurances ==> occurrences
+/Volumes/heirloom/src/pkgtools/libpkgdb/sqliteInt.h:275: emiited ==> emitted
+/Volumes/heirloom/src/pkgtools/libpkgdb/sqliteInt.h:304: Miscellanous ==> Miscellaneous
+/Volumes/heirloom/src/pkgtools/libpkgdb/sqliteInt.h:306: synching ==> syncing
+/Volumes/heirloom/src/pkgtools/libpkgdb/sqliteInt.h:468: existance ==> existence
+/Volumes/heirloom/src/pkgtools/libpkgdb/sqliteInt.h:477: constains ==> constrains, contains
+/Volumes/heirloom/src/pkgtools/libpkgdb/sqliteInt.h:493: contraint ==> constraint
+/Volumes/heirloom/src/pkgtools/libpkgdb/sqliteInt.h:804: trasient ==> transient
+/Volumes/heirloom/src/pkgtools/libpkgdb/sqliteInt.h:902: expresion ==> expression
+/Volumes/heirloom/src/pkgtools/libpkgdb/sqliteInt.h:986: stucture ==> structure
+/Volumes/heirloom/src/pkgtools/libpkgdb/tokenize.c:530: preceeded ==> preceded, proceeded
+/Volumes/heirloom/src/pkgtools/libpkgdb/tokenize.c:543: difinition ==> definition
+/Volumes/heirloom/src/pkgtools/libpkgdb/update.c:334: entires ==> entries
+/Volumes/heirloom/src/pkgtools/libpkgdb/util.c:533: identifers ==> identifiers
+/Volumes/heirloom/src/pkgtools/libpkgdb/util.c:654: lexigraphical ==> lexicographical
+/Volumes/heirloom/src/pkgtools/libpkgdb/util.c:803: comparied ==> compared
+/Volumes/heirloom/src/pkgtools/libpkgdb/vdbe.c:25: inplicit ==> implicit
+/Volumes/heirloom/src/pkgtools/libpkgdb/vdbe.c:229: elemen ==> element
+/Volumes/heirloom/src/pkgtools/libpkgdb/vdbe.c:788: simulataneously ==> simultaneously
+/Volumes/heirloom/src/pkgtools/libpkgdb/vdbe.c:2249: CANT ==> CAN'T
+/Volumes/heirloom/src/pkgtools/libpkgdb/vdbe.c:2888: irrelavant ==> irrelevant
+/Volumes/heirloom/src/pkgtools/libpkgdb/vdbe.c:3057: converstion ==> conversion, conversation
+/Volumes/heirloom/src/pkgtools/libpkgdb/vdbe.c:3183: CANT ==> CAN'T
+/Volumes/heirloom/src/pkgtools/libpkgdb/vdbe.c:3873: chosing ==> choosing
+/Volumes/heirloom/src/pkgtools/libpkgdb/tool/lemon.c:222: Sequencial ==> Sequential
+/Volumes/heirloom/src/pkgtools/libpkgdb/tool/lemon.c:279: grammer ==> grammar
+/Volumes/heirloom/src/pkgtools/libpkgdb/tool/lemon.c:624: contibutes ==> contributes
+/Volumes/heirloom/src/pkgtools/libpkgdb/tool/lemon.c:1380: orginally ==> originally
+/Volumes/heirloom/src/pkgtools/libpkgdb/tool/lemon.c:2550: exacutable ==> executable
+/Volumes/heirloom/src/pkgtools/libpkgdb/tool/lemon.c:3205: grammer ==> grammar
+/Volumes/heirloom/src/pkgtools/libpkgdb/tool/lempar.c:116: grammer ==> grammar
+/Volumes/heirloom/src/pkgtools/libpkgdb/tool/lempar.c:365: ot ==> to, of, or, not, it
+/Volumes/heirloom/src/sh/blok.c:33: blok ==> block, bloke
+/Volumes/heirloom/src/sh/blok.c:36: blok ==> block, bloke
+/Volumes/heirloom/src/sh/blok.c:54: blok ==> block, bloke
+/Volumes/heirloom/src/sh/cmd.c:178: reserv ==> reserve
+/Volumes/heirloom/src/sh/cmd.c:395: reserv ==> reserve
+/Volumes/heirloom/src/sh/cmd.c:476: reserv ==> reserve
+/Volumes/heirloom/src/sh/cmd.c:490: reserv ==> reserve
+/Volumes/heirloom/src/sh/defs.c:70: reserv ==> reserve
+/Volumes/heirloom/src/sh/defs.h:198: blok ==> block, bloke
+/Volumes/heirloom/src/sh/defs.h:459: reserv ==> reserve
+/Volumes/heirloom/src/sh/fault.c:80: occured ==> occurred
+/Volumes/heirloom/src/sh/fault.c:121: occured ==> occurred
+/Volumes/heirloom/src/sh/fault.c:268: previos ==> previous
+/Volumes/heirloom/src/sh/fault.c:407: specifed ==> specified
+/Volumes/heirloom/src/sh/fault.c:407: siganl ==> signal
+/Volumes/heirloom/src/sh/fault.c:509: Remeber ==> Remember
+/Volumes/heirloom/src/sh/macro.c:584: ot ==> to, of, or, not, it
+/Volumes/heirloom/src/sh/macro.c:623: ot ==> to, of, or, not, it
+/Volumes/heirloom/src/sh/macro.c:627: ot ==> to, of, or, not, it
+/Volumes/heirloom/src/sh/macro.c:632: ot ==> to, of, or, not, it
+/Volumes/heirloom/src/sh/macro.c:634: ot ==> to, of, or, not, it
+/Volumes/heirloom/src/sh/makefile:75: blok ==> block, bloke
+/Volumes/heirloom/src/sh/makefile:133: blok ==> block, bloke
+/Volumes/heirloom/src/sh/makefile:133: blok ==> block, bloke
+/Volumes/heirloom/src/sh/mapmalloc.c:328: onw ==> own
+/Volumes/heirloom/src/sh/mapmalloc.c:338: onw ==> own
+/Volumes/heirloom/src/sh/mapmalloc.c:346: onw ==> own
+/Volumes/heirloom/src/sh/mapmalloc.c:347: onw ==> own
+/Volumes/heirloom/src/sh/mode.h:86: converson ==> conversion
+/Volumes/heirloom/src/sh/name.c:398: imbedded ==> embedded
+/Volumes/heirloom/src/sh/name.c:464: pervent ==> prevent, percent, pervert, fervent
+/Volumes/heirloom/src/sh/name.c:497: nam ==> name
+/Volumes/heirloom/src/sh/name.c:503: nam ==> name
+/Volumes/heirloom/src/sh/name.c:504: nam ==> name
+/Volumes/heirloom/src/sh/name.c:508: nam ==> name
+/Volumes/heirloom/src/sh/name.c:522: nam ==> name
+/Volumes/heirloom/src/sh/name.c:531: nam ==> name
+/Volumes/heirloom/src/sh/name.c:533: nam ==> name
+/Volumes/heirloom/src/sh/name.c:679: re-use ==> reuse
+/Volumes/heirloom/src/sh/name.c:717: nam ==> name
+/Volumes/heirloom/src/sh/name.c:722: nam ==> name
+/Volumes/heirloom/src/sh/name.c:726: nam ==> name
+/Volumes/heirloom/src/sh/sh.1:1487: interruptable ==> interruptible
+/Volumes/heirloom/src/sh/stak.h:97: ammount ==> amount
+/Volumes/heirloom/src/sh/version.c:38: blok ==> block, bloke
+/Volumes/heirloom/src/sh/version.c:38: blok ==> block, bloke
+/Volumes/heirloom/src/sh/word.c:204: reserv ==> reserve
+/Volumes/heirloom/src/sh/word.c:242: reserv ==> reserve
+/Volumes/heirloom/src/sh/word.c:423: bondary ==> boundary
+/Volumes/heirloom/src/toolchest/CHANGES:33: occurence ==> occurrence
+/Volumes/heirloom/src/toolchest/CHANGES:136: occured ==> occurred
+/Volumes/heirloom/src/toolchest/CHANGES:261: re-used ==> reused
+/Volumes/heirloom/src/toolchest/CHANGES:283: multipe ==> multiple
+/Volumes/heirloom/src/toolchest/CHANGES:341: occured ==> occurred
+/Volumes/heirloom/src/toolchest/CHANGES:384: substract ==> subtract
+/Volumes/heirloom/src/toolchest/CHANGES:400: occured ==> occurred
+/Volumes/heirloom/src/toolchest/CHANGES:402: occured ==> occurred
+/Volumes/heirloom/src/toolchest/CHANGES:404: occured ==> occurred
+/Volumes/heirloom/src/toolchest/CHANGES:540: occured ==> occurred
+/Volumes/heirloom/src/toolchest/CHANGES:688: occured ==> occurred
+/Volumes/heirloom/src/toolchest/README:161: re-use ==> reuse
+/Volumes/heirloom/src/toolchest/intro.1:277: occurences ==> occurrences
+/Volumes/heirloom/src/toolchest/intro.1:308: ownwer ==> owner
+/Volumes/heirloom/src/toolchest/intro.1:453: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/toolchest/intro.1:461: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/toolchest/intro.1.in:277: occurences ==> occurrences
+/Volumes/heirloom/src/toolchest/intro.txt:45: internation ==> international
+/Volumes/heirloom/src/toolchest/intro.txt:156: acter ==> actor
+/Volumes/heirloom/src/toolchest/intro.txt:184: represen ==> represent
+/Volumes/heirloom/src/toolchest/intro.txt:234: includ ==> include
+/Volumes/heirloom/src/toolchest/intro.txt:236: occurences ==> occurrences
+/Volumes/heirloom/src/toolchest/intro.txt:278: ownwer ==> owner
+/Volumes/heirloom/src/toolchest/man/catman:143: Nd ==> And, 2nd
+/Volumes/heirloom/src/toolchest/man/catman:144: Nd ==> And, 2nd
+/Volumes/heirloom/src/toolchest/man/catman:145: Nd ==> And, 2nd
+/Volumes/heirloom/src/toolchest/man/catman.ksh:89: Nd ==> And, 2nd
+/Volumes/heirloom/src/toolchest/man/catman.ksh:90: Nd ==> And, 2nd
+/Volumes/heirloom/src/toolchest/man/catman.ksh:91: Nd ==> And, 2nd
+/Volumes/heirloom/src/toolchest/nawk/awk.lx.c:217: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/nawk/awk.lx.c:218: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/nawk/awk.lx.c:228: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/nawk/awk.lx.c:655: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/nawk/awk.lx.c:683: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/nawk/awk.lx.c:683: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/nawk/awk.lx.c:694: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/nawk/awk.lx.c:708: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/nawk/awk.lx.c:709: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/nawk/awk.lx.c:709: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/nawk/awk.lx.c:721: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/nawk/awk.lx.c:726: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/nawk/awk.lx.c:731: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/nawk/awk.lx.c:736: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/nawk/awk.lx.c:741: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/nawk/awk.lx.c:746: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/nawk/awk.lx.c:751: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/nawk/awk.lx.c:756: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/nawk/awk.lx.c:761: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/nawk/awk.lx.c:767: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/nawk/awk.lx.c:773: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/nawk/awk.lx.c:778: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/nawk/awk.lx.c:798: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/nawk/awk.lx.l:112: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/nawk/awk.lx.l:113: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/nawk/awk.lx.l:123: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/nawk/awk.lx.l:246: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/nawk/awk.lx.l:257: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/nawk/awk.lx.l:257: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/nawk/awk.lx.l:260: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/nawk/awk.lx.l:267: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/nawk/awk.lx.l:268: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/nawk/awk.lx.l:268: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/nawk/awk.lx.l:272: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/nawk/awk.lx.l:273: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/nawk/awk.lx.l:274: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/nawk/awk.lx.l:275: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/nawk/awk.lx.l:276: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/nawk/awk.lx.l:277: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/nawk/awk.lx.l:278: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/nawk/awk.lx.l:279: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/nawk/awk.lx.l:280: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/nawk/awk.lx.l:282: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/nawk/awk.lx.l:284: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/nawk/awk.lx.l:285: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/nawk/awk.lx.l:294: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/nawk/lib.c:237: occurences ==> occurrences
+/Volumes/heirloom/src/toolchest/nawk/run.c:1562: afile ==> a file, agile
+/Volumes/heirloom/src/toolchest/nawk/run.c:1629: afile ==> a file, agile
+/Volumes/heirloom/src/toolchest/nawk/run.c:1667: afile ==> a file, agile
+/Volumes/heirloom/src/toolchest/whodo/whodo.c:1475: correspondends ==> correspondents
+/Volumes/heirloom/src/toolchest/calendar/calendar.1:60: wee ==> we
+/Volumes/heirloom/src/toolchest/du/du.c:219: isplay ==> display
+/Volumes/heirloom/src/toolchest/du/du.c:271: isplay ==> display
+/Volumes/heirloom/src/toolchest/du/du.c:279: iput ==> input
+/Volumes/heirloom/src/toolchest/du/du.c:285: isplay ==> display
+/Volumes/heirloom/src/toolchest/du/du.c:324: iput ==> input
+/Volumes/heirloom/src/toolchest/diff3/diff3.1:21: acknowedgement ==> acknowledgement
+/Volumes/heirloom/src/toolchest/diff3/diff3prog.c:150: readin ==> reading, read in
+/Volumes/heirloom/src/toolchest/diff3/diff3prog.c:205: readin ==> reading, read in
+/Volumes/heirloom/src/toolchest/diff3/diff3prog.c:206: readin ==> reading, read in
+/Volumes/heirloom/src/toolchest/diff3/diff3prog.c:225: readin ==> reading, read in
+/Volumes/heirloom/src/toolchest/diff3/diff3prog.c:417: ines ==> lines
+/Volumes/heirloom/src/toolchest/diff3/diff3prog.c:468: befor ==> before
+/Volumes/heirloom/src/toolchest/df/df.1:103: Specifiy ==> Specify
+/Volumes/heirloom/src/toolchest/sort/sort.c:241: cant ==> can't
+/Volumes/heirloom/src/toolchest/sort/sort.c:584: cant ==> can't
+/Volumes/heirloom/src/toolchest/sort/sort.c:653: cant ==> can't
+/Volumes/heirloom/src/toolchest/sort/sort.c:861: cant ==> can't
+/Volumes/heirloom/src/toolchest/oawk/README:26: Futhermore ==> Furthermore
+/Volumes/heirloom/src/toolchest/oawk/awk.def:177: nd ==> and, 2nd
+/Volumes/heirloom/src/toolchest/oawk/awk.def:180: nd ==> and, 2nd
+/Volumes/heirloom/src/toolchest/oawk/awk.def:182: nd ==> and, 2nd
+/Volumes/heirloom/src/toolchest/oawk/awk.def:184: nd ==> and, 2nd
+/Volumes/heirloom/src/toolchest/oawk/awk.lx.c:231: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/oawk/awk.lx.c:231: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/oawk/awk.lx.c:234: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/oawk/awk.lx.c:557: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/oawk/awk.lx.c:598: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/oawk/awk.lx.c:616: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/oawk/awk.lx.c:617: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/oawk/awk.lx.c:617: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/oawk/awk.lx.c:628: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/oawk/awk.lx.c:633: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/oawk/awk.lx.c:638: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/oawk/awk.lx.c:643: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/oawk/awk.lx.c:648: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/oawk/awk.lx.c:653: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/oawk/awk.lx.c:658: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/oawk/awk.lx.c:668: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/oawk/awk.lx.c:668: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/oawk/awk.lx.c:703: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/oawk/awk.lx.l:135: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/oawk/awk.lx.l:135: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/oawk/awk.lx.l:138: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/oawk/awk.lx.l:223: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/oawk/awk.lx.l:235: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/oawk/awk.lx.l:242: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/oawk/awk.lx.l:243: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/oawk/awk.lx.l:243: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/oawk/awk.lx.l:246: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/oawk/awk.lx.l:247: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/oawk/awk.lx.l:248: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/oawk/awk.lx.l:249: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/oawk/awk.lx.l:250: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/oawk/awk.lx.l:251: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/oawk/awk.lx.l:252: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/oawk/awk.lx.l:255: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/oawk/awk.lx.l:255: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/oawk/awk.lx.l:267: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/oawk/lib.c:193: occurences ==> occurrences
+/Volumes/heirloom/src/toolchest/oawk/oawk.1:21: acknowedgement ==> acknowledgement
+/Volumes/heirloom/src/toolchest/oawk/token.c:2: toke ==> token, took
+/Volumes/heirloom/src/toolchest/hd/hd.1:96: indentical ==> identical
+/Volumes/heirloom/src/toolchest/file/file.c:163: endianess ==> endianness
+/Volumes/heirloom/src/toolchest/file/file.c:250: cant ==> can't
+/Volumes/heirloom/src/toolchest/file/file.c:307: cant ==> can't
+/Volumes/heirloom/src/toolchest/file/file.c:757: endianess ==> endianness
+/Volumes/heirloom/src/toolchest/file/file.c:760: endianess ==> endianness
+/Volumes/heirloom/src/toolchest/file/file.c:1057: endianess ==> endianness
+/Volumes/heirloom/src/toolchest/fmt/fmt.c:104: leadin ==> leading, lead in
+/Volumes/heirloom/src/toolchest/fmt/fmt.c:459: leadin ==> leading, lead in
+/Volumes/heirloom/src/toolchest/fmt/fmt.c:477: leadin ==> leading, lead in
+/Volumes/heirloom/src/toolchest/fmt/fmt.c:561: leadin ==> leading, lead in
+/Volumes/heirloom/src/toolchest/tapecntl/mt.1:33: retension ==> retention, pretension, recension
+/Volumes/heirloom/src/toolchest/tapecntl/tape.1:27: Retension ==> Retention, Pretension, Recension
+/Volumes/heirloom/src/toolchest/tapecntl/tapecntl.1:32: Retension ==> Retention, Pretension, Recension
+/Volumes/heirloom/src/toolchest/tapecntl/tapecntl.c:106: retension ==> retention, pretension, recension
+/Volumes/heirloom/src/toolchest/tapecntl/tapecntl.c:151: retension ==> retention, pretension, recension
+/Volumes/heirloom/src/toolchest/tapecntl/tapecntl.c:210: retension ==> retention, pretension, recension
+/Volumes/heirloom/src/toolchest/tapecntl/tapecntl.c:211: retension ==> retention, pretension, recension
+/Volumes/heirloom/src/toolchest/tapecntl/tapecntl.c:846: Retension ==> Retention, Pretension, Recension
+/Volumes/heirloom/src/toolchest/mail/add_recip.c:71: imbedded ==> embedded
+/Volumes/heirloom/src/toolchest/mail/cksaved.c:132: systm ==> system
+/Volumes/heirloom/src/toolchest/mail/copystream.c:45: infp ==> info
+/Volumes/heirloom/src/toolchest/mail/copystream.c:49: infp ==> info
+/Volumes/heirloom/src/toolchest/mail/copystream.c:60: infp ==> info
+/Volumes/heirloom/src/toolchest/mail/copystream.c:66: infp ==> info
+/Volumes/heirloom/src/toolchest/mail/createmf.c:106: createing ==> creating
+/Volumes/heirloom/src/toolchest/mail/createmf.c:107: worng ==> wrong, worn
+/Volumes/heirloom/src/toolchest/mail/delete.c:35: interupts ==> interrupts
+/Volumes/heirloom/src/toolchest/mail/goback.c:140: systm ==> system
+/Volumes/heirloom/src/toolchest/mail/init.c:105: fromS ==> forms
+/Volumes/heirloom/src/toolchest/mail/isit.c:50: Execpt ==> Except
+/Volumes/heirloom/src/toolchest/mail/libmail.h:61: infp ==> info
+/Volumes/heirloom/src/toolchest/mail/mail.h:179: maxium ==> maximum
+/Volumes/heirloom/src/toolchest/mail/mail.h:348: systm ==> system
+/Volumes/heirloom/src/toolchest/mail/mail.h:390: fromS ==> forms
+/Volumes/heirloom/src/toolchest/mail/parse.c:72: compatability ==> compatibility
+/Volumes/heirloom/src/toolchest/mail/pickFrom.c:37: fromS ==> forms
+/Volumes/heirloom/src/toolchest/mail/pickFrom.c:38: fromS ==> forms
+/Volumes/heirloom/src/toolchest/mail/pickFrom.c:61: fromS ==> forms
+/Volumes/heirloom/src/toolchest/mail/pickFrom.c:64: fromS ==> forms
+/Volumes/heirloom/src/toolchest/mail/pickFrom.c:65: fromS ==> forms
+/Volumes/heirloom/src/toolchest/mail/pipletr.c:72: systm ==> system
+/Volumes/heirloom/src/toolchest/mail/printmail.c:494: systm ==> system
+/Volumes/heirloom/src/toolchest/mail/sendlist.c:80: get's ==> gets
+/Volumes/heirloom/src/toolchest/mail/sendmail.c:150: fromS ==> forms
+/Volumes/heirloom/src/toolchest/mail/sendmail.c:196: fromS ==> forms
+/Volumes/heirloom/src/toolchest/fmtmsg/fmtmsg.1:113: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/toolchest/fmtmsg/fmtmsg.c:580: auxillary ==> auxiliary
+/Volumes/heirloom/src/toolchest/stty/stty.1:87: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/toolchest/stty/stty.1:115: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/toolchest/stty/stty.1:143: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/toolchest/stty/stty.1:172: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/toolchest/stty/stty.1:194: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/toolchest/stty/stty.1:282: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/toolchest/stty/stty.1b:119: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/toolchest/stty/stty.1b:149: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/toolchest/stty/stty.1b:177: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/toolchest/stty/stty.1b:212: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/toolchest/stty/stty.1b:234: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/toolchest/stty/stty.1b:340: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/toolchest/stty/stty.c:323: pendin ==> pending, pend in
+/Volumes/heirloom/src/toolchest/stty/stty.c:323: PENDIN ==> PENDING, PEND IN
+/Volumes/heirloom/src/toolchest/spell/Makefile:330: spellin ==> spelling, spell in
+/Volumes/heirloom/src/toolchest/spell/Makefile:344: spellin ==> spelling, spell in
+/Volumes/heirloom/src/toolchest/spell/Makefile:344: spellin ==> spelling, spell in
+/Volumes/heirloom/src/toolchest/spell/Makefile:345: spellin ==> spelling, spell in
+/Volumes/heirloom/src/toolchest/spell/Makefile:345: spellin ==> spelling, spell in
+/Volumes/heirloom/src/toolchest/spell/Makefile:347: spellin ==> spelling, spell in
+/Volumes/heirloom/src/toolchest/spell/Makefile:348: spellin ==> spelling, spell in
+/Volumes/heirloom/src/toolchest/spell/Makefile:388: spellin ==> spelling, spell in
+/Volumes/heirloom/src/toolchest/spell/Makefile:388: spellin ==> spelling, spell in
+/Volumes/heirloom/src/toolchest/spell/Makefile:389: spellin ==> spelling, spell in
+/Volumes/heirloom/src/toolchest/spell/Makefile:409: spellin ==> spelling, spell in
+/Volumes/heirloom/src/toolchest/spell/Makefile:410: spellin ==> spelling, spell in
+/Volumes/heirloom/src/toolchest/spell/Makefile:419: spellin ==> spelling, spell in
+/Volumes/heirloom/src/toolchest/spell/Makefile:419: spellin ==> spelling, spell in
+/Volumes/heirloom/src/toolchest/spell/Makefile.mk:35: spellin ==> spelling, spell in
+/Volumes/heirloom/src/toolchest/spell/Makefile.mk:49: spellin ==> spelling, spell in
+/Volumes/heirloom/src/toolchest/spell/Makefile.mk:49: spellin ==> spelling, spell in
+/Volumes/heirloom/src/toolchest/spell/Makefile.mk:50: spellin ==> spelling, spell in
+/Volumes/heirloom/src/toolchest/spell/Makefile.mk:50: spellin ==> spelling, spell in
+/Volumes/heirloom/src/toolchest/spell/Makefile.mk:52: spellin ==> spelling, spell in
+/Volumes/heirloom/src/toolchest/spell/Makefile.mk:53: spellin ==> spelling, spell in
+/Volumes/heirloom/src/toolchest/spell/Makefile.mk:93: spellin ==> spelling, spell in
+/Volumes/heirloom/src/toolchest/spell/Makefile.mk:93: spellin ==> spelling, spell in
+/Volumes/heirloom/src/toolchest/spell/Makefile.mk:94: spellin ==> spelling, spell in
+/Volumes/heirloom/src/toolchest/spell/Makefile.mk:114: spellin ==> spelling, spell in
+/Volumes/heirloom/src/toolchest/spell/Makefile.mk:115: spellin ==> spelling, spell in
+/Volumes/heirloom/src/toolchest/spell/Makefile.mk:124: spellin ==> spelling, spell in
+/Volumes/heirloom/src/toolchest/spell/Makefile.mk:124: spellin ==> spelling, spell in
+/Volumes/heirloom/src/toolchest/spell/british:64: connexion ==> connection
+/Volumes/heirloom/src/toolchest/spell/extra:918: confectionary ==> confectionery
+/Volumes/heirloom/src/toolchest/spell/extra:1407: efficacity ==> efficacy
+/Volumes/heirloom/src/toolchest/spell/extra:1653: finis ==> finish
+/Volumes/heirloom/src/toolchest/spell/extra:1704: floatation ==> flotation
+/Volumes/heirloom/src/toolchest/spell/extra:1807: froward ==> forward
+/Volumes/heirloom/src/toolchest/spell/extra:2014: guerilla ==> guerrilla
+/Volumes/heirloom/src/toolchest/spell/extra:2405: indictor ==> indicator
+/Volumes/heirloom/src/toolchest/spell/extra:2449: intensional ==> intentional
+/Volumes/heirloom/src/toolchest/spell/extra:2619: lama ==> llama
+/Volumes/heirloom/src/toolchest/spell/extra:2702: lief ==> leaf, life
+/Volumes/heirloom/src/toolchest/spell/extra:2894: marge ==> merge
+/Volumes/heirloom/src/toolchest/spell/extra:3523: pervious ==> previous
+/Volumes/heirloom/src/toolchest/spell/extra:3899: quitted ==> quit
+/Volumes/heirloom/src/toolchest/spell/extra:4168: sate ==> state
+/Volumes/heirloom/src/toolchest/spell/extra:4219: scrip ==> script
+/Volumes/heirloom/src/toolchest/spell/extra:4640: stye ==> style
+/Volumes/heirloom/src/toolchest/spell/extra:4878: tittle ==> title
+/Volumes/heirloom/src/toolchest/spell/extra:5120: vermillion ==> vermilion
+/Volumes/heirloom/src/toolchest/spell/hash.h:41: ND ==> AND, 2ND
+/Volumes/heirloom/src/toolchest/spell/huff.c:114: mesage ==> message
+/Volumes/heirloom/src/toolchest/spell/list:739: alterate ==> alternate, alter
+/Volumes/heirloom/src/toolchest/spell/list:768: alway ==> always
+/Volumes/heirloom/src/toolchest/spell/list:1586: attache ==> attaché, attached, attach
+/Volumes/heirloom/src/toolchest/spell/list:1871: bale ==> able, bail
+/Volumes/heirloom/src/toolchest/spell/list:2265: bellow ==> below
+/Volumes/heirloom/src/toolchest/spell/list:2274: belove ==> below, beloved
+/Volumes/heirloom/src/toolchest/spell/list:2663: bloc ==> block
+/Volumes/heirloom/src/toolchest/spell/list:3199: brunch ==> branch
+/Volumes/heirloom/src/toolchest/spell/list:3385: buss ==> bus
+/Volumes/heirloom/src/toolchest/spell/list:3627: cannel ==> channel, cancel, canal
+/Volumes/heirloom/src/toolchest/spell/list:3630: cannister ==> canister
+/Volumes/heirloom/src/toolchest/spell/list:3642: cant ==> can't
+/Volumes/heirloom/src/toolchest/spell/list:3669: Capetown ==> Cape town
+/Volumes/heirloom/src/toolchest/spell/list:4078: chancel ==> cancel
+/Volumes/heirloom/src/toolchest/spell/list:4500: Claus ==> Clause
+/Volumes/heirloom/src/toolchest/spell/list:4760: collet ==> collect
+/Volumes/heirloom/src/toolchest/spell/list:4810: combinate ==> combine, combination, combined
+/Volumes/heirloom/src/toolchest/spell/list:4834: commend ==> comment, command
+/Volumes/heirloom/src/toolchest/spell/list:4915: compleat ==> complete
+/Volumes/heirloom/src/toolchest/spell/list:5317: coo ==> coup
+/Volumes/heirloom/src/toolchest/spell/list:5557: covert ==> convert, cover, covet
+/Volumes/heirloom/src/toolchest/spell/list:5650: creche ==> crèche
+/Volumes/heirloom/src/toolchest/spell/list:6496: desicate ==> desiccate
+/Volumes/heirloom/src/toolchest/spell/list:6521: dessicate ==> desiccate
+/Volumes/heirloom/src/toolchest/spell/list:6680: diety ==> deity
+/Volumes/heirloom/src/toolchest/spell/list:6798: discreet ==> discrete
+/Volumes/heirloom/src/toolchest/spell/list:6807: discus ==> discuss
+/Volumes/heirloom/src/toolchest/spell/list:7717: empress ==> impress
+/Volumes/heirloom/src/toolchest/spell/list:8431: fallow ==> follow
+/Volumes/heirloom/src/toolchest/spell/list:8721: finial ==> final
+/Volumes/heirloom/src/toolchest/spell/list:9068: formate ==> format
+/Volumes/heirloom/src/toolchest/spell/list:9120: fount ==> found
+/Volumes/heirloom/src/toolchest/spell/list:9274: fro ==> for, from
+/Volumes/heirloom/src/toolchest/spell/list:9407: gage ==> gauge
+/Volumes/heirloom/src/toolchest/spell/list:9633: geometrician ==> geometer
+/Volumes/heirloom/src/toolchest/spell/list:9749: gird ==> grid
+/Volumes/heirloom/src/toolchest/spell/list:10305: habitant ==> inhabitant
+/Volumes/heirloom/src/toolchest/spell/list:10401: Handel ==> Handle
+/Volumes/heirloom/src/toolchest/spell/list:10517: hart ==> heart, harm
+/Volumes/heirloom/src/toolchest/spell/list:10665: heigh ==> height, high
+/Volumes/heirloom/src/toolchest/spell/list:11184: hove ==> have, hover, love
+/Volumes/heirloom/src/toolchest/spell/list:11569: implementor ==> implementer
+/Volumes/heirloom/src/toolchest/spell/list:11631: inactivate ==> deactivate
+/Volumes/heirloom/src/toolchest/spell/list:11959: ingenuous ==> ingenious
+/Volumes/heirloom/src/toolchest/spell/list:13432: Lew ==> Lieu, Hew, Sew, Dew
+/Volumes/heirloom/src/toolchest/spell/list:13433: lew ==> lieu, hew, sew, dew
+/Volumes/heirloom/src/toolchest/spell/list:14135: mane ==> main, many, maine
+/Volumes/heirloom/src/toolchest/spell/list:14139: mange ==> manage
+/Volumes/heirloom/src/toolchest/spell/list:14338: mater ==> matter, master, mother
+/Volumes/heirloom/src/toolchest/spell/list:14824: millenia ==> millennia
+/Volumes/heirloom/src/toolchest/spell/list:15186: mot ==> not
+/Volumes/heirloom/src/toolchest/spell/list:15493: ND ==> AND, 2ND
+/Volumes/heirloom/src/toolchest/spell/list:15529: Ned ==> Need, End, Nod
+/Volumes/heirloom/src/toolchest/spell/list:15960: objet ==> object
+/Volumes/heirloom/src/toolchest/spell/list:16112: oint ==> point, pint, joint, lint
+/Volumes/heirloom/src/toolchest/spell/list:16235: opthalmic ==> ophthalmic
+/Volumes/heirloom/src/toolchest/spell/list:16236: opthalmology ==> ophthalmology
+/Volumes/heirloom/src/toolchest/spell/list:16282: ore ==> or
+/Volumes/heirloom/src/toolchest/spell/list:16824: Pease ==> Peace, Piece, Please, Lease
+/Volumes/heirloom/src/toolchest/spell/list:17055: perturbate ==> perturb
+/Volumes/heirloom/src/toolchest/spell/list:17626: pont ==> point
+/Volumes/heirloom/src/toolchest/spell/list:17812: precess ==> process
+/Volumes/heirloom/src/toolchest/spell/list:18721: ream ==> stream
+/Volumes/heirloom/src/toolchest/spell/list:18789: recuse ==> recurse
+/Volumes/heirloom/src/toolchest/spell/list:18822: refection ==> reflection
+/Volumes/heirloom/src/toolchest/spell/list:19136: rever ==> revert, refer, fever
+/Volumes/heirloom/src/toolchest/spell/list:19262: rime ==> rhyme
+/Volumes/heirloom/src/toolchest/spell/list:19430: rouge ==> rogue
+/Volumes/heirloom/src/toolchest/spell/list:20413: Shepard ==> Shepherd
+/Volumes/heirloom/src/toolchest/spell/list:20698: singe ==> single
+/Volumes/heirloom/src/toolchest/spell/list:21682: sting ==> string
+/Volumes/heirloom/src/toolchest/spell/list:21757: straightaway ==> straight away
+/Volumes/heirloom/src/toolchest/spell/list:22501: technic ==> technique
+/Volumes/heirloom/src/toolchest/spell/list:22742: therefor ==> therefore
+/Volumes/heirloom/src/toolchest/spell/list:22744: therefrom ==> there from
+/Volumes/heirloom/src/toolchest/spell/list:22763: theses ==> these, thesis
+/Volumes/heirloom/src/toolchest/spell/list:23292: tread ==> thread, treat
+/Volumes/heirloom/src/toolchest/spell/list:23426: troubador ==> troubadour
+/Volumes/heirloom/src/toolchest/spell/list:23430: trough ==> through
+/Volumes/heirloom/src/toolchest/spell/list:23504: tung ==> tongue
+/Volumes/heirloom/src/toolchest/spell/list:23898: Varian ==> Variant
+/Volumes/heirloom/src/toolchest/spell/list:24081: vie ==> via
+/Volumes/heirloom/src/toolchest/spell/list:24147: vise ==> vice
+/Volumes/heirloom/src/toolchest/spell/list:24344: Waring ==> Warning
+/Volumes/heirloom/src/toolchest/spell/list:24378: wast ==> waste
+/Volumes/heirloom/src/toolchest/spell/list:24468: wee ==> we
+/Volumes/heirloom/src/toolchest/spell/list:24576: whet ==> when, what, wet
+/Volumes/heirloom/src/toolchest/spell/list:24600: whish ==> wish, whisk
+/Volumes/heirloom/src/toolchest/spell/list:24605: whit ==> with, white
+/Volumes/heirloom/src/toolchest/spell/list:24680: wile ==> while
+/Volumes/heirloom/src/toolchest/spell/list:24781: wit ==> with
+/Volumes/heirloom/src/toolchest/spell/list:24790: withe ==> with
+/Volumes/heirloom/src/toolchest/spell/list:24791: wither ==> either, whether, weather
+/Volumes/heirloom/src/toolchest/spell/list:24831: wont ==> won't
+/Volumes/heirloom/src/toolchest/spell/local:522: Wirth ==> With, Worth
+/Volumes/heirloom/src/toolchest/spell/spell.1:42: spellin ==> spelling, spell in
+/Volumes/heirloom/src/toolchest/spell/spell.1:118: thier ==> their
+/Volumes/heirloom/src/toolchest/spell/spell.1:128: Spellin ==> Spelling, Spell in
+/Volumes/heirloom/src/toolchest/spell/spellin.c:26: spellin ==> spelling, spell in
+/Volumes/heirloom/src/toolchest/spell/spellin.c:31: spellin ==> spelling, spell in
+/Volumes/heirloom/src/toolchest/spell/spellin.c:54: ND ==> AND, 2ND
+/Volumes/heirloom/src/toolchest/spell/spellin.c:70: hashin ==> hashing, hash in
+/Volumes/heirloom/src/toolchest/spell/spellin.c:94: ND ==> AND, 2ND
+/Volumes/heirloom/src/toolchest/spell/spellprog.c:122: ment ==> meant
+/Volumes/heirloom/src/toolchest/spell/spellprog.c:174: mis ==> miss, mist
+/Volumes/heirloom/src/toolchest/spell/spellprog.c:227: spellin ==> spelling, spell in
+/Volumes/heirloom/src/toolchest/spell/spellprog.c:247: regualar ==> regular
+/Volumes/heirloom/src/toolchest/spell/stop:12: accessable ==> accessible
+/Volumes/heirloom/src/toolchest/spell/stop:14: accidently ==> accidentally
+/Volumes/heirloom/src/toolchest/spell/stop:18: acter ==> actor
+/Volumes/heirloom/src/toolchest/spell/stop:24: admited ==> admitted
+/Volumes/heirloom/src/toolchest/spell/stop:26: admiting ==> admitting
+/Volumes/heirloom/src/toolchest/spell/stop:33: alloted ==> allotted
+/Volumes/heirloom/src/toolchest/spell/stop:39: anly ==> only, any
+/Volumes/heirloom/src/toolchest/spell/stop:41: annuled ==> annulled
+/Volumes/heirloom/src/toolchest/spell/stop:44: ans ==> and
+/Volumes/heirloom/src/toolchest/spell/stop:51: arguement ==> argument
+/Volumes/heirloom/src/toolchest/spell/stop:52: arised ==> arose
+/Volumes/heirloom/src/toolchest/spell/stop:57: ative ==> active, native
+/Volumes/heirloom/src/toolchest/spell/stop:71: awared ==> awarded
+/Volumes/heirloom/src/toolchest/spell/stop:72: aweful ==> awful
+/Volumes/heirloom/src/toolchest/spell/stop:73: axises ==> axes
+/Volumes/heirloom/src/toolchest/spell/stop:98: beginer ==> beginner
+/Volumes/heirloom/src/toolchest/spell/stop:99: begining ==> beginning
+/Volumes/heirloom/src/toolchest/spell/stop:128: bootstraped ==> bootstrapped
+/Volumes/heirloom/src/toolchest/spell/stop:129: bootstraping ==> bootstrapping
+/Volumes/heirloom/src/toolchest/spell/stop:131: breaked ==> broken
+/Volumes/heirloom/src/toolchest/spell/stop:136: buyed ==> bought, buyer
+/Volumes/heirloom/src/toolchest/spell/stop:138: Canadan ==> Canadian
+/Volumes/heirloom/src/toolchest/spell/stop:141: carful ==> careful
+/Volumes/heirloom/src/toolchest/spell/stop:145: catched ==> caught
+/Volumes/heirloom/src/toolchest/spell/stop:148: celler ==> cellar
+/Volumes/heirloom/src/toolchest/spell/stop:149: certainity ==> certainty
+/Volumes/heirloom/src/toolchest/spell/stop:152: checksumed ==> checksummed
+/Volumes/heirloom/src/toolchest/spell/stop:153: checksuming ==> checksumming
+/Volumes/heirloom/src/toolchest/spell/stop:154: choosed ==> chose, chosen
+/Volumes/heirloom/src/toolchest/spell/stop:159: collapsable ==> collapsible
+/Volumes/heirloom/src/toolchest/spell/stop:161: collecter ==> collector, collected
+/Volumes/heirloom/src/toolchest/spell/stop:168: commitable ==> committable
+/Volumes/heirloom/src/toolchest/spell/stop:169: commited ==> committed
+/Volumes/heirloom/src/toolchest/spell/stop:170: commiter ==> committer
+/Volumes/heirloom/src/toolchest/spell/stop:171: commiting ==> committing
+/Volumes/heirloom/src/toolchest/spell/stop:172: compatable ==> compatible
+/Volumes/heirloom/src/toolchest/spell/stop:179: compressable ==> compressible
+/Volumes/heirloom/src/toolchest/spell/stop:180: compresser ==> compressor
+/Volumes/heirloom/src/toolchest/spell/stop:183: conducter ==> conductor, conducted
+/Volumes/heirloom/src/toolchest/spell/stop:184: coner ==> corner, coroner
+/Volumes/heirloom/src/toolchest/spell/stop:192: conquerer ==> conqueror
+/Volumes/heirloom/src/toolchest/spell/stop:196: constructer ==> constructor
+/Volumes/heirloom/src/toolchest/spell/stop:200: contracter ==> contractor
+/Volumes/heirloom/src/toolchest/spell/stop:202: contributer ==> contributor
+/Volumes/heirloom/src/toolchest/spell/stop:203: controlable ==> controllable
+/Volumes/heirloom/src/toolchest/spell/stop:204: controled ==> controlled
+/Volumes/heirloom/src/toolchest/spell/stop:205: controler ==> controller
+/Volumes/heirloom/src/toolchest/spell/stop:206: controling ==> controlling
+/Volumes/heirloom/src/toolchest/spell/stop:209: convertable ==> convertible
+/Volumes/heirloom/src/toolchest/spell/stop:210: convertion ==> conversion
+/Volumes/heirloom/src/toolchest/spell/stop:215: corruptable ==> corruptible
+/Volumes/heirloom/src/toolchest/spell/stop:216: counciler ==> councilor
+/Volumes/heirloom/src/toolchest/spell/stop:222: counterfit ==> counterfeit
+/Volumes/heirloom/src/toolchest/spell/stop:232: cration ==> creation, ration, nation
+/Volumes/heirloom/src/toolchest/spell/stop:239: curiousity ==> curiosity
+/Volumes/heirloom/src/toolchest/spell/stop:242: cutted ==> cutter, gutted, cut
+/Volumes/heirloom/src/toolchest/spell/stop:245: datas ==> data
+/Volumes/heirloom/src/toolchest/spell/stop:247: dealed ==> dealt
+/Volumes/heirloom/src/toolchest/spell/stop:253: debuged ==> debugged
+/Volumes/heirloom/src/toolchest/spell/stop:254: debuger ==> debugger
+/Volumes/heirloom/src/toolchest/spell/stop:255: debuging ==> debugging
+/Volumes/heirloom/src/toolchest/spell/stop:259: deductable ==> deductible
+/Volumes/heirloom/src/toolchest/spell/stop:263: defered ==> deferred
+/Volumes/heirloom/src/toolchest/spell/stop:265: defering ==> deferring
+/Volumes/heirloom/src/toolchest/spell/stop:288: desable ==> disable, desirable
+/Volumes/heirloom/src/toolchest/spell/stop:298: destructer ==> destructor, destruct
+/Volumes/heirloom/src/toolchest/spell/stop:299: detecter ==> detector, detected
+/Volumes/heirloom/src/toolchest/spell/stop:315: discernable ==> discernible
+/Volumes/heirloom/src/toolchest/spell/stop:325: disire ==> desire
+/Volumes/heirloom/src/toolchest/spell/stop:327: dispair ==> despair
+/Volumes/heirloom/src/toolchest/spell/stop:332: dispence ==> dispense
+/Volumes/heirloom/src/toolchest/spell/stop:340: distributer ==> distributor, distributed, distributes, distribute
+/Volumes/heirloom/src/toolchest/spell/stop:343: divertion ==> diversion
+/Volumes/heirloom/src/toolchest/spell/stop:348: doller ==> dollar
+/Volumes/heirloom/src/toolchest/spell/stop:353: drawed ==> drew, drawn, had drawn
+/Volumes/heirloom/src/toolchest/spell/stop:355: drived ==> derived, drove, driven
+/Volumes/heirloom/src/toolchest/spell/stop:365: editer ==> editor, edited, edit
+/Volumes/heirloom/src/toolchest/spell/stop:377: embeded ==> embedded
+/Volumes/heirloom/src/toolchest/spell/stop:378: embeder ==> embedder
+/Volumes/heirloom/src/toolchest/spell/stop:379: embeding ==> embedding
+/Volumes/heirloom/src/toolchest/spell/stop:382: emited ==> emitted
+/Volumes/heirloom/src/toolchest/spell/stop:384: emiting ==> emitting
+/Volumes/heirloom/src/toolchest/spell/stop:401: enbrace ==> embrace
+/Volumes/heirloom/src/toolchest/spell/stop:424: entend ==> extend, intend
+/Volumes/heirloom/src/toolchest/spell/stop:434: equiped ==> equipped
+/Volumes/heirloom/src/toolchest/spell/stop:455: expection ==> exception, expectation
+/Volumes/heirloom/src/toolchest/spell/stop:462: expressable ==> expressible
+/Volumes/heirloom/src/toolchest/spell/stop:464: extensable ==> extensible
+/Volumes/heirloom/src/toolchest/spell/stop:469: extracter ==> extractor, extracted
+/Volumes/heirloom/src/toolchest/spell/stop:476: falled ==> failed, fell, fallen, felled
+/Volumes/heirloom/src/toolchest/spell/stop:478: feasable ==> feasible
+/Volumes/heirloom/src/toolchest/spell/stop:481: feeded ==> fed
+/Volumes/heirloom/src/toolchest/spell/stop:487: finded ==> found, fined, funded
+/Volumes/heirloom/src/toolchest/spell/stop:490: flexable ==> flexible
+/Volumes/heirloom/src/toolchest/spell/stop:527: foreward ==> forward, foreword, forewarn
+/Volumes/heirloom/src/toolchest/spell/stop:531: formated ==> formatted
+/Volumes/heirloom/src/toolchest/spell/stop:532: formating ==> formatting
+/Volumes/heirloom/src/toolchest/spell/stop:545: generaly ==> generally
+/Volumes/heirloom/src/toolchest/spell/stop:552: gived ==> given, gave
+/Volumes/heirloom/src/toolchest/spell/stop:559: governer ==> governor
+/Volumes/heirloom/src/toolchest/spell/stop:561: grammer ==> grammar
+/Volumes/heirloom/src/toolchest/spell/stop:577: heared ==> heard, header
+/Volumes/heirloom/src/toolchest/spell/stop:587: hopful ==> hopeful
+/Volumes/heirloom/src/toolchest/spell/stop:588: horrable ==> horrible
+/Volumes/heirloom/src/toolchest/spell/stop:609: inaccessable ==> inaccessible
+/Volumes/heirloom/src/toolchest/spell/stop:611: incidently ==> incidentally
+/Volumes/heirloom/src/toolchest/spell/stop:614: incompatable ==> incompatible
+/Volumes/heirloom/src/toolchest/spell/stop:617: incorruptable ==> incorruptible
+/Volumes/heirloom/src/toolchest/spell/stop:618: incredable ==> incredible
+/Volumes/heirloom/src/toolchest/spell/stop:625: indictor ==> indicator
+/Volumes/heirloom/src/toolchest/spell/stop:631: infallable ==> infallible
+/Volumes/heirloom/src/toolchest/spell/stop:635: infered ==> inferred
+/Volumes/heirloom/src/toolchest/spell/stop:637: infering ==> inferring
+/Volumes/heirloom/src/toolchest/spell/stop:640: inflexable ==> inflexible
+/Volumes/heirloom/src/toolchest/spell/stop:647: inly ==> only
+/Volumes/heirloom/src/toolchest/spell/stop:650: instructer ==> instructor, instructed, instruct
+/Volumes/heirloom/src/toolchest/spell/stop:656: intered ==> interred, interned
+/Volumes/heirloom/src/toolchest/spell/stop:661: interruptable ==> interruptible
+/Volumes/heirloom/src/toolchest/spell/stop:666: inventer ==> inventor, invented
+/Volumes/heirloom/src/toolchest/spell/stop:668: invertion ==> inversion
+/Volumes/heirloom/src/toolchest/spell/stop:670: irresistable ==> irresistible
+/Volumes/heirloom/src/toolchest/spell/stop:672: irreversable ==> irreversible
+/Volumes/heirloom/src/toolchest/spell/stop:691: layed ==> laid
+/Volumes/heirloom/src/toolchest/spell/stop:692: lazer ==> laser
+/Volumes/heirloom/src/toolchest/spell/stop:701: loging ==> logging, lodging
+/Volumes/heirloom/src/toolchest/spell/stop:712: maked ==> marked, made
+/Volumes/heirloom/src/toolchest/spell/stop:725: meaned ==> meant
+/Volumes/heirloom/src/toolchest/spell/stop:747: morter ==> mortar
+/Volumes/heirloom/src/toolchest/spell/stop:750: multibye ==> multibyte
+/Volumes/heirloom/src/toolchest/spell/stop:767: occured ==> occurred
+/Volumes/heirloom/src/toolchest/spell/stop:769: occuring ==> occurring
+/Volumes/heirloom/src/toolchest/spell/stop:770: oder ==> order, older, coder, odder, odor, over, doer
+/Volumes/heirloom/src/toolchest/spell/stop:772: offseted ==> offsetted
+/Volumes/heirloom/src/toolchest/spell/stop:774: offseting ==> offsetting
+/Volumes/heirloom/src/toolchest/spell/stop:792: outin ==> outing, out in
+/Volumes/heirloom/src/toolchest/spell/stop:824: paly ==> play, poly, pally, palsy, palmy
+/Volumes/heirloom/src/toolchest/spell/stop:832: payed ==> paid
+/Volumes/heirloom/src/toolchest/spell/stop:833: penality ==> penalty
+/Volumes/heirloom/src/toolchest/spell/stop:840: permited ==> permitted
+/Volumes/heirloom/src/toolchest/spell/stop:855: plausable ==> plausible
+/Volumes/heirloom/src/toolchest/spell/stop:856: plugable ==> pluggable
+/Volumes/heirloom/src/toolchest/spell/stop:866: precent ==> percent, present, prescient
+/Volumes/heirloom/src/toolchest/spell/stop:871: precisly ==> precisely
+/Volumes/heirloom/src/toolchest/spell/stop:872: precurser ==> precursor
+/Volumes/heirloom/src/toolchest/spell/stop:883: prefered ==> preferred
+/Volumes/heirloom/src/toolchest/spell/stop:885: prefering ==> preferring
+/Volumes/heirloom/src/toolchest/spell/stop:888: preform ==> perform
+/Volumes/heirloom/src/toolchest/spell/stop:889: preformance ==> performance
+/Volumes/heirloom/src/toolchest/spell/stop:893: prehaps ==> perhaps
+/Volumes/heirloom/src/toolchest/spell/stop:898: premission ==> permission
+/Volumes/heirloom/src/toolchest/spell/stop:899: premutation ==> permutation
+/Volumes/heirloom/src/toolchest/spell/stop:907: preseverance ==> perseverance
+/Volumes/heirloom/src/toolchest/spell/stop:909: preson ==> person, prison
+/Volumes/heirloom/src/toolchest/spell/stop:915: preverse ==> preserve, perverse
+/Volumes/heirloom/src/toolchest/spell/stop:918: primative ==> primitive
+/Volumes/heirloom/src/toolchest/spell/stop:919: processer ==> processor
+/Volumes/heirloom/src/toolchest/spell/stop:920: professer ==> professor
+/Volumes/heirloom/src/toolchest/spell/stop:921: programable ==> programmable
+/Volumes/heirloom/src/toolchest/spell/stop:922: programed ==> programmed
+/Volumes/heirloom/src/toolchest/spell/stop:923: programer ==> programmer
+/Volumes/heirloom/src/toolchest/spell/stop:924: programing ==> programming
+/Volumes/heirloom/src/toolchest/spell/stop:925: projecter ==> projector, projected, project
+/Volumes/heirloom/src/toolchest/spell/stop:926: pronounciation ==> pronunciation
+/Volumes/heirloom/src/toolchest/spell/stop:930: properity ==> property, proprietary
+/Volumes/heirloom/src/toolchest/spell/stop:931: propper ==> proper
+/Volumes/heirloom/src/toolchest/spell/stop:944: quiting ==> quitting
+/Volumes/heirloom/src/toolchest/spell/stop:946: readed ==> read, re-add, re-added
+/Volumes/heirloom/src/toolchest/spell/stop:970: recuring ==> recurring
+/Volumes/heirloom/src/toolchest/spell/stop:977: refered ==> referred
+/Volumes/heirloom/src/toolchest/spell/stop:979: refering ==> referring
+/Volumes/heirloom/src/toolchest/spell/stop:980: reffer ==> refer, reefer
+/Volumes/heirloom/src/toolchest/spell/stop:984: regarless ==> regardless
+/Volumes/heirloom/src/toolchest/spell/stop:1007: remaned ==> remained, renamed
+/Volumes/heirloom/src/toolchest/spell/stop:1008: remaner ==> remainder
+/Volumes/heirloom/src/toolchest/spell/stop:1009: remaning ==> remaining, renaming, remaking
+/Volumes/heirloom/src/toolchest/spell/stop:1030: repeled ==> repelled
+/Volumes/heirloom/src/toolchest/spell/stop:1031: repeler ==> repeller
+/Volumes/heirloom/src/toolchest/spell/stop:1032: repeling ==> repelling
+/Volumes/heirloom/src/toolchest/spell/stop:1042: reruning ==> rerunning
+/Volumes/heirloom/src/toolchest/spell/stop:1044: resistable ==> resistible
+/Volumes/heirloom/src/toolchest/spell/stop:1047: responsable ==> responsible
+/Volumes/heirloom/src/toolchest/spell/stop:1055: reversable ==> reversible
+/Volumes/heirloom/src/toolchest/spell/stop:1065: rised ==> raised, rose
+/Volumes/heirloom/src/toolchest/spell/stop:1072: runned ==> ran, run, ruined
+/Volumes/heirloom/src/toolchest/spell/stop:1085: sculpter ==> sculptor, sculpture
+/Volumes/heirloom/src/toolchest/spell/stop:1090: selecter ==> selector, selected, select
+/Volumes/heirloom/src/toolchest/spell/stop:1094: sensable ==> sensible
+/Volumes/heirloom/src/toolchest/spell/stop:1098: setted ==> set
+/Volumes/heirloom/src/toolchest/spell/stop:1101: severly ==> severely
+/Volumes/heirloom/src/toolchest/spell/stop:1107: shrinked ==> shrunk, shrank
+/Volumes/heirloom/src/toolchest/spell/stop:1110: similer ==> similar, simile, similes
+/Volumes/heirloom/src/toolchest/spell/stop:1114: siply ==> simply
+/Volumes/heirloom/src/toolchest/spell/stop:1123: sleeped ==> slept
+/Volumes/heirloom/src/toolchest/spell/stop:1129: soler ==> solver, solar, solely
+/Volumes/heirloom/src/toolchest/spell/stop:1132: sovereignity ==> sovereignty
+/Volumes/heirloom/src/toolchest/spell/stop:1139: spining ==> spinning
+/Volumes/heirloom/src/toolchest/spell/stop:1142: splitted ==> split
+/Volumes/heirloom/src/toolchest/spell/stop:1145: spreaded ==> spread
+/Volumes/heirloom/src/toolchest/spell/stop:1163: submited ==> submitted
+/Volumes/heirloom/src/toolchest/spell/stop:1165: submiting ==> submitting
+/Volumes/heirloom/src/toolchest/spell/stop:1175: supercede ==> supersede
+/Volumes/heirloom/src/toolchest/spell/stop:1177: suppressable ==> suppressible
+/Volumes/heirloom/src/toolchest/spell/stop:1179: surveyer ==> surveyor
+/Volumes/heirloom/src/toolchest/spell/stop:1188: taked ==> took, taken
+/Volumes/heirloom/src/toolchest/spell/stop:1192: teached ==> taught
+/Volumes/heirloom/src/toolchest/spell/stop:1201: terrable ==> terrible
+/Volumes/heirloom/src/toolchest/spell/stop:1202: theer ==> there
+/Volumes/heirloom/src/toolchest/spell/stop:1203: ther ==> there, their, the, other
+/Volumes/heirloom/src/toolchest/spell/stop:1205: thier ==> their
+/Volumes/heirloom/src/toolchest/spell/stop:1208: throughly ==> thoroughly
+/Volumes/heirloom/src/toolchest/spell/stop:1209: throwed ==> threw, thrown
+/Volumes/heirloom/src/toolchest/spell/stop:1218: trafficed ==> trafficked
+/Volumes/heirloom/src/toolchest/spell/stop:1219: trafficing ==> trafficking
+/Volumes/heirloom/src/toolchest/spell/stop:1224: transfered ==> transferred
+/Volumes/heirloom/src/toolchest/spell/stop:1226: transfering ==> transferring
+/Volumes/heirloom/src/toolchest/spell/stop:1229: transmited ==> transmitted
+/Volumes/heirloom/src/toolchest/spell/stop:1230: transmiter ==> transmitter
+/Volumes/heirloom/src/toolchest/spell/stop:1231: transmiting ==> transmitting
+/Volumes/heirloom/src/toolchest/spell/stop:1236: trivias ==> trivia
+/Volumes/heirloom/src/toolchest/spell/stop:1238: truely ==> truly
+/Volumes/heirloom/src/toolchest/spell/stop:1278: unexpectly ==> unexpectedly
+/Volumes/heirloom/src/toolchest/spell/stop:1370: unprecise ==> imprecise
+/Volumes/heirloom/src/toolchest/spell/stop:1374: unprobable ==> improbable, unprovable
+/Volumes/heirloom/src/toolchest/spell/stop:1387: unstall ==> install, uninstall
+/Volumes/heirloom/src/toolchest/spell/stop:1395: untill ==> until
+/Volumes/heirloom/src/toolchest/spell/stop:1399: unvalidate ==> invalidate
+/Volumes/heirloom/src/toolchest/spell/stop:1407: unwieldly ==> unwieldy
+/Volumes/heirloom/src/toolchest/spell/stop:1424: visable ==> visible
+/Volumes/heirloom/src/toolchest/spell/stop:1426: visiter ==> visitor, visit
+/Volumes/heirloom/src/toolchest/spell/stop:1450: withing ==> within
+/Volumes/heirloom/src/toolchest/spell/stop:1452: writed ==> wrote, written, write, writer
+/Volumes/heirloom/src/toolchest/spell/stop:1453: writting ==> writing
+/Volumes/heirloom/src/toolchest/printenv/printenv.1:25: acknowedgement ==> acknowledgement
+/Volumes/heirloom/src/toolchest/deroff/deroff.1:66: equests ==> requests, quests
+/Volumes/heirloom/src/toolchest/deroff/deroff.c:178: copys ==> copies
+/Volumes/heirloom/src/toolchest/deroff/deroff.c:365: copys ==> copies
+/Volumes/heirloom/src/toolchest/deroff/deroff.c:998: copys ==> copies
+/Volumes/heirloom/src/toolchest/deroff/deroff_ucb.c:200: copys ==> copies
+/Volumes/heirloom/src/toolchest/deroff/deroff_ucb.c:436: copys ==> copies
+/Volumes/heirloom/src/toolchest/deroff/deroff_ucb.c:669: copys ==> copies
+/Volumes/heirloom/src/toolchest/tcopy/tcopy.1:25: acknowedgement ==> acknowledgement
+/Volumes/heirloom/src/toolchest/date/date.1:55: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/toolchest/date/date.1:270: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/toolchest/date/date.1:291: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/toolchest/date/date.c:308: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/toolchest/ed/ed.1:285: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/toolchest/ed/ed.1:728: re-used ==> reused
+/Volumes/heirloom/src/toolchest/ed/ed.1:1014: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/toolchest/ed/ed.c:155: wrapp ==> wrap
+/Volumes/heirloom/src/toolchest/ed/ed.c:676: wrapp ==> wrap
+/Volumes/heirloom/src/toolchest/ed/ed.c:683: wrapp ==> wrap
+/Volumes/heirloom/src/toolchest/ed/ed.c:719: wrapp ==> wrap
+/Volumes/heirloom/src/toolchest/ed/ed.c:1024: wrapp ==> wrap
+/Volumes/heirloom/src/toolchest/wc/wc.c:191: bloc ==> block
+/Volumes/heirloom/src/toolchest/diff/diff.1:27: acknowedgement ==> acknowledgement
+/Volumes/heirloom/src/toolchest/diff/diff.h:139: nonexistant ==> nonexistent
+/Volumes/heirloom/src/toolchest/diff/diffreg.c:181: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/diff/diffreg.c:562: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/diff/diffreg.c:563: clen ==> clean, clan
+/Volumes/heirloom/src/toolchest/diff/diffreg.c:720: nd ==> and, 2nd
+/Volumes/heirloom/src/toolchest/diff/diffreg.c:750: nd ==> and, 2nd
+/Volumes/heirloom/src/toolchest/diff/diffreg.c:761: nd ==> and, 2nd
+/Volumes/heirloom/src/toolchest/diff/diffreg.c:762: nd ==> and, 2nd
+/Volumes/heirloom/src/toolchest/diff/diffreg.c:765: nd ==> and, 2nd
+/Volumes/heirloom/src/toolchest/diff/diffreg.c:768: nd ==> and, 2nd
+/Volumes/heirloom/src/toolchest/diff/diffreg.c:774: nd ==> and, 2nd
+/Volumes/heirloom/src/toolchest/diff/diffreg.c:775: nd ==> and, 2nd
+/Volumes/heirloom/src/toolchest/diff/diffreg.c:779: nd ==> and, 2nd
+/Volumes/heirloom/src/toolchest/diff/diffreg.c:800: nd ==> and, 2nd
+/Volumes/heirloom/src/toolchest/diff/diffreg.c:802: nd ==> and, 2nd
+/Volumes/heirloom/src/toolchest/printf/printf.1:112: minumum ==> minimum
+/Volumes/heirloom/src/toolchest/printf/printf.1:115: precisision ==> precision
+/Volumes/heirloom/src/toolchest/groups/groups.1:20: acknowedgement ==> acknowledgement
+/Volumes/heirloom/src/toolchest/groups/groups.1b:20: acknowedgement ==> acknowledgement
+/Volumes/heirloom/src/toolchest/factor/factor.c:102: siz ==> size, six
+/Volumes/heirloom/src/toolchest/factor/factor.c:109: siz ==> size, six
+/Volumes/heirloom/src/toolchest/grep/egrep.1:164: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/toolchest/grep/egrep.1:360: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/toolchest/grep/egrep.c:80: notin ==> noting, not in, notion
+/Volumes/heirloom/src/toolchest/grep/egrep.c:360: notin ==> noting, not in, notion
+/Volumes/heirloom/src/toolchest/grep/egrep.c:452: notin ==> noting, not in, notion
+/Volumes/heirloom/src/toolchest/grep/egrep.y:124: notin ==> noting, not in, notion
+/Volumes/heirloom/src/toolchest/grep/egrep.y:397: notin ==> noting, not in, notion
+/Volumes/heirloom/src/toolchest/grep/egrep.y:489: notin ==> noting, not in, notion
+/Volumes/heirloom/src/toolchest/libuxre/_collelem.c:6: Expresssion ==> Expression
+/Volumes/heirloom/src/toolchest/libuxre/_collmult.c:6: Expresssion ==> Expression
+/Volumes/heirloom/src/toolchest/libuxre/bracket.c:6: Expresssion ==> Expression
+/Volumes/heirloom/src/toolchest/libuxre/colldata.h:6: Expresssion ==> Expression
+/Volumes/heirloom/src/toolchest/libuxre/colldata.h:79: indeces ==> indices
+/Volumes/heirloom/src/toolchest/libuxre/colldata.h:121: indeces ==> indices
+/Volumes/heirloom/src/toolchest/libuxre/onefile.c:6: Expresssion ==> Expression
+/Volumes/heirloom/src/toolchest/libuxre/re.h:6: Expresssion ==> Expression
+/Volumes/heirloom/src/toolchest/libuxre/regcomp.c:6: Expresssion ==> Expression
+/Volumes/heirloom/src/toolchest/libuxre/regdfa.c:6: Expresssion ==> Expression
+/Volumes/heirloom/src/toolchest/libuxre/regdfa.h:6: Expresssion ==> Expression
+/Volumes/heirloom/src/toolchest/libuxre/regerror.c:6: Expresssion ==> Expression
+/Volumes/heirloom/src/toolchest/libuxre/regerror.c:65: ESPACE ==> ESCAPE
+/Volumes/heirloom/src/toolchest/libuxre/regex.h:6: Expresssion ==> Expression
+/Volumes/heirloom/src/toolchest/libuxre/regexec.c:6: Expresssion ==> Expression
+/Volumes/heirloom/src/toolchest/libuxre/regfree.c:6: Expresssion ==> Expression
+/Volumes/heirloom/src/toolchest/libuxre/regnfa.c:6: Expresssion ==> Expression
+/Volumes/heirloom/src/toolchest/libuxre/regparse.c:6: Expresssion ==> Expression
+/Volumes/heirloom/src/toolchest/libuxre/stubs.c:6: Expresssion ==> Expression
+/Volumes/heirloom/src/toolchest/libuxre/wcharm.h:6: Expresssion ==> Expression
+/Volumes/heirloom/src/toolchest/more/more.1:25: acknowedgement ==> acknowledgement
+/Volumes/heirloom/src/toolchest/more/more.c:1414: ocurrence ==> occurrence
+/Volumes/heirloom/src/toolchest/more/more.c:1659: ue ==> use, due
+/Volumes/heirloom/src/toolchest/units/unittab:41: coul ==> could
+/Volumes/heirloom/src/toolchest/units/unittab:57: coul ==> could
+/Volumes/heirloom/src/toolchest/units/unittab:174: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/toolchest/units/unittab:194: coul ==> could
+/Volumes/heirloom/src/toolchest/units/unittab:195: coul ==> could
+/Volumes/heirloom/src/toolchest/units/unittab:201: coul ==> could
+/Volumes/heirloom/src/toolchest/units/unittab:350: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/toolchest/units/unittab:374: coul ==> could
+/Volumes/heirloom/src/toolchest/units/unittab:384: coul ==> could
+/Volumes/heirloom/src/toolchest/units/unittab:419: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/toolchest/units/unittab:421: lightyear ==> light year
+/Volumes/heirloom/src/toolchest/units/unittab:437: millenium ==> millennium
+/Volumes/heirloom/src/toolchest/units/unittab:477: ream ==> stream
+/Volumes/heirloom/src/toolchest/units/unittab:487: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/toolchest/units/unittab:488: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/toolchest/units/unittab:507: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/toolchest/units/unittab:523: bu ==> by, be, but, bug, bun, bud, buy, bum
+/Volumes/heirloom/src/toolchest/pg/pg.c:209: lenght ==> length
+/Volumes/heirloom/src/toolchest/pg/pg.c:515: ue ==> use, due
+/Volumes/heirloom/src/toolchest/pg/pg.c:790: occurence ==> occurrence
+/Volumes/heirloom/src/toolchest/pg/pg.c:1090: occurence ==> occurrence
+/Volumes/heirloom/src/toolchest/ps/ps.1:62: satifies ==> satisfies
+/Volumes/heirloom/src/toolchest/ps/ps.1:386: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/toolchest/ps/ps.1:445: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/toolchest/ps/ps.1b:102: satifies ==> satisfies
+/Volumes/heirloom/src/toolchest/ps/ps.1b:112: restriced ==> restricted
+/Volumes/heirloom/src/toolchest/ps/ps.1b:321: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/toolchest/ps/ps.1b:378: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/toolchest/ps/ps.c:953: nam ==> name
+/Volumes/heirloom/src/toolchest/ps/ps.c:957: nam ==> name
+/Volumes/heirloom/src/toolchest/ps/ps.c:959: nam ==> name
+/Volumes/heirloom/src/toolchest/ps/ps.c:961: nam ==> name
+/Volumes/heirloom/src/toolchest/ps/ps.c:962: nam ==> name
+/Volumes/heirloom/src/toolchest/ps/ps.c:4215: ot ==> to, of, or, not, it
+/Volumes/heirloom/src/toolchest/ps/ps.c:4220: ot ==> to, of, or, not, it
+/Volumes/heirloom/src/toolchest/ps/ps.c:4223: ot ==> to, of, or, not, it
+/Volumes/heirloom/src/toolchest/ul/ul.1:27: acknowedgement ==> acknowledgement
+/Volumes/heirloom/src/toolchest/ul/ul.c:621: nd ==> and, 2nd
+/Volumes/heirloom/src/toolchest/ul/ul.c:627: ue ==> use, due
+/Volumes/heirloom/src/toolchest/news/news.c:300: ans ==> and
+/Volumes/heirloom/src/toolchest/bfs/bfs.1:1: te ==> the, be, we, to
+/Volumes/heirloom/src/toolchest/bfs/bfs.c:108: fle ==> file
+/Volumes/heirloom/src/toolchest/bfs/bfs.c:474: fle ==> file
+/Volumes/heirloom/src/toolchest/bfs/bfs.c:474: fle ==> file
+/Volumes/heirloom/src/toolchest/bfs/bfs.c:475: fle ==> file
+/Volumes/heirloom/src/toolchest/bfs/bfs.c:476: fle ==> file
+/Volumes/heirloom/src/toolchest/bfs/bfs.c:486: fle ==> file
+/Volumes/heirloom/src/toolchest/dc/dc.c:63: commnds ==> commands, commends
+/Volumes/heirloom/src/toolchest/dc/dc.c:69: commnds ==> commands, commends
+/Volumes/heirloom/src/toolchest/dc/dc.c:82: readin ==> reading, read in
+/Volumes/heirloom/src/toolchest/dc/dc.c:98: readin ==> reading, read in
+/Volumes/heirloom/src/toolchest/dc/dc.c:999: commnds ==> commands, commends
+/Volumes/heirloom/src/toolchest/dc/dc.c:1024: readin ==> reading, read in
+/Volumes/heirloom/src/toolchest/dc/dc.h:143: commnds ==> commands, commends
+/Volumes/heirloom/src/toolchest/dc/dc.h:153: readin ==> reading, read in
+/Volumes/heirloom/src/toolchest/nl/nl.1:69: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/toolchest/rmdir/rmdir.1:40: specied ==> specified
+/Volumes/heirloom/src/toolchest/copy/copy.1:93: Recusively ==> Recursively, Reclusively
+/Volumes/heirloom/src/toolchest/find/find.1:122: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/toolchest/find/find.1:322: preceed ==> precede, proceed
+/Volumes/heirloom/src/toolchest/build/genintro:47: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/toolchest/build/genintro:57: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/toolchest/build/genintro.sh:47: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/toolchest/build/genintro.sh:57: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/toolchest/ls/ls.1:118: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/toolchest/ls/ls.1:264: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/toolchest/ls/ls.1:285: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/toolchest/ls/ls.1:300: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/toolchest/ls/ls.1:310: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/toolchest/ls/ls.1:318: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/toolchest/ls/ls.1:347: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/toolchest/ls/ls.1b:117: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/toolchest/ls/ls.1b:224: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/toolchest/ls/ls.1b:245: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/toolchest/ls/ls.1b:255: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/toolchest/ls/ls.1b:265: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/toolchest/ls/ls.1b:273: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/toolchest/ls/ls.1b:299: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/toolchest/ls/ls.c:161: Wether ==> Weather, Whether
+/Volumes/heirloom/src/toolchest/ls/ls.c:173: initalized ==> initialized
+/Volumes/heirloom/src/toolchest/ls/ls.c:324: Lenght ==> Length
+/Volumes/heirloom/src/toolchest/ls/ls.c:384: sord ==> sword, sore, sored, sawed, soared
+/Volumes/heirloom/src/toolchest/ls/ls.c:724: sord ==> sword, sore, sored, sawed, soared
+/Volumes/heirloom/src/toolchest/ls/ls.c:736: sord ==> sword, sore, sored, sawed, soared
+/Volumes/heirloom/src/toolchest/ls/ls.c:737: sord ==> sword, sore, sored, sawed, soared
+/Volumes/heirloom/src/toolchest/cp/cp.1:168: splitted ==> split
+/Volumes/heirloom/src/toolchest/cp/cp.c:232: isplay ==> display
+/Volumes/heirloom/src/toolchest/cp/cp.c:281: isplay ==> display
+/Volumes/heirloom/src/toolchest/cp/cp.c:286: iput ==> input
+/Volumes/heirloom/src/toolchest/cp/cp.c:292: isplay ==> display
+/Volumes/heirloom/src/toolchest/cp/cp.c:329: iput ==> input
+/Volumes/heirloom/src/toolchest/pgrep/pgrep.1:44: occurences ==> occurrences
+/Volumes/heirloom/src/toolchest/sdiff/sdiff.1:45: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/toolchest/sdiff/sdiff.1:114: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/toolchest/sdiff/sdiff.c:102: copyin ==> copying, copy in
+/Volumes/heirloom/src/toolchest/sdiff/sdiff.c:109: iput ==> input
+/Volumes/heirloom/src/toolchest/sdiff/sdiff.c:224: ot ==> to, of, or, not, it
+/Volumes/heirloom/src/toolchest/sdiff/sdiff.c:234: copyin ==> copying, copy in
+/Volumes/heirloom/src/toolchest/sdiff/sdiff.c:236: ot ==> to, of, or, not, it
+/Volumes/heirloom/src/toolchest/sdiff/sdiff.c:237: ot ==> to, of, or, not, it
+/Volumes/heirloom/src/toolchest/sdiff/sdiff.c:239: ot ==> to, of, or, not, it
+/Volumes/heirloom/src/toolchest/sdiff/sdiff.c:241: ot ==> to, of, or, not, it
+/Volumes/heirloom/src/toolchest/sdiff/sdiff.c:242: ot ==> to, of, or, not, it
+/Volumes/heirloom/src/toolchest/sdiff/sdiff.c:247: ot ==> to, of, or, not, it
+/Volumes/heirloom/src/toolchest/sdiff/sdiff.c:258: copyin ==> copying, copy in
+/Volumes/heirloom/src/toolchest/sdiff/sdiff.c:394: iput ==> input
+/Volumes/heirloom/src/toolchest/sdiff/sdiff.c:396: iput ==> input
+/Volumes/heirloom/src/toolchest/sdiff/sdiff.c:405: iput ==> input
+/Volumes/heirloom/src/toolchest/sdiff/sdiff.c:407: iput ==> input
+/Volumes/heirloom/src/toolchest/sdiff/sdiff.c:411: iput ==> input
+/Volumes/heirloom/src/toolchest/sdiff/sdiff.c:413: iput ==> input
+/Volumes/heirloom/src/toolchest/sdiff/sdiff.c:417: iput ==> input
+/Volumes/heirloom/src/toolchest/sdiff/sdiff.c:425: iput ==> input
+/Volumes/heirloom/src/toolchest/sdiff/sdiff.c:437: iput ==> input
+/Volumes/heirloom/src/toolchest/sdiff/sdiff.c:500: iput ==> input
+/Volumes/heirloom/src/toolchest/sdiff/sdiff.c:502: iput ==> input
+/Volumes/heirloom/src/toolchest/sdiff/sdiff.c:505: iput ==> input
+/Volumes/heirloom/src/toolchest/chown/chown.1b:37: ownwer ==> owner
+/Volumes/heirloom/src/toolchest/libcommon/oblok.c:40: bloks ==> blocks, blokes
+/Volumes/heirloom/src/toolchest/libcommon/oblok.c:49: bloks ==> blocks, blokes
+/Volumes/heirloom/src/toolchest/libcommon/oblok.c:66: bloks ==> blocks, blokes
+/Volumes/heirloom/src/toolchest/libcommon/oblok.c:67: bloks ==> blocks, blokes
+/Volumes/heirloom/src/toolchest/libcommon/oblok.c:70: bloks ==> blocks, blokes
+/Volumes/heirloom/src/toolchest/libcommon/oblok.c:83: bloks ==> blocks, blokes
+/Volumes/heirloom/src/toolchest/libcommon/oblok.c:84: bloks ==> blocks, blokes
+/Volumes/heirloom/src/toolchest/libcommon/oblok.c:89: bloks ==> blocks, blokes
+/Volumes/heirloom/src/toolchest/libcommon/oblok.c:90: bloks ==> blocks, blokes
+/Volumes/heirloom/src/toolchest/libcommon/oblok.h:49: dependant ==> dependent
+/Volumes/heirloom/src/toolchest/libcommon/sfile.h:37: occured ==> occurred
+/Volumes/heirloom/src/toolchest/libcommon/sys/mtio.h:43: retension ==> retention, pretension, recension
+/Volumes/heirloom/src/toolchest/tar/tar.1:338: splitted ==> split
+/Volumes/heirloom/src/toolchest/tar/tar.c:372: isplay ==> display
+/Volumes/heirloom/src/toolchest/tar/tar.c:374: iput ==> input
+/Volumes/heirloom/src/toolchest/tar/tar.c:1285: iput ==> input
+/Volumes/heirloom/src/toolchest/tar/tar.c:1791: WOTH ==> WORTH, WITH
+/Volumes/heirloom/src/toolchest/tar/tar.c:1801: WOTH ==> WORTH, WITH
+/Volumes/heirloom/src/toolchest/tar/tar.c:2107: tbe ==> the
+/Volumes/heirloom/src/toolchest/tar/tar.c:2126: tbe ==> the
+/Volumes/heirloom/src/toolchest/tar/tar.c:2985: isplay ==> display
+/Volumes/heirloom/src/toolchest/tar/tar.c:3037: isplay ==> display
+/Volumes/heirloom/src/toolchest/tar/tar.c:3045: iput ==> input
+/Volumes/heirloom/src/toolchest/tar/tar.c:3052: isplay ==> display
+/Volumes/heirloom/src/toolchest/rm/rm.1:90: unter ==> under
+/Volumes/heirloom/src/toolchest/paste/paste.1:85: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/toolchest/cpio/cpio.1:293: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/toolchest/cpio/cpio.1:533: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/toolchest/cpio/cpio.1:797: splitted ==> split
+/Volumes/heirloom/src/toolchest/cpio/cpio.1:899: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/toolchest/cpio/cpio.c:784: skipt ==> skip, skype, skipped
+/Volumes/heirloom/src/toolchest/cpio/cpio.c:858: isplay ==> display
+/Volumes/heirloom/src/toolchest/cpio/cpio.c:860: iput ==> input
+/Volumes/heirloom/src/toolchest/cpio/cpio.c:1425: iput ==> input
+/Volumes/heirloom/src/toolchest/cpio/cpio.c:2592: isplay ==> display
+/Volumes/heirloom/src/toolchest/cpio/cpio.c:2644: isplay ==> display
+/Volumes/heirloom/src/toolchest/cpio/cpio.c:2652: iput ==> input
+/Volumes/heirloom/src/toolchest/cpio/cpio.c:2659: isplay ==> display
+/Volumes/heirloom/src/toolchest/cpio/cpio.c:3226: shft ==> shift
+/Volumes/heirloom/src/toolchest/cpio/cpio.c:3229: shft ==> shift
+/Volumes/heirloom/src/toolchest/cpio/cpio.c:3233: shft ==> shift
+/Volumes/heirloom/src/toolchest/cpio/cpio.c:3245: shft ==> shift
+/Volumes/heirloom/src/toolchest/cpio/cpio.c:3250: shft ==> shift
+/Volumes/heirloom/src/toolchest/cpio/cpio.c:3430: iput ==> input
+/Volumes/heirloom/src/toolchest/cpio/cpio.c:3540: iput ==> input
+/Volumes/heirloom/src/toolchest/cpio/cpio.c:3545: occurence ==> occurrence
+/Volumes/heirloom/src/toolchest/cpio/explode.c:123: useable ==> usable
+/Volumes/heirloom/src/toolchest/cpio/flags.c:202: occurences ==> occurrences
+/Volumes/heirloom/src/toolchest/cpio/inflate.c:205: uncompressible ==> incompressible
+/Volumes/heirloom/src/toolchest/cpio/inflate.c:259: Similarily ==> Similarly
+/Volumes/heirloom/src/toolchest/cpio/inflate.c:400: begining ==> beginning
+/Volumes/heirloom/src/toolchest/cpio/inflate.c:707: nd ==> and, 2nd
+/Volumes/heirloom/src/toolchest/cpio/inflate.c:725: nd ==> and, 2nd
+/Volumes/heirloom/src/toolchest/cpio/inflate.c:730: nd ==> and, 2nd
+/Volumes/heirloom/src/toolchest/cpio/inflate.c:760: nd ==> and, 2nd
+/Volumes/heirloom/src/toolchest/cpio/inflate.c:831: nd ==> and, 2nd
+/Volumes/heirloom/src/toolchest/cpio/pax.1:272: occurence ==> occurrence
+/Volumes/heirloom/src/toolchest/cpio/pax.1:447: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/toolchest/cpio/pax.1:507: TE ==> THE, BE, WE, TO
+/Volumes/heirloom/src/toolchest/cpio/pax.1:772: splitted ==> split
+/Volumes/heirloom/src/toolchest/cpio/pax.1:864: TE ==> THE, BE, WE, TO

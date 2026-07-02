@@ -1,0 +1,47 @@
+Creating filelist for sh
+Creating filelist for devtools
+Creating filelist for toolchest
+Creating filelist for doctools
+Creating filelist for pkgtools
+Categorizing files.
+Finding a working MD5 command....
+Found a working MD5 command.
+Computing results.
+
+
+SLOC	Directory	SLOC-by-Language (Sorted)
+115710  toolchest       ansic=107625,yacc=2759,sh=2435,sed=2202,lex=689
+95654   pkgtools        ansic=94122,lex=754,yacc=655,awk=62,sed=61
+62514   doctools        ansic=58179,cpp=2311,yacc=810,sh=562,lex=559,perl=77,
+                        sed=16
+46111   devtools        ansic=23796,cpp=20997,yacc=1166,sh=152
+10327   sh              ansic=10327
+
+
+Totals grouped by language (dominant language first):
+ansic:       294049 (89.02%)
+cpp:          23308 (7.06%)
+yacc:          5390 (1.63%)
+sh:            3149 (0.95%)
+sed:           2279 (0.69%)
+lex:           2002 (0.61%)
+perl:            77 (0.02%)
+awk:             62 (0.02%)
+
+
+
+
+Total Physical Source Lines of Code (SLOC)                = 330,316
+Development Effort Estimate, Person-Years (Person-Months) = 88.29 (1,059.47)
+ (Basic COCOMO model, Person-Months = 2.4 * (KSLOC**1.05))
+Schedule Estimate, Years (Months)                         = 2.94 (35.28)
+ (Basic COCOMO model, Months = 2.5 * (person-months**0.38))
+Estimated Average Number of Developers (Effort/Schedule)  = 30.03
+Total Estimated Cost to Develop                           = $ 11,926,629
+ (average salary = $56,286/year, overhead = 2.40).
+SLOCCount, Copyright (C) 2001-2004 David A. Wheeler
+SLOCCount is Open Source Software/Free Software, licensed under the GNU GPL.
+SLOCCount comes with ABSOLUTELY NO WARRANTY, and you are welcome to
+redistribute it under certain conditions as specified by the GNU GPL license;
+see the documentation for details.
+Please credit this data as "generated using David A. Wheeler's 'SLOCCount'."

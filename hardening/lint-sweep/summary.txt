@@ -1,0 +1,56 @@
+
+=== Heirloom lint sweep — 2026-07-02T19:37:27Z ===
+
+=== tokei — source metrics ===
+
+=== sloccount — historical SLOC ===
+
+=== cppcheck — static analyser ===
+     100 /Volumes/heirloom/src/hardening/lint-sweep/report-cppcheck.txt
+
+=== flawfinder — CWE-oriented risky-function scanner ===
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+
+ANALYSIS SUMMARY:
+
+Hits = 5917
+Lines analyzed = 467089 in approximately 3.02 seconds (154455 lines/second)
+Physical Source Lines of Code (SLOC) = 325316
+Hits@level = [0] 5476 [1] 1859 [2] 3632 [3] 376 [4] 1830 [5]  79
+Hits@level+ = [0+] 13252 [1+] 7776 [2+] 5917 [3+] 2285 [4+] 1909 [5+]  79
+Hits/KSLOC@level+ = [0+] 40.7358 [1+] 23.9029 [2+] 18.1885 [3+] 7.02394 [4+] 5.86814 [5+] 0.242841
+Symlinks skipped = 3 (--allowlink overrides but see doc for security issue)
+Minimum risk level = 2
+
+Not every hit is necessarily a security vulnerability.
+You can inhibit a report by adding a comment in this form:
+// flawfinder: ignore
+Make *sure* it's a false positive!
+You can use the option --neverignore to show these.
+
+There may be other security vulnerabilities; review your code!
+See 'Secure Programming HOWTO'
+(https://dwheeler.com/secure-programs) for more information.
+
+=== splint — K&R-era analyser (samples on hot utils) ===
+16
+
+=== clang-tidy — modern static analyser (samples on hot utils) ===
+55
+
+=== codespell — typos in comments/strings ===
+    2541
+
+=== shellcheck — Bourne + ksh linter ===
+250
+
+=== shfmt — shell format check ===
+      60 /Volumes/heirloom/src/hardening/lint-sweep/report-shfmt.txt
+
+=== include-what-you-use — include hygiene (sample) ===
+6
+
+=== sweep complete — reports in /Volumes/heirloom/src/hardening/lint-sweep/ ===

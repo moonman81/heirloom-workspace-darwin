@@ -1,0 +1,104 @@
+
+--- /Volumes/heirloom/src/toolchest/cpio/cpio.c ---
+/Volumes/heirloom/src/toolchest/cpio/cpio.c:1833:5: warning: 'strcpy' will always overflow; destination buffer has size 6, but the source string has length 8 (including NUL byte) [-Wfortify-source]
+ 1833 |                                 strcpy(bc.Tdr.t_magic, mag_gnutar);
+      |                                 ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/secure/_string.h:249:21: note: expanded from macro 'strcpy'
+  249 | #define strcpy(...) __strcpy_chk_func (__VA_ARGS__)
+      |                     ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/secure/_string.h:172:3: note: expanded from macro '__strcpy_chk_func'
+  172 |                 __builtin___strcpy_chk (dest, __VA_ARGS__, __darwin_obsz (dest))
+      |                 ^
+/Volumes/heirloom/src/toolchest/cpio/cpio.c:3688:55: warning: ^ has lower precedence than !=; != will be evaluated first [-Wparentheses]
+ 3688 |         if ((patterns == NULL || (gp = want(f, &gb)) != NULL ^ fflag) &&
+      |                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+/Volumes/heirloom/src/toolchest/cpio/cpio.c:3688:55: note: place parentheses around the '!=' expression to silence this warning
+ 3688 |         if ((patterns == NULL || (gp = want(f, &gb)) != NULL ^ fflag) &&
+      |                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^
+/Volumes/heirloom/src/toolchest/cpio/cpio.c:3688:55: note: place parentheses around the ^ expression to evaluate it first
+ 3688 |         if ((patterns == NULL || (gp = want(f, &gb)) != NULL ^ fflag) &&
+      |                                                         ~~~~~^~~~~~~
+/Volumes/heirloom/src/toolchest/cpio/cpio.c:6719:11: warning: enumeration value 'PR_NONE' not handled in switch [-Wswitch]
+ 6719 |                 switch (pr) {
+      |                         ^~
+
+/Volumes/heirloom/src/toolchest/cpio/cpio.h should add these lines:
+#include <stddef.h>     // for size_t
+
+/Volumes/heirloom/src/toolchest/cpio/cpio.h should remove these lines:
+
+The full include-list for /Volumes/heirloom/src/toolchest/cpio/cpio.h:
+#include <inttypes.h>   // for uint32_t, uint8_t
+#include <stddef.h>     // for size_t
+#include <sys/stat.h>   // for stat
+#include <sys/types.h>  // for time_t, ssize_t
+---
+
+/Volumes/heirloom/src/toolchest/cpio/cpio.c should add these lines:
+#include <_ctype.h>     // for isspace
+#include <_stdio.h>     // for sprintf, stderr, fprintf, putchar, fflush
+#include <_stdlib.h>    // for strtoll, exit, strtol
+#include <_string.h>    // for memcmp, memset, memcpy, strcpy, strlen, strcmp
+#include <_time.h>      // for localtime, mktime, strftime, time
+
+/Volumes/heirloom/src/toolchest/cpio/cpio.c should remove these lines:
+- #include <atoll.h>  // lines 92-92
+- #include <ctype.h>  // lines 68-68
+- #include <malloc.h>  // lines 52-52
+- #include <sfile.h>  // lines 91-91
+- #include <string.h>  // lines 53-53
+
+The full include-list for /Volumes/heirloom/src/toolchest/cpio/cpio.c:
+#include "cpio.h"
+
+--- /Volumes/heirloom/src/toolchest/find/find.c ---
+/Volumes/heirloom/src/toolchest/find/find.c:784:11: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+  784 |         while (na=oargv[oargc++]) {
+      |                ~~^~~~~~~~~~~~~~~
+/Volumes/heirloom/src/toolchest/find/find.c:784:11: note: place parentheses around the assignment to silence this warning
+  784 |         while (na=oargv[oargc++]) {
+      |                  ^              
+      |                (                )
+/Volumes/heirloom/src/toolchest/find/find.c:784:11: note: use '==' to turn this assignment into an equality comparison
+  784 |         while (na=oargv[oargc++]) {
+      |                  ^
+      |                  ==
+/Volumes/heirloom/src/toolchest/find/find.c:803:9: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+  803 |         if(pid = fork()) /*parent*/ while (wait(&ccode) != pid);
+      |            ~~~~^~~~~~~~
+/Volumes/heirloom/src/toolchest/find/find.c:803:9: note: place parentheses around the assignment to silence this warning
+  803 |         if(pid = fork()) /*parent*/ while (wait(&ccode) != pid);
+      |                ^       
+      |            (           )
+/Volumes/heirloom/src/toolchest/find/find.c:803:9: note: use '==' to turn this assignment into an equality comparison
+  803 |         if(pid = fork()) /*parent*/ while (wait(&ccode) != pid);
+      |                ^
+      |                ==
+/Volumes/heirloom/src/toolchest/find/find.c:1407:12: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+ 1407 |                 while (o = what(&ms)) {
+      |                        ~~^~~~~~~~~~~
+/Volumes/heirloom/src/toolchest/find/find.c:1407:12: note: place parentheses around the assignment to silence this warning
+ 1407 |                 while (o = what(&ms)) {
+      |                          ^          
+      |                        (            )
+/Volumes/heirloom/src/toolchest/find/find.c:1407:12: note: use '==' to turn this assignment into an equality comparison
+ 1407 |                 while (o = what(&ms)) {
+      |                          ^
+      |                          ==
+
+/Volumes/heirloom/src/toolchest/find/find.c should add these lines:
+#include <_stdio.h>        // for stderr, fprintf, fflush, stdout, puts, vfp...
+#include <_stdlib.h>       // for atol, exit, atoll, strtol, getenv
+#include <_string.h>       // for strcmp, strerror, strlen, strdup, strchr
+#include <_time.h>         // for time
+
+/Volumes/heirloom/src/toolchest/find/find.c should remove these lines:
+- #include <string.h>  // lines 57-57
+- #include <sys/param.h>  // lines 80-80
+- #include <time.h>  // lines 65-65
+- #include "atoll.h"  // lines 94-94
+
+The full include-list for /Volumes/heirloom/src/toolchest/find/find.c:
+#include <_stdio.h>        // for stderr, fprintf, fflush, stdout, puts, vfp...
+#include <_stdlib.h>       // for atol, exit, atoll, strtol, getenv
+#include <_string.h>       // for strcmp, strerror, strlen, strdup, strchr

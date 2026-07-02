@@ -1,0 +1,135 @@
+
+--- /Volumes/heirloom/src/sh/main.c ---
+Splint 3.1.2 --- 15 Sep 2025
+
+sh/mode.h:47:15: Type BOOL is probably meant as a boolean type, but the boolean
+                    type name is not set. Use -booltype BOOL to set it.
+  Use the -booltype, -boolfalse and -booltrue flags to change the name of the
+  default boolean type. (Use -likelybool to inhibit warning)
+sh/defs.h:232:6: Function sleep inconsistently declared to return void
+  A function, variable or constant is redefined with a different type. (Use
+  -incondefs to inhibit warning)
+   load file posix.lcd: Specification of sleep: unsigned int
+sh/main.c:63:29: Variable tmpout initialized to type char *, expects unsigned
+                    char []: "/tmp/sh-"
+  Types are incompatible. (Use -type to inhibit warning)
+sh/main.c:69:25: Static mod_time initialized to null value:
+                    long int * mod_time = 0 = 0
+  A reference with no null annotation is assigned or initialized to NULL.  Use
+  /*@null@*/ to declare the reference as a possibly null pointer. (Use
+  -nullassign to inhibit warning)
+sh/main.c:85:1: Function main declared with 3 args, should have 2 (int argc,
+                   char *argv[])
+  The function main does not match the expected type. (Use -maintype to inhibit
+  warning)
+sh/main.c: (in function main)
+sh/main.c:94:11: Unrecognized identifier: getpgid
+  Identifier used in code has not been declared. (Use -unrecog to inhibit
+
+--- /Volumes/heirloom/src/toolchest/cpio/cpio.c ---
+Splint 3.1.2 --- 15 Sep 2025
+
+toolchest/cpio/cpio.c: (in function le16p)
+toolchest/cpio/cpio.c:289:2: Assignment of uint16_t to char:
+                                cp[0] = (n & 0x00ff)
+  Types are incompatible. (Use -type to inhibit warning)
+toolchest/cpio/cpio.c:290:2: Assignment of uint16_t to char:
+                                cp[1] = (n & 0xff00) >> 8
+toolchest/cpio/cpio.c: (in function be16p)
+toolchest/cpio/cpio.c:296:2: Assignment of uint16_t to char:
+                                cp[1] = (n & 0x00ff)
+toolchest/cpio/cpio.c:297:2: Assignment of uint16_t to char:
+                                cp[0] = (n & 0xff00) >> 8
+toolchest/cpio/cpio.c: (in function le32p)
+toolchest/cpio/cpio.c:303:2: Assignment of uint32_t to char:
+                                cp[0] = (n & 0x000000ff)
+toolchest/cpio/cpio.c:304:2: Assignment of uint32_t to char:
+                                cp[1] = (n & 0x0000ff00) >> 8
+toolchest/cpio/cpio.c:305:2: Assignment of uint32_t to char:
+                                cp[2] = (n & 0x00ff0000) >> 16
+toolchest/cpio/cpio.c:306:2: Assignment of uint32_t to char:
+                                cp[3] = (n & 0xff000000) >> 24
+toolchest/cpio/cpio.c: (in function be32p)
+toolchest/cpio/cpio.c:312:2: Assignment of uint32_t to char:
+                                cp[3] = (n & 0x000000ff)
+
+--- /Volumes/heirloom/src/toolchest/tar/tar.c ---
+Splint 3.1.2 --- 15 Sep 2025
+
+toolchest/tar/tar.c:249:4: Static magtapes[0].device initialized to null value:
+                              magtapes[0].device = NULL
+  A reference with no null annotation is assigned or initialized to NULL.  Use
+  /*@null@*/ to declare the reference as a possibly null pointer. (Use
+  -nullassign to inhibit warning)
+toolchest/tar/tar.c:250:4: Static magtapes[1].device initialized to null value:
+                              magtapes[1].device = NULL
+toolchest/tar/tar.c:251:4: Static magtapes[2].device initialized to null value:
+                              magtapes[2].device = NULL
+toolchest/tar/tar.c:252:4: Static magtapes[3].device initialized to null value:
+                              magtapes[3].device = NULL
+toolchest/tar/tar.c:253:4: Static magtapes[4].device initialized to null value:
+                              magtapes[4].device = NULL
+toolchest/tar/tar.c:254:4: Static magtapes[5].device initialized to null value:
+                              magtapes[5].device = NULL
+toolchest/tar/tar.c:255:4: Static magtapes[6].device initialized to null value:
+                              magtapes[6].device = NULL
+toolchest/tar/tar.c:256:4: Static magtapes[7].device initialized to null value:
+                              magtapes[7].device = NULL
+toolchest/tar/tar.c:257:4: Static magtapes[8].device initialized to null value:
+                              magtapes[8].device = NULL
+toolchest/tar/tar.c:258:4: Static magtapes[9].device initialized to null value:
+                              magtapes[9].device = NULL
+
+--- /Volumes/heirloom/src/toolchest/su/su.c ---
+Splint 3.1.2 --- 15 Sep 2025
+
+toolchest/su/su.c:96:35: Unrecognized identifier: SUDFL
+  Identifier used in code has not been declared. (Use -unrecog to inhibit
+  warning)
+toolchest/su/su.c: (in function smalloc)
+toolchest/su/su.c:110:3: Return value (type ssize_t) ignored:
+                            write(2, "Out of...
+  Result returned by function call is not used. If this is intended, can cast
+  result to (void) to eliminate message. (Use -retvalother to inhibit warning)
+toolchest/su/su.c:111:8: Argument to exit has implementation defined behavior:
+                            077
+  The argument to exit should be 0, EXIT_SUCCESS or EXIT_FAILURE (Use -exitarg
+  to inhibit warning)
+toolchest/su/su.c:113:9: Returned storage p not completely defined (*p is
+                            undefined): p
+  Storage derivable from a parameter, return value or global is not defined.
+  Use /*@out@*/ to denote passed or returned storage which need not be defined.
+  (Use -compdef to inhibit warning)
+   toolchest/su/su.c:109:7: Storage *p allocated
+toolchest/su/su.c: (in function doenv)
+toolchest/su/su.c:123:6: Test expression for if not boolean, type int: dash
+  Test expression type is not boolean or int. (Use -predboolint to inhibit
+  warning)
+toolchest/su/su.c:130:4: Buffer overflow possible with sprintf.  Recommend
+
+--- /Volumes/heirloom/src/toolchest/find/find.c ---
+Splint 3.1.2 --- 15 Sep 2025
+
+toolchest/find/find.c: (in macro ctime)
+toolchest/find/find.c:111:16: Unrecognized identifier in macro definition:
+                                 find_ctime
+  An unrecognized identifier appears in a macro. If the identifier is defined
+  before the macro is used, then this is okay. (Use -macrounrecog to inhibit
+  warning)
+toolchest/find/find.c:111:16: Function ctime defined by unparameterized macro
+                                 not corresponding to function
+  A function, variable or constant is redefined with a different type. (Use
+  -incondefs to inhibit warning)
+toolchest/find/find.c:198:53: Unrecognized identifier: lstat
+  Identifier used in code has not been declared. (Use -unrecog to inhibit
+  warning)
+toolchest/find/find.c:216:12: Function ctime shadows outer declaration
+  An outer declaration is shadowed by the local declaration. (Use -shadow to
+  inhibit warning)
+   toolchest/find/find.c:111: Previous definition of ctime:
+   [function (time_t *) returns char *]
+toolchest/find/find.c: (in function main)
+toolchest/find/find.c:263:33: Local nlist.l.L initialized to null value:
+                                 nlist.l.L = 0
+  A reference with no null annotation is assigned or initialized to NULL.  Use
+  /*@null@*/ to declare the reference as a possibly null pointer. (Use

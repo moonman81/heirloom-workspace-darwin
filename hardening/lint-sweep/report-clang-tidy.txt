@@ -1,0 +1,203 @@
+
+--- /Volumes/heirloom/src/toolchest/cpio/cpio.c ---
+581 warnings generated.
+/Volumes/heirloom/src/toolchest/cpio/cpio.c:122:5: warning: no header providing "S_IFIFO" is directly included [misc-include-cleaner]
+   32 | #if     S_IFIFO != 0010000 || \
+      |         ^
+/Volumes/heirloom/src/toolchest/cpio/cpio.c:123:2: warning: no header providing "S_IFCHR" is directly included [misc-include-cleaner]
+  123 |         S_IFCHR != 0020000 || \
+      |         ^
+/Volumes/heirloom/src/toolchest/cpio/cpio.c:124:2: warning: no header providing "S_IFDIR" is directly included [misc-include-cleaner]
+  124 |         S_IFDIR != 0040000 || \
+      |         ^
+/Volumes/heirloom/src/toolchest/cpio/cpio.c:125:2: warning: no header providing "S_IFBLK" is directly included [misc-include-cleaner]
+  125 |         S_IFBLK != 0060000 || \
+      |         ^
+/Volumes/heirloom/src/toolchest/cpio/cpio.c:126:2: warning: no header providing "S_IFREG" is directly included [misc-include-cleaner]
+  126 |         S_IFREG != 0100000 || \
+      |         ^
+/Volumes/heirloom/src/toolchest/cpio/cpio.c:127:2: warning: no header providing "S_IFLNK" is directly included [misc-include-cleaner]
+  127 |         S_IFLNK != 0120000 || \
+      |         ^
+/Volumes/heirloom/src/toolchest/cpio/cpio.c:128:2: warning: no header providing "S_IFSOCK" is directly included [misc-include-cleaner]
+  128 |         S_IFSOCK!= 0140000 || \
+      |         ^
+/Volumes/heirloom/src/toolchest/cpio/cpio.c:129:2: warning: no header providing "S_IFMT" is directly included [misc-include-cleaner]
+  129 |         S_IFMT  != 0170000
+      |         ^
+/Volumes/heirloom/src/toolchest/cpio/cpio.c:192:2: warning: no header providing "ino_t" is directly included [misc-include-cleaner]
+   32 |         ino_t           i_ino;  /* real inode number */
+      |         ^
+/Volumes/heirloom/src/toolchest/cpio/cpio.c:193:2: warning: no header providing "uint32_t" is directly included [misc-include-cleaner]
+   32 |         uint32_t        i_fino; /* fake inode number */
+      |         ^
+/Volumes/heirloom/src/toolchest/cpio/cpio.c:194:2: warning: no header providing "nlink_t" is directly included [misc-include-cleaner]
+   32 |         nlink_t         i_nlk;  /* number of remaining links */
+      |         ^
+/Volumes/heirloom/src/toolchest/cpio/cpio.c:202:2: warning: no header providing "dev_t" is directly included [misc-include-cleaner]
+   32 |         dev_t           d_dev;  /* real device id */
+      |         ^
+/Volumes/heirloom/src/toolchest/cpio/cpio.c:206:2: warning: no header providing "uint8_t" is directly included [misc-include-cleaner]
+  206 |         uint8_t         byte[2];
+      |         ^
+/Volumes/heirloom/src/toolchest/cpio/cpio.c:207:2: warning: no header providing "uint16_t" is directly included [misc-include-cleaner]
+  207 |         uint16_t        sword;
+      |         ^
+/Volumes/heirloom/src/toolchest/cpio/cpio.c:260:8: warning: no header providing "uint64_t" is directly included [misc-include-cleaner]
+  260 | static uint64_t
+      |        ^
+/Volumes/heirloom/src/toolchest/cpio/cpio.c:289:10: warning: narrowing conversion from 'int' to signed type 'char' is implementation-defined [bugprone-narrowing-conversions]
+  289 |         cp[0] = (n&0x00ff);
+      |                 ^
+/Volumes/heirloom/src/toolchest/cpio/cpio.c:290:10: warning: narrowing conversion from 'int' to signed type 'char' is implementation-defined [bugprone-narrowing-conversions]
+
+--- /Volumes/heirloom/src/toolchest/tar/tar.c ---
+448 warnings and 4 errors generated.
+Error while processing /Volumes/heirloom/src/toolchest/tar/tar.c.
+/Volumes/heirloom/src/toolchest/libcommon/sys/mtio.h:23:9: warning: declaration uses identifier '_HEIRLOOM_DARWIN_SYS_MTIO_H', which is a reserved identifier [bugprone-reserved-identifier,cert-dcl37-c,cert-dcl51-cpp]
+   23 | #define _HEIRLOOM_DARWIN_SYS_MTIO_H
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |         HEIRLOOM_DARWIN_SYS_MTIO_H
+/Volumes/heirloom/src/toolchest/tar/tar.c:71:1: warning: included header dirent.h is not used directly [misc-include-cleaner]
+   71 | #include <dirent.h>
+      | ^~~~~~~~~~~~~~~~~~~
+   72 | #include <signal.h>
+/Volumes/heirloom/src/toolchest/tar/tar.c:144:17: warning: no header providing "SSIZE_MAX" is directly included [misc-include-cleaner]
+   39 | #define MAXBLF  (SSIZE_MAX/TBLOCK)
+      |                  ^
+/Volumes/heirloom/src/toolchest/tar/tar.c:185:2: warning: no header providing "ino_t" is directly included [misc-include-cleaner]
+   39 |         ino_t           inum;   /* inode number */
+      |         ^
+/Volumes/heirloom/src/toolchest/tar/tar.c:194:2: warning: no header providing "dev_t" is directly included [misc-include-cleaner]
+   39 |         dev_t           devnum; /* real device id */
+      |         ^
+/Volumes/heirloom/src/toolchest/tar/tar.c:220:3: warning: variable 'bflag' can be made static to enforce internal linkage [misc-use-internal-linkage]
+  215 | enum {
+      | static 
+  216 |         B_UNSPEC = 0,
+  217 |         B_AUTO   = 1,
+  218 |         B_DEFN   = 2,
+  219 |         B_USER   = 3
+  220 | } bflag;
+      |   ^
+/Volumes/heirloom/src/toolchest/tar/tar.c:234:8: warning: no header providing "off_t" is directly included [misc-include-cleaner]
+   39 | static off_t    low;
+      |        ^
+/Volumes/heirloom/src/toolchest/tar/tar.c:284:8: warning: no header providing "uid_t" is directly included [misc-include-cleaner]
+   39 | static uid_t    myuid;
+      |        ^
+/Volumes/heirloom/src/toolchest/tar/tar.c:285:8: warning: no header providing "gid_t" is directly included [misc-include-cleaner]
+   39 | static gid_t    mygid;
+      |        ^
+/Volumes/heirloom/src/toolchest/tar/tar.c:316:48: warning: no header providing "mode_t" is directly included [misc-include-cleaner]
+   39 | static int      xtrdev(const char *, struct stat *, mode_t);
+      |                                                     ^
+/Volumes/heirloom/src/toolchest/tar/tar.c:351:8: warning: no header providing "ssize_t" is directly included [misc-include-cleaner]
+   39 | static ssize_t  mtread(void *, size_t);
+      |        ^
+/Volumes/heirloom/src/toolchest/tar/tar.c:393:13: warning: an assignment within an 'if' condition is bug-prone [bugprone-assignment-in-if-condition]
+  393 |         if ((myuid = getuid()) != 0)
+      |              ~~~~~~^~~~~~~~~~
+/Volumes/heirloom/src/toolchest/tar/tar.c:393:13: note: if it should be an assignment, move it out of the 'if' condition
+/Volumes/heirloom/src/toolchest/tar/tar.c:393:13: note: if it is meant to be an equality check, change '=' to '=='
+/Volumes/heirloom/src/toolchest/tar/tar.c:463:13: warning: 'atoi' used to convert a string to an integer value, but function will not report conversion errors; consider using 'strtol' instead [bugprone-unchecked-string-to-number-conversion,cert-err34-c]
+  463 |                         nblock = atoi(*argv++);
+
+--- /Volumes/heirloom/src/toolchest/su/su.c ---
+352 warnings and 1 error generated.
+Error while processing /Volumes/heirloom/src/toolchest/su/su.c.
+/Volumes/heirloom/src/toolchest/su/su.c:38:1: warning: included header types.h is not used directly [misc-include-cleaner]
+   38 | #include        <sys/types.h>
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   39 | #include        <sys/wait.h>
+/Volumes/heirloom/src/toolchest/su/su.c:40:1: warning: included header stat.h is not used directly [misc-include-cleaner]
+   40 | #include        <sys/stat.h>
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   41 | #include        <fcntl.h>
+/Volumes/heirloom/src/toolchest/su/su.c:45:1: warning: included header strings.h is not used directly [misc-include-cleaner]
+   45 | #include        <strings.h>
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+   46 | #include        <stdlib.h>
+/Volumes/heirloom/src/toolchest/su/su.c:52:1: warning: included header grp.h is not used directly [misc-include-cleaner]
+   52 | #include        <grp.h>
+      | ^~~~~~~~~~~~~~~~~~~~~~~
+   53 | #include        <termios.h>
+/Volumes/heirloom/src/toolchest/su/su.c:62:1: warning: included header pam_appl.h is not used directly [misc-include-cleaner]
+   62 | #include        <security/pam_appl.h>
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   63 | #elif   PAM
+/Volumes/heirloom/src/toolchest/su/su.c:96:35: error: use of undeclared identifier 'SUDFL' [clang-diagnostic-error]
+   96 | static const char       defaultfile[] = SUDFL;
+      |                                         ^~~~~
+/Volumes/heirloom/src/toolchest/su/su.c:109:9: warning: an assignment within an 'if' condition is bug-prone [bugprone-assignment-in-if-condition]
+  109 |         if ((p = malloc(nbytes)) == NULL) {
+      |              ~~^~~~~~~~~~~~~~~~
+/Volumes/heirloom/src/toolchest/su/su.c:109:9: note: if it should be an assignment, move it out of the 'if' condition
+/Volumes/heirloom/src/toolchest/su/su.c:109:9: note: if it is meant to be an equality check, change '=' to '=='
+/Volumes/heirloom/src/toolchest/su/su.c:128:16: warning: an assignment within an 'if' condition is bug-prone [bugprone-assignment-in-if-condition]
+  128 |                 if ((oldterm = getenv("TERM")) != NULL) {
+      |                      ~~~~~~~~^~~~~~~~~~~~~~~~
+/Volumes/heirloom/src/toolchest/su/su.c:128:16: note: if it should be an assignment, move it out of the 'if' condition
+/Volumes/heirloom/src/toolchest/su/su.c:128:16: note: if it is meant to be an equality check, change '=' to '=='
+/Volumes/heirloom/src/toolchest/su/su.c:133:19: warning: an assignment within an 'if' condition is bug-prone [bugprone-assignment-in-if-condition]
+  133 |                 if ((olddisplay = getenv("DISPLAY")) != NULL) {
+      |                      ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+/Volumes/heirloom/src/toolchest/su/su.c:133:19: note: if it should be an assignment, move it out of the 'if' condition
+/Volumes/heirloom/src/toolchest/su/su.c:133:19: note: if it is meant to be an equality check, change '=' to '=='
+/Volumes/heirloom/src/toolchest/su/su.c:141:3: warning: no header providing "putenv" is directly included [misc-include-cleaner]
+   28 |                 putenv(cp);
+      |                 ^
+/Volumes/heirloom/src/toolchest/su/su.c:164:23: warning: narrowing conversion from 'gid_t' (aka 'unsigned int') to signed type 'int' is implementation-defined [bugprone-narrowing-conversions]
+  164 |         if (initgroups(user, pwd->pw_gid) < 0 || setgid(pwd->pw_gid) < 0
+      |                              ^
+/Volumes/heirloom/src/toolchest/su/su.c:183:9: warning: no header providing "SIGQUIT" is directly included [misc-include-cleaner]
+   28 |         signal(SIGQUIT, oldquit);
+      |                ^
+/Volumes/heirloom/src/toolchest/su/su.c:196:2: warning: no header providing "pid_t" is directly included [misc-include-cleaner]
+
+--- /Volumes/heirloom/src/pkgtools/libpkg/pkgerr.c ---
+323 warnings generated.
+/Volumes/heirloom/src/pkgtools/hdrs/libintl.h:16:9: warning: declaration uses identifier '_HEIRLOOM_DARWIN_LIBINTL_H', which is a reserved identifier [bugprone-reserved-identifier,cert-dcl37-c,cert-dcl51-cpp]
+   16 | #define _HEIRLOOM_DARWIN_LIBINTL_H
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |         HEIRLOOM_DARWIN_LIBINTL_H
+/Volumes/heirloom/src/pkgtools/libpkg/pkgerr.c:43:1: warning: included header types.h is not used directly [misc-include-cleaner]
+   43 | #include <sys/types.h>
+      | ^~~~~~~~~~~~~~~~~~~~~~
+   44 | #include <locale.h>
+/Volumes/heirloom/src/pkgtools/libpkg/pkgerr.c:44:1: warning: included header locale.h is not used directly [misc-include-cleaner]
+   44 | #include <locale.h>
+      | ^~~~~~~~~~~~~~~~~~~
+   45 | #include <libintl.h>
+/Volumes/heirloom/src/pkgtools/libpkg/pkgerr.c:45:1: warning: included header libintl.h is not used directly [misc-include-cleaner]
+   45 | #include <libintl.h>
+      | ^~~~~~~~~~~~~~~~~~~~
+   46 | #include <stdlib.h>
+/Volumes/heirloom/src/pkgtools/libpkg/pkgerr.c:69:17: warning: no header providing "NULL" is directly included [misc-include-cleaner]
+   41 |         newerr->msgs = NULL;
+      |                        ^
+/Volumes/heirloom/src/pkgtools/libpkg/pkgerr.c:86:23: warning: 'err->msgs' may be set to null if 'realloc' fails, which may result in a leak of the original buffer [bugprone-suspicious-realloc-usage]
+   86 |         err->msgs = (char **)realloc(err->msgs,
+      |         ~~~~~~~~~            ^       ~~~~~~~~~
+/Volumes/heirloom/src/pkgtools/libpkg/pkgerr.c:86:31: warning: multilevel pointer conversion from 'char **' to 'void *', please use explicit cast [bugprone-multi-level-implicit-pointer-conversion]
+   86 |         err->msgs = (char **)realloc(err->msgs,
+      |                                      ^
+/Volumes/heirloom/src/pkgtools/libpkg/pkgerr.c:88:30: warning: 'err->errs' may be set to null if 'realloc' fails, which may result in a leak of the original buffer [bugprone-suspicious-realloc-usage]
+   88 |         err->errs = (PKG_ERR_CODE *)realloc(err->errs,
+      |         ~~~~~~~~~                   ^       ~~~~~~~~~
+/Volumes/heirloom/src/pkgtools/libpkg/pkgerr.c:90:30: warning: no header providing "strdup" is directly included [misc-include-cleaner]
+   41 |         err->msgs[err->nerrs - 1] = strdup(errmsgbuf);
+      |                                     ^
+/Volumes/heirloom/src/pkgtools/libpkg/pkgerr.c:103:7: warning: multilevel pointer conversion from 'char **' to 'void *', please use explicit cast [bugprone-multi-level-implicit-pointer-conversion]
+  103 |         free(err->msgs);
+      |              ^
+/Volumes/heirloom/src/pkgtools/libpkg/pkgerr.h:28:9: warning: declaration uses identifier '_PKGERR_H', which is a reserved identifier [bugprone-reserved-identifier,cert-dcl37-c,cert-dcl51-cpp]
+   28 | #define _PKGERR_H
+      |         ^~~~~~~~~
+      |         PKGERR_H
+/Volumes/heirloom/src/pkgtools/libpkg/pkgerr.h:93:16: warning: declaration uses identifier '_pkg_err_struct', which is reserved in the global namespace [bugprone-reserved-identifier,cert-dcl37-c,cert-dcl51-cpp]
+   93 | typedef struct _pkg_err_struct PKG_ERR;
+      |                ^~~~~~~~~~~~~~~
+      |                pkg_err_struct
+Suppressed 305 warnings (305 in non-user code).
+Use -header-filter=.* or leave it as default to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
