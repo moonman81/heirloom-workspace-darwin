@@ -1,0 +1,20 @@
+=== Heirloom setuid / setgid audit ===
+Prefix: /opt/heirloom
+Date:   2026-07-02T20:52:05Z
+
+--- Enumerated setuid + setgid targets ---
+  (none)
+
+--- Cross-check against source setuid intent ---
+  intent  su -> uid=0 gid=root (per Toolchest makefile)
+    actual  100755 nonroot staff  /opt/heirloom/bin/su
+  intent  ps -> uid=0 gid=root (per Toolchest makefile)
+    actual  100755 nonroot staff  /opt/heirloom/bin/ps
+  intent  shl -> uid=0 gid=adm (per Toolchest makefile)
+    actual  100755 nonroot staff  /opt/heirloom/bin/shl
+
+--- Shared library dependency trust ---
+
+--- @rpath entries (DYLD_LIBRARY_PATH injection surface) ---
+
+=== Report written to /Volumes/heirloom/src/hardening/setuid-audit/report.txt ===

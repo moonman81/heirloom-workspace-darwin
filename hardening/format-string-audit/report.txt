@@ -1,0 +1,81 @@
+=== Heirloom printf-family format-string audit ===
+Root:   /Volumes/heirloom/src
+Date:   2026-07-02T20:52:06Z
+
+--- Suspect printf(<var>, ...) sites ---
+/Volumes/heirloom/src/sh/getopt.c:62:	snprintf(errbuf, sizeof (errbuf), s, argv[0], c); \
+/Volumes/heirloom/src/devtools/lex/sub2.c:142:	printf("pos\tchars\n");
+/Volumes/heirloom/src/devtools/lex/sub2.c:408:					printf("}\n");
+/Volumes/heirloom/src/devtools/lex/sub2.c:411:					printf("\n\t");
+/Volumes/heirloom/src/devtools/lex/sub2.c:556:				fprintf(stderr,
+/Volumes/heirloom/src/devtools/lex/sub2.c:578:				printf(
+/Volumes/heirloom/src/devtools/lex/sub2.c:763:		printf(" final");
+/Volumes/heirloom/src/devtools/lex/sub2.c:766:		printf("backup char in use\n");
+/Volumes/heirloom/src/devtools/lex/sub2.c:778:			printf("err\t");
+/Volumes/heirloom/src/devtools/lex/sub2.c:783:				printf("\n\t");
+/Volumes/heirloom/src/devtools/lex/sub2.c:883:	printf("char class intersection\n");
+/Volumes/heirloom/src/devtools/lex/sub2.c:891:					printf("\n\t");
+/Volumes/heirloom/src/devtools/lex/sub2.c:898:	printf("match:\n");
+/Volumes/heirloom/src/devtools/lex/sub2.c:962:			printf(
+/Volumes/heirloom/src/devtools/lex/sub2.c:985:					printf(
+/Volumes/heirloom/src/devtools/lex/sub2.c:1036:	fprintf(fout,
+/Volumes/heirloom/src/devtools/lex/sub2.c:1038:	fprintf(fout,
+/Volumes/heirloom/src/devtools/lex/sub2.c:1044:				fprintf(fout,
+/Volumes/heirloom/src/devtools/lex/sub2.c:1062:			fprintf(fout,
+/Volumes/heirloom/src/devtools/lex/sub1.c:840:		printf("\\f");
+/Volumes/heirloom/src/devtools/lex/sub1.c:844:		printf("\\n");
+/Volumes/heirloom/src/devtools/lex/sub1.c:848:		printf("\\t");
+/Volumes/heirloom/src/devtools/lex/sub1.c:852:		printf("\\b");
+/Volumes/heirloom/src/devtools/lex/sub1.c:856:		printf("\\_");
+/Volumes/heirloom/src/devtools/lex/sub1.c:877:			printf("\n\t");
+/Volumes/heirloom/src/devtools/lex/sub1.c:886:	printf("Sect 1:\n");
+/Volumes/heirloom/src/devtools/lex/sub1.c:888:		printf("str	trans\n");
+/Volumes/heirloom/src/devtools/lex/sub1.c:894:		printf("start names\n");
+/Volumes/heirloom/src/devtools/lex/sub1.c:900:		printf("char set changed\n");
+/Volumes/heirloom/src/devtools/lex/sub1.c:917:	printf("Sect 2:\n");
+/Volumes/heirloom/src/devtools/lex/sub1.c:930:		printf("  ");
+/Volumes/heirloom/src/devtools/lex/sub1.c:940:				printf("ccl ");
+/Volumes/heirloom/src/devtools/lex/sub1.c:944:				printf("nccl ");
+/Volumes/heirloom/src/devtools/lex/sub1.c:972:				printf("nullstring");
+/Volumes/heirloom/src/devtools/lex/sub1.c:1004:				printf("dot");
+/Volumes/heirloom/src/devtools/lex/sub1.c:1007:				printf(
+/Volumes/heirloom/src/devtools/lex/sub1.c:1013:			printf("\t(null poss.)");
+/Volumes/heirloom/src/devtools/lex/main.c:124:				fprintf(stderr,
+/Volumes/heirloom/src/devtools/lex/main.c:362:	fprintf(stderr,
+/Volumes/heirloom/src/devtools/lex/header.c:163:	fprintf(fout,
+/Volumes/heirloom/src/devtools/lex/header.c:175:	fprintf(fout,
+/Volumes/heirloom/src/devtools/lex/header.c:191:		fprintf(fout,
+/Volumes/heirloom/src/devtools/lex/header.c:193:		fprintf(fout,
+/Volumes/heirloom/src/devtools/lex/header.c:230:			fprintf(fout,
+/Volumes/heirloom/src/devtools/lex/header.c:242:				fprintf(fout,
+/Volumes/heirloom/src/devtools/lex/header.c:244:				fprintf(fout,
+/Volumes/heirloom/src/devtools/lex/header.c:247:				fprintf(fout,
+/Volumes/heirloom/src/devtools/lex/header.c:249:				fprintf(fout,
+/Volumes/heirloom/src/devtools/lex/header.c:251:				fprintf(fout,
+/Volumes/heirloom/src/devtools/lex/header.c:254:				fprintf(fout,
+
+--- Total candidate count: 1282 ---
+
+--- Non-literal error-report family (rarely used with attacker-controlled data but audit anyway) ---
+/Volumes/heirloom/src/sh/bltin.c:458:			failure(argv[0],mssgargn);
+/Volumes/heirloom/src/sh/xec.c:148:							failure(*com, notfound);
+/Volumes/heirloom/src/sh/xec.c:150:							failure(*com, badexec);
+/Volumes/heirloom/src/sh/xec.c:152:							failure(*com, badperm);
+/Volumes/heirloom/src/sh/ulimit.c:276:	fail:	failure(argv[0], badulimit);
+/Volumes/heirloom/src/sh/jobs.c:775:			failure(usage, jobsuse);
+/Volumes/heirloom/src/sh/jobs.c:789:				failure(usage, jobsuse);
+/Volumes/heirloom/src/sh/jobs.c:926:				failure(cmd, badid);
+/Volumes/heirloom/src/sh/jobs.c:939:			failure(cmd, loginsh);
+/Volumes/heirloom/src/sh/jobs.c:956:				failure(cmd, eacces);
+/Volumes/heirloom/src/sh/jobs.c:960:				failure(cmd, badsig);
+/Volumes/heirloom/src/sh/jobs.c:965:					failure(cmd, nosuchpgid);
+/Volumes/heirloom/src/sh/jobs.c:967:					failure(cmd, nosuchpid);
+/Volumes/heirloom/src/sh/jobs.c:998:		failure(usage, killuse);
+/Volumes/heirloom/src/sh/jobs.c:1012:				failure(usage, killuse);
+/Volumes/heirloom/src/sh/jobs.c:1032:			failure(cmd, badsig);
+/Volumes/heirloom/src/sh/error.c:108:failure(const unsigned char *s1, const unsigned char *s2)
+/Volumes/heirloom/src/sh/fault.c:303:		failure("sigaltstack(2) failed with", strerror(err));
+/Volumes/heirloom/src/sh/fault.c:404:				failure(cmd, badtrap);
+/Volumes/heirloom/src/devtools/lex/sub1.c:120:	if (fatal)
+
+=== Report written to /Volumes/heirloom/src/hardening/format-string-audit/report.txt ===

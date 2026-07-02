@@ -1,0 +1,12 @@
+=== Heirloom clang -Wformat-security scan ===
+Date:   2026-07-02T20:52:07Z
+
+--- sh ---
+
+--- toolchest (sampled: security-critical utilities) ---
+
+--- pkgtools libpkg (touches user-supplied packaging metadata) ---
+
+=== Scan complete. Report at /Volumes/heirloom/src/hardening/format-string-audit/clang-scan-report.txt ===
+Total findings: 0
+0

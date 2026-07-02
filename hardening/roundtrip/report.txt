@@ -1,0 +1,49 @@
+=== Heirloom legacy-artefact round-trip test ===
+Prefix: /opt/heirloom
+Date:   2026-07-02T20:52:18Z
+
+--- cpio: binary + old-ascii + new-ascii formats ---
+8 blocks
+8 blocks
+  OK  cpio -H bin round-trip
+8 blocks
+8 blocks
+  OK  cpio -H odc round-trip
+8 blocks
+8 blocks
+  OK  cpio -H crc round-trip
+
+--- tar: USTAR + old formats ---
+  OK  tar ustar round-trip
+  OK  tar old round-trip
+
+--- SCCS s-file: admin -n + get + prs ---
+ERROR [/tmp/heirloom-rt.CxcQXo/sccs/SCCS/s.a]: `a' nonexistent (ut4)
+No id keywords (cm7)
+  OK  admin created s.a (     166 bytes)
+1.1
+No id keywords (cm7)
+1 lines
+  OK  get SCCS/s.a produced ./a
+SCCS/s.a:
+
+D 1.1 26/07/02 21:52:19 nonroot 1 0	00001/00000/00000
+MRs:
+COMMENTS:
+date and time created 26/07/02 21:52:19 by nonroot
+
+  OK  prs SCCS/s.a read the delta table
+
+--- SVR4 pkg: pkgproto + pkgmk + pkgtrans + pkginfo ---
+HEIRTEST
+  OK  pkgparam parses pkginfo file
+
+--- awk: script that uses printf, split, substr ---
+  OK  awk split + printf
+
+--- date: format handling ---
+  OK  date +%Y-%m-%d → 2026-07-02
+
+=== Summary ===
+Failures: 0
+Report:   /Volumes/heirloom/src/hardening/roundtrip/report.txt

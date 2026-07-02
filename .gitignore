@@ -1,0 +1,30 @@
+# Generated Makefiles (produced from Makefile.mk + mk.config via `cat`)
+*/Makefile
+*/*/Makefile
+*/*/*/Makefile
+*/*/*/*/Makefile
+
+# but keep the top-level driver
+!/Makefile
+
+# Build artefacts
+*.o
+*.a
+*.so
+*.dylib
+core
+*.core
+
+# Toolchest utilities (bare-name executables in each subdir)
+# Devtools binaries
+# Doctools binaries
+# We deliberately don't blanket-ignore executables — track case-by-case if needed.
+
+# Staging root
+/stage/*
+!/stage/.gitkeep
+
+# Editor / OS cruft
+.DS_Store
+*~
+*.swp

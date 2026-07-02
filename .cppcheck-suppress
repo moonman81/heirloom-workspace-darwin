@@ -1,0 +1,21 @@
+// cppcheck suppressions for Heirloom port
+//
+// Rationale: Heirloom's C is K&R / early-ANSI. Many cppcheck warnings
+// are style-only and would be noise if enforced. Suppress the
+// categories that don't map to real bugs on this codebase.
+
+// missingIncludeSystem: cppcheck can't reach the SDK headers
+missingIncludeSystem
+
+// unmatchedSuppression: harmless when a suppression matches nothing
+unmatchedSuppression
+
+// variableScope: legitimate style variation in K&R code
+variableScope
+
+// unusedFunction: many are exported (via ext.h, libcommon.h)
+unusedFunction
+
+// preprocessorErrorDirective: Solaris-only #ifdef branches we
+// deliberately don't compile on Darwin
+preprocessorErrorDirective
