@@ -1,6 +1,6 @@
 # TREE — Heirloom Darwin Port universe map
 
-The Heirloom Darwin port comprises **nine** repos under the GitHub
+The Heirloom Darwin port comprises **twelve** repos under the GitHub
 organisation `moonman81`. This document is the map.
 
 > **Not authoritative.** Every repo carries its own `NOTICE.md`
@@ -9,26 +9,30 @@ organisation `moonman81`. This document is the map.
 
 ## Repo table
 
-| Repo                                    | Kind          | Content                                                | Size  |
-| :-------------------------------------- | :------------ | :----------------------------------------------------- | ----: |
-| `moonman81/heirloom-sh-darwin`          | port + source | Ritter's Bourne shell source + Darwin patches          |  5 MB |
-| `moonman81/heirloom-devtools-darwin`    | port + source | make, sccs, yacc, lex, m4 source + Darwin patches      | 40 MB |
-| `moonman81/heirloom-toolchest-darwin`   | port + source | ~110 SVR4/POSIX utilities + Darwin patches             | 50 MB |
-| `moonman81/heirloom-doctools-darwin`    | port + source | troff/eqn/tbl/pic/grap/refer source + Darwin patches   | 20 MB |
-| `moonman81/heirloom-pkgtools-darwin`    | port + source | pkgadd/pkgrm/pkgchk source + Darwin patches            | 15 MB |
-| `moonman81/heirloom-workspace-darwin`   | workspace     | this repo — ALM, hardening, cross-reports, TREE, PORT.md | 5 MB |
-| `moonman81/heirloom-vi-darwin`          | scaffold      | Ritter's ex/vi Darwin patches; source NOT bundled      |  1 MB |
-| `moonman81/heirloom-citations-darwin`   | reference     | Bell Labs CSTRs, BSTJ 1978, K&R 1977 draft, etc.       | 105 MB |
-| `moonman81/heirloom-ancestors-darwin`   | reference     | Manifests + notes for V7, 32V, DWB 1.0, PWB, PCC, BSDs |  1 MB |
+| Repo                                    | Kind          | Content                                                | Size    |
+| :-------------------------------------- | :------------ | :----------------------------------------------------- | ------: |
+| `moonman81/heirloom-sh-darwin`          | code          | Ritter's Bourne shell source + Darwin patches          | 5 MB    |
+| `moonman81/heirloom-devtools-darwin`    | code          | make, sccs, yacc, lex, m4 + Darwin patches             | 40 MB   |
+| `moonman81/heirloom-toolchest-darwin`   | code          | ~110 SVR4/POSIX utilities + Darwin patches             | 50 MB   |
+| `moonman81/heirloom-doctools-darwin`    | code          | troff/eqn/tbl/pic/grap/refer + Darwin patches          | 20 MB   |
+| `moonman81/heirloom-pkgtools-darwin`    | code          | pkgadd/pkgrm/pkgchk + OpenSSL 3.x + PQ ready           | 15 MB   |
+| `moonman81/heirloom-workspace-darwin`   | workspace     | this repo — ALM, hardening, PORT.md, TREE, substrate   | 10 MB   |
+| `moonman81/heirloom-vi-darwin`          | scaffold      | Ritter's ex/vi Darwin patches; source NOT bundled      | 1 MB    |
+| `moonman81/heirloom-citations-darwin`   | reference     | CSTRs + BSTJ + K&R draft + papers + theses             | 355 MB  |
+| `moonman81/heirloom-ancestors-darwin`   | reference     | 21 manifests: V7, 32V, DWB, PWB, PCC, 1-4BSD, MERT, etc | 1 MB   |
+| `moonman81/heirloom-manuals-darwin`     | reference     | UNIX/32V bundled + MERT samples + Unix 4.0 index       | 250 MB  |
+| `moonman81/heirloom-oralhistory-darwin` | reference     | 13 Bell Labs oral-history interviews (Mahoney)         | 1 MB    |
+| `moonman81/heirloom-tests-darwin`       | scaffold      | Apout-driven live comparison harness (Apout deferred)  | 1 MB    |
 
 ## Dependency + reference graph
 
 ```
 ┌─────────────────────────────────────────────────────┐
-│  heirloom-workspace-darwin (this)                   │
+│  heirloom-workspace-darwin                          │
 │    ALM Makefile + top-level driver                  │
 │    hardening/ coverage matrix                       │
 │    PORT.md decision record                          │
+│    substrate/ N3 ontology + SPARQL queries          │
 └──┬───────┬──────────┬───────────┬─────────────┬──────┘
    │       │          │           │             │
    ▼       ▼          ▼           ▼             ▼
@@ -38,28 +42,31 @@ organisation `moonman81`. This document is the map.
 └──┘  └────┘  └────────┘  └────────┘  └──────────┘
   │      │        │            │            │
   └──────┴────────┴────────────┴────────────┘
-                    │  cites (via BIBLIOGRAPHY.md)
+                    │  cites (BIBLIOGRAPHY.md)
                     ▼
-             ┌──────────────────────────┐
-             │ heirloom-citations-darwin│
-             │  CSTRs, BSTJ, books      │
-             └──────────────────────────┘
-                    │  descends from (via PROVENANCE.md)
-                    ▼
-             ┌──────────────────────────┐
-             │ heirloom-ancestors-darwin│
-             │  Manifests for V7, 32V,  │
-             │  DWB, PWB, PCC, BSDs     │
-             └──────────────────────────┘
+             ┌──────────────────────────┐    ┌──────────────────────┐
+             │ heirloom-citations-darwin│───┤ heirloom-manuals-    │
+             │  90 primary-source PDFs  │    │ darwin (~2.8 GB tree)│
+             └──────────────────────────┘    └──────────────────────┘
+                    │  descends from                │
+                    ▼                                ▼
+             ┌──────────────────────────┐    ┌──────────────────────┐
+             │ heirloom-ancestors-      │───┤ heirloom-oralhistory-│
+             │ darwin (21 manifests)    │    │ darwin (13 interviews)│
+             └──────────────────────────┘    └──────────────────────┘
+                                                    │
+                                                    ▼
+                                          ┌────────────────────┐
+                                          │ heirloom-tests-    │
+                                          │ darwin (harness)   │
+                                          └────────────────────┘
 
-                    heirloom-vi-darwin
-                    (parallel scaffold — Ritter's ex/vi
-                     patches-only; source NOT bundled;
-                     related to but not part of the five
-                     Heirloom packages)
+    heirloom-vi-darwin (parallel scaffold — Ritter's ex/vi patches
+                        only; source NOT bundled; related to but not
+                        part of the five Heirloom code packages)
 ```
 
-## Package personalities (the modality axis)
+## Personality variants (the modality axis)
 
 Each installed binary in the five code repos supports six personality
 variants:
@@ -77,7 +84,7 @@ Every binary honours `--variant=<name>`, `HEIRLOOM_VARIANT=<name>`,
 `HEIRLOOM_DIALECT=<name>` at invocation time; see
 `man 7 heirloom-modality` after install.
 
-## Install layout under $PREFIX (default /opt/heirloom)
+## Install layout under `$PREFIX` (default `/opt/heirloom`)
 
 ```
 /opt/heirloom/
@@ -91,21 +98,47 @@ Every binary honours `--variant=<name>`, `HEIRLOOM_VARIANT=<name>`,
 ├── share/
 │   ├── man/5man/              # 216 man pages
 │   └── info/heirloom.info     # Info-format guide
-└── src/                       # (optional) source checkout of the 6 code repos
+└── src/                       # (optional) source checkout of code repos
 ```
 
 Total: 247 installed executables + 107 symlinks + 216 man pages + 1 info file.
 
-## Contribution flow
+## Machine-readable universe
 
-1. Fork the specific repo you want to touch (each is independent).
-2. Follow that repo's `CONTRIBUTING.md`.
-3. Local QA via `.pre-commit-config.yaml`; no GitHub Actions budget.
-4. Submit PR to `main`; maintainer merges after human review.
+The workspace ships a Notation3 substrate at `substrate/*.n3` that
+models this whole tree as an ontology. Query with SPARQL:
+
+```sh
+cd substrate/
+arq --data=00-ontology.n3 --data=01-signatures.n3 --data=02-models.n3 \
+    --query=queries.sparql
+```
+
+See `substrate/README.md` for details.
+
+## Future work (documented but not executed)
+
+These are TIER-2 / TIER-3 opportunities from
+`qa-reports/corpus-inspiration-2026-07-03.md` that were surveyed but
+not executed in the initial extension pass:
+
+- **AUUGN mirror** (577 MB Australian Unix Users Group Newsletter) —
+  probably index-only via `heirloom-citations-darwin`.
+- **V8/V9/V10 patches-only scaffolds** — each 3-5 days.
+- **Taylor UUCP full Darwin port** — 3-4 days for a
+  `heirloom-uucp-darwin` code repo.
+- **Cards + Recordings mirrors** — cultural content, lower value/
+  effort ratio.
+- **UNSW AUSAM 22-tape series** — deeper ancestor-manifests pass.
+- **Apout Darwin arm64 port itself** — enables `heirloom-tests-darwin`
+  to actually run; 5-7 days.
+
+Full inventory + rationale: `qa-reports/corpus-inspiration-2026-07-03.md`
+in this repo.
 
 ## When something is not authoritative
 
-Every one of the nine repos disclaims authoritative-source status.
+Every one of the twelve repos disclaims authoritative-source status.
 For a question of Heirloom canonical behaviour, cite:
 
 - The upstream Heirloom Project tarballs: <http://heirloom.sourceforge.net>

@@ -227,3 +227,18 @@ h:Repo_citations h:hostsCitations h:BSTJ_p2115 .
 h:Repo_devtools h:citesBibliography h:KandRDraft77 .
 h:KandRDraft77  a h:CitationSource ; rdfs:label "Draft K&R C Programming Language 1977" .
 h:Repo_citations h:hostsCitations h:KandRDraft77 .
+
+# ---------------------------------------------------------------------
+# 12th repo — heirloom-tests-darwin (added post-inspiration-pass)
+# ---------------------------------------------------------------------
+
+h:Repo_tests
+    a                     h:ScaffoldRepo ;
+    rdfs:label            "moonman81/heirloom-tests-darwin" ;
+    h:githubURL           <https://github.com/moonman81/heirloom-tests-darwin> ;
+    h:portMaintainer      h:moonman81 ;
+    h:repoPurpose         "Apout-driven live-comparison harness between heirloom-*-darwin and V7 originals" ;
+    h:repoSize            "~1 MB" ;
+    h:redistributesUpstream false ;
+    h:isAuthoritative     false ;
+    rdfs:comment          "SCAFFOLD only.  Apout Darwin arm64 port deferred (~5-7 days engineering)." .
