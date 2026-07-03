@@ -1,0 +1,41 @@
+=== Post-flag-patch smoke test ===
+
+--- normal semantics preserved ---
+      1       2      12 
+a
+b
+c
+2026-07-03
+bin
+ccs
+etc
+lib
+sadm
+hello from make
+
+--- flag support: cross-sample ---
+  ls          --version = OK
+  cp          --version = OK
+  cpio        --version = OK
+  nawk        --version = OK
+  make        --version = OK
+  m4          --version = OK
+  yacc        --version = OK
+  lex         --version = OK
+  sccs        --version = OK
+  admin       --version = OK
+  troff       --version = OK
+  eqn         --version = OK
+  tbl         --version = OK
+  pic         --version = OK
+  refer       --version = OK
+  pkginfo     --version = OK
+  pkgadd      --version = OK
+  sh          --version = OK
+
+--- legacy conflict: cp -v (verbose semantic) ---
+/opt/heirloom/bin/cp: illegal option -- v
+Usage: cp [-i] [-p] f1 f2
+  (heirloom cp -v: unchanged legacy behaviour)
+cp (Heirloom Darwin port) 1.0.0-darwin-arm64
+  (heirloom cp -V: shows version, does NOT conflict)
