@@ -1,0 +1,97 @@
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:     <http://xmlns.com/foaf/0.1/> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+@prefix h:        <https://moonman81.github.io/heirloom/ontology#> .
+@prefix inst:     <https://moonman81.github.io/heirloom/institution#> .
+
+# =====================================================================
+# 00-ontology.n3 — Σ_heirloom ONTOLOGY (class hierarchy)
+# =====================================================================
+# Follows the discipline of the reduxed-sunsite substrate at
+# /Volumes/mirrors-reduxed/sunsite.icm.edu.pl.  Distinct signature.
+# =====================================================================
+
+inst:Sigma_heirloom
+    a               inst:Signature ;
+    rdfs:label      "Σ_heirloom" ;
+    rdfs:comment    "Signature for the moonman81/heirloom-*-darwin universe. Distinct from Σ_content: predicates here describe REPOSITORIES, their kind (code / reference / scaffold), their dependencies, their upstream ancestors, and their published citation targets." .
+
+# ---------------------------------------------------------------------
+# CORE CLASSES
+# ---------------------------------------------------------------------
+
+h:Repo
+    a               owl:Class ;
+    rdfs:label      "Heirloom Darwin repo" ;
+    rdfs:comment    "A GitHub repository under moonman81 that is part of the Heirloom Darwin port universe." .
+
+h:CodeRepo
+    a               owl:Class ;
+    rdfs:subClassOf h:Repo ;
+    rdfs:comment    "Ships C source + Darwin patches + ALM + builds installable binaries." .
+
+h:ReferenceRepo
+    a               owl:Class ;
+    rdfs:subClassOf h:Repo ;
+    rdfs:comment    "Ships documents / manifests / cross-references; no installable binaries." .
+
+h:ScaffoldRepo
+    a               owl:Class ;
+    rdfs:subClassOf h:Repo ;
+    rdfs:comment    "Ships patches + build machinery but does NOT redistribute upstream source (SCO / AT&T / other licensing constraints)." .
+
+h:WorkspaceRepo
+    a               owl:Class ;
+    rdfs:subClassOf h:Repo ;
+    rdfs:comment    "Hub repo — ALM Makefile, hardening, PORT.md decision record, TREE.md universe map, this substrate." .
+
+# ---------------------------------------------------------------------
+# EXTERNAL CLASSES
+# ---------------------------------------------------------------------
+
+h:UpstreamProject
+    a               owl:Class ;
+    rdfs:comment    "An upstream project this Heirloom port derives from — Ritter's Heirloom Project, TUHS Archive, etc." .
+
+h:AncestorProject
+    a               owl:Class ;
+    rdfs:comment    "Historical Unix project preceding Ritter's Heirloom — V7, 32V, DWB 1.0, etc." .
+
+h:CitationSource
+    a               owl:Class ;
+    rdfs:comment    "A primary source (paper, CSTR, book, oral history) cited by a Heirloom repo's BIBLIOGRAPHY.md." .
+
+h:Person
+    a               owl:Class ;
+    rdfs:subClassOf foaf:Person .
+
+# ---------------------------------------------------------------------
+# INSTALLED-ARTEFACT CLASSES (for the code repos)
+# ---------------------------------------------------------------------
+
+h:Binary
+    a               owl:Class ;
+    rdfs:comment    "An installed executable file under $PREFIX." .
+
+h:ManPage
+    a               owl:Class ;
+    rdfs:comment    "A manual page installed under $PREFIX/share/man/." .
+
+h:PersonalityVariant
+    a               owl:Class ;
+    rdfs:comment    "One of {default, posix, posix2001, s42, ucb, ccs}." .
+
+# ---------------------------------------------------------------------
+# NAMED INSTANCES OF PERSONALITY VARIANTS
+# ---------------------------------------------------------------------
+
+h:Variant_default   a h:PersonalityVariant ; rdfs:label "default (SVID3)"      ; h:installDir "$PREFIX/bin/" .
+h:Variant_posix     a h:PersonalityVariant ; rdfs:label "posix (SUS)"          ; h:installDir "$PREFIX/bin/posix/" .
+h:Variant_posix2001 a h:PersonalityVariant ; rdfs:label "posix2001 (SUS3)"     ; h:installDir "$PREFIX/bin/posix2001/" .
+h:Variant_s42       a h:PersonalityVariant ; rdfs:label "s42 (SVID4)"          ; h:installDir "$PREFIX/bin/s42/" .
+h:Variant_ucb       a h:PersonalityVariant ; rdfs:label "ucb (UCB/BSD)"        ; h:installDir "$PREFIX/ucb/" .
+h:Variant_ccs       a h:PersonalityVariant ; rdfs:label "ccs (Compiler Suite)" ; h:installDir "$PREFIX/ccs/bin/" .

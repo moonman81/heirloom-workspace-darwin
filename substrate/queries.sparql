@@ -1,0 +1,107 @@
+# queries.sparql — example SPARQL queries against Σ_heirloom
+#
+# Usage:
+#     arq --data=00-ontology.n3 --data=01-signatures.n3 --data=02-models.n3 \
+#         --query=queries.sparql
+#
+# Or interactively via riot / cwm.
+
+PREFIX h:    <https://moonman81.github.io/heirloom/ontology#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+
+# =====================================================================
+# Q1  All repos in the universe by size + purpose
+# =====================================================================
+
+SELECT ?repo ?label ?size ?purpose ?kind
+WHERE {
+    ?repo a ?kind ;
+          rdfs:label   ?label ;
+          h:repoSize   ?size ;
+          h:repoPurpose ?purpose .
+    FILTER (?kind IN (h:CodeRepo, h:ReferenceRepo, h:ScaffoldRepo, h:WorkspaceRepo))
+}
+ORDER BY ?kind ?label ;
+
+# =====================================================================
+# Q2  Which code repos support the ucb personality variant?
+# =====================================================================
+
+SELECT ?repo ?label
+WHERE {
+    ?repo a h:CodeRepo ;
+          rdfs:label     ?label ;
+          h:supportsVariant h:Variant_ucb .
+} ;
+
+# =====================================================================
+# Q3  Which repos redistribute upstream vs point-at-upstream?
+# =====================================================================
+
+SELECT ?repo ?label ?redistributes
+WHERE {
+    ?repo rdfs:label ?label ;
+          h:redistributesUpstream ?redistributes .
+}
+ORDER BY ?redistributes ?label ;
+
+# =====================================================================
+# Q4  Citation traceability — for each code repo, which primary sources
+#     does it cite, and are they hosted in a reference repo?
+# =====================================================================
+
+SELECT ?code ?src ?srcLabel ?refRepo
+WHERE {
+    ?code a h:CodeRepo ;
+          h:citesBibliography ?src .
+    ?src rdfs:label ?srcLabel .
+    OPTIONAL {
+        ?refRepo h:hostsCitations ?src .
+    }
+}
+ORDER BY ?code ?srcLabel ;
+
+# =====================================================================
+# Q5  Total installed binary count across the port
+# =====================================================================
+
+SELECT (SUM(?n) AS ?totalBinaries)
+WHERE {
+    ?repo a h:CodeRepo ;
+          h:installedBinaryCount ?n .
+} ;
+
+# =====================================================================
+# Q6  Companion-of-companion — for each reference repo, which other
+#     reference repos does it name-check?
+# =====================================================================
+
+SELECT ?a ?b
+WHERE {
+    ?a a h:ReferenceRepo ;
+       h:companionOf ?b .
+} ;
+
+# =====================================================================
+# Q7  Every upstream Heirloom-Project sub-project + which of our repos
+#     ports it.
+# =====================================================================
+
+SELECT ?up ?upLabel ?repo ?repoLabel
+WHERE {
+    ?up a h:UpstreamProject ;
+        rdfs:label ?upLabel .
+    ?repo h:portOf ?up ;
+          rdfs:label ?repoLabel .
+}
+ORDER BY ?upLabel ;
+
+# =====================================================================
+# Q8  Show every asserted 'authoritative' claim — expect ZERO
+# =====================================================================
+
+SELECT ?repo
+WHERE {
+    ?repo h:isAuthoritative true .
+} ;

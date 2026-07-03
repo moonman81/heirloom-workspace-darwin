@@ -1,0 +1,125 @@
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:     <http://xmlns.com/foaf/0.1/> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+@prefix h:        <https://moonman81.github.io/heirloom/ontology#> .
+
+# =====================================================================
+# 01-signatures.n3 — Σ_heirloom PREDICATES
+# =====================================================================
+
+# ---------------------------------------------------------------------
+# DEPENDENCY + REFERENCE PREDICATES
+# ---------------------------------------------------------------------
+
+h:portOf
+    a               owl:ObjectProperty ;
+    rdfs:label      "portOf" ;
+    rdfs:domain     h:Repo ;
+    rdfs:range      h:UpstreamProject ;
+    rdfs:comment    "This repo ports the named upstream project to Darwin." .
+
+h:derivedFrom
+    a               owl:ObjectProperty ;
+    rdfs:label      "derivedFrom" ;
+    rdfs:domain     h:UpstreamProject ;
+    rdfs:range      h:UpstreamProject ;
+    rdfs:comment    "This upstream project derived from another." .
+
+h:citesBibliography
+    a               owl:ObjectProperty ;
+    rdfs:label      "citesBibliography" ;
+    rdfs:domain     h:CodeRepo ;
+    rdfs:range      h:CitationSource ;
+    rdfs:comment    "This repo's BIBLIOGRAPHY.md names this citation source." .
+
+h:hostsCitations
+    a               owl:ObjectProperty ;
+    rdfs:label      "hostsCitations" ;
+    rdfs:domain     h:ReferenceRepo ;
+    rdfs:range      h:CitationSource ;
+    rdfs:comment    "This reference repo bundles or indexes this citation source." .
+
+h:ancestorReferencedBy
+    a               owl:ObjectProperty ;
+    rdfs:label      "ancestorReferencedBy" ;
+    rdfs:domain     h:AncestorProject ;
+    rdfs:range      h:ReferenceRepo ;
+    rdfs:comment    "This ancestor project has a manifest in the named reference repo." .
+
+h:companionOf
+    a               owl:ObjectProperty ;
+    rdfs:label      "companionOf" ;
+    rdfs:comment    "Two repos are companion — same posture, different content axis (e.g., citations + ancestors + manuals)." .
+
+# ---------------------------------------------------------------------
+# REPO METADATA
+# ---------------------------------------------------------------------
+
+h:githubURL
+    a               owl:DatatypeProperty ;
+    rdfs:label      "githubURL" ;
+    rdfs:range      xsd:anyURI .
+
+h:repoPurpose
+    a               owl:DatatypeProperty ;
+    rdfs:label      "repoPurpose" ;
+    rdfs:range      xsd:string .
+
+h:repoLicence
+    a               owl:DatatypeProperty ;
+    rdfs:label      "repoLicence" ;
+    rdfs:range      xsd:string .
+
+h:repoSize
+    a               owl:DatatypeProperty ;
+    rdfs:label      "repoSize" ;
+    rdfs:range      xsd:string .
+
+h:redistributesUpstream
+    a               owl:DatatypeProperty ;
+    rdfs:label      "redistributesUpstream" ;
+    rdfs:range      xsd:boolean ;
+    rdfs:comment    "true = ships upstream source; false = points at upstream and ships only patches/annotations." .
+
+h:isAuthoritative
+    a               owl:DatatypeProperty ;
+    rdfs:label      "isAuthoritative" ;
+    rdfs:range      xsd:boolean ;
+    rdfs:comment    "Always false in this universe.  Every Heirloom Darwin repo disclaims authoritative status." .
+
+# ---------------------------------------------------------------------
+# INSTALLED-ARTEFACT PREDICATES
+# ---------------------------------------------------------------------
+
+h:installedBinaryCount
+    a               owl:DatatypeProperty ;
+    rdfs:range      xsd:integer .
+
+h:installedManPageCount
+    a               owl:DatatypeProperty ;
+    rdfs:range      xsd:integer .
+
+h:supportsVariant
+    a               owl:ObjectProperty ;
+    rdfs:domain     h:CodeRepo ;
+    rdfs:range      h:PersonalityVariant .
+
+h:installDir
+    a               owl:DatatypeProperty ;
+    rdfs:range      xsd:string .
+
+# ---------------------------------------------------------------------
+# PROVENANCE PREDICATES
+# ---------------------------------------------------------------------
+
+h:portMaintainer
+    a               owl:ObjectProperty ;
+    rdfs:range      h:Person .
+
+h:upstreamMaintainer
+    a               owl:ObjectProperty ;
+    rdfs:range      h:Person .

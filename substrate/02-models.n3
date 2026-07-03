@@ -1,0 +1,229 @@
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:     <http://xmlns.com/foaf/0.1/> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+@prefix h:        <https://moonman81.github.io/heirloom/ontology#> .
+
+# =====================================================================
+# 02-models.n3 — Σ_heirloom NAMED INSTANCES (the 11-repo universe)
+# =====================================================================
+
+# ---------------------------------------------------------------------
+# PEOPLE
+# ---------------------------------------------------------------------
+
+h:GunnarRitter
+    a                     h:Person ;
+    foaf:name             "Gunnar Ritter" ;
+    foaf:mbox             <mailto:gunnarr@acm.org> ;
+    rdfs:comment          "Freiburg im Breisgau, Germany. Original Heirloom Project author (2001-2008)." .
+
+h:moonman81
+    a                     h:Person ;
+    foaf:name             "moonman81" ;
+    foaf:mbox             <mailto:i.am.moonman@gmail.com> ;
+    rdfs:comment          "Darwin port maintainer (2026-)." .
+
+# ---------------------------------------------------------------------
+# UPSTREAM PROJECTS
+# ---------------------------------------------------------------------
+
+h:HeirloomProject
+    a                     h:UpstreamProject ;
+    rdfs:label            "Heirloom Project" ;
+    h:upstreamMaintainer  h:GunnarRitter ;
+    dcterms:date          "2001-2008"^^xsd:string ;
+    h:githubURL           <http://heirloom.sourceforge.net> ;
+    rdfs:comment          "Ritter's original Heirloom Project. Unmaintained since 2008." .
+
+h:HeirloomSh            a h:UpstreamProject ; rdfs:label "heirloom-sh-050706" .
+h:HeirloomDevtools      a h:UpstreamProject ; rdfs:label "heirloom-devtools-070527" .
+h:HeirloomToolchest     a h:UpstreamProject ; rdfs:label "heirloom-070715" .
+h:HeirloomDoctools      a h:UpstreamProject ; rdfs:label "heirloom-doctools-080407" .
+h:HeirloomPkgtools      a h:UpstreamProject ; rdfs:label "heirloom-pkgtools-070227" .
+
+h:HeirloomSh          h:derivedFrom h:HeirloomProject .
+h:HeirloomDevtools    h:derivedFrom h:HeirloomProject .
+h:HeirloomToolchest   h:derivedFrom h:HeirloomProject .
+h:HeirloomDoctools    h:derivedFrom h:HeirloomProject .
+h:HeirloomPkgtools    h:derivedFrom h:HeirloomProject .
+
+# ---------------------------------------------------------------------
+# THE 11 REPOS (as of 2026-07-03)
+# ---------------------------------------------------------------------
+
+# ---- five code repos ----
+
+h:Repo_sh
+    a                     h:CodeRepo ;
+    rdfs:label            "moonman81/heirloom-sh-darwin" ;
+    h:githubURL           <https://github.com/moonman81/heirloom-sh-darwin> ;
+    h:portOf              h:HeirloomSh ;
+    h:portMaintainer      h:moonman81 ;
+    h:repoPurpose         "Darwin arm64 port of Ritter's Bourne shell" ;
+    h:repoSize            "~5 MB" ;
+    h:redistributesUpstream true ;
+    h:isAuthoritative     false ;
+    h:installedBinaryCount 1 ;
+    h:supportsVariant     h:Variant_default .
+
+h:Repo_devtools
+    a                     h:CodeRepo ;
+    rdfs:label            "moonman81/heirloom-devtools-darwin" ;
+    h:githubURL           <https://github.com/moonman81/heirloom-devtools-darwin> ;
+    h:portOf              h:HeirloomDevtools ;
+    h:portMaintainer      h:moonman81 ;
+    h:repoPurpose         "make, sccs, yacc, lex, m4 — Darwin port" ;
+    h:repoSize            "~40 MB" ;
+    h:redistributesUpstream true ;
+    h:isAuthoritative     false ;
+    h:installedBinaryCount 19 ;
+    h:supportsVariant     h:Variant_ccs .
+
+h:Repo_toolchest
+    a                     h:CodeRepo ;
+    rdfs:label            "moonman81/heirloom-toolchest-darwin" ;
+    h:githubURL           <https://github.com/moonman81/heirloom-toolchest-darwin> ;
+    h:portOf              h:HeirloomToolchest ;
+    h:portMaintainer      h:moonman81 ;
+    h:repoPurpose         "~110 POSIX/SVR4 core utilities — Darwin port" ;
+    h:repoSize            "~50 MB" ;
+    h:redistributesUpstream true ;
+    h:isAuthoritative     false ;
+    h:installedBinaryCount 210 ;
+    h:supportsVariant     h:Variant_default ,
+                          h:Variant_posix ,
+                          h:Variant_posix2001 ,
+                          h:Variant_s42 ,
+                          h:Variant_ucb .
+
+h:Repo_doctools
+    a                     h:CodeRepo ;
+    rdfs:label            "moonman81/heirloom-doctools-darwin" ;
+    h:githubURL           <https://github.com/moonman81/heirloom-doctools-darwin> ;
+    h:portOf              h:HeirloomDoctools ;
+    h:portMaintainer      h:moonman81 ;
+    h:repoPurpose         "troff/eqn/tbl/pic/grap/refer + Knuth-Plass mpm" ;
+    h:repoSize            "~20 MB" ;
+    h:redistributesUpstream true ;
+    h:isAuthoritative     false ;
+    h:installedBinaryCount 24 .
+
+h:Repo_pkgtools
+    a                     h:CodeRepo ;
+    rdfs:label            "moonman81/heirloom-pkgtools-darwin" ;
+    h:githubURL           <https://github.com/moonman81/heirloom-pkgtools-darwin> ;
+    h:portOf              h:HeirloomPkgtools ;
+    h:portMaintainer      h:moonman81 ;
+    h:repoPurpose         "SVR4 pkgadd/pkgrm/pkgchk + OpenSSL 3.x + PQ readiness" ;
+    h:repoSize            "~15 MB" ;
+    h:redistributesUpstream true ;
+    h:isAuthoritative     false ;
+    h:installedBinaryCount 19 .
+
+# ---- workspace ----
+
+h:Repo_workspace
+    a                     h:WorkspaceRepo ;
+    rdfs:label            "moonman81/heirloom-workspace-darwin" ;
+    h:githubURL           <https://github.com/moonman81/heirloom-workspace-darwin> ;
+    h:portMaintainer      h:moonman81 ;
+    h:repoPurpose         "hub — ALM Makefile, hardening, PORT.md, TREE.md, substrate/" ;
+    h:repoSize            "~10 MB" ;
+    h:redistributesUpstream false ;
+    h:isAuthoritative     false .
+
+# ---- scaffold repo ----
+
+h:Repo_vi
+    a                     h:ScaffoldRepo ;
+    rdfs:label            "moonman81/heirloom-vi-darwin" ;
+    h:githubURL           <https://github.com/moonman81/heirloom-vi-darwin> ;
+    h:portMaintainer      h:moonman81 ;
+    h:repoPurpose         "Ritter's ex/vi 3.7 Darwin patches — source NOT bundled (SCO/AT&T)" ;
+    h:repoSize            "~1 MB" ;
+    h:redistributesUpstream false ;
+    h:isAuthoritative     false .
+
+# ---- four reference repos ----
+
+h:Repo_citations
+    a                     h:ReferenceRepo ;
+    rdfs:label            "moonman81/heirloom-citations-darwin" ;
+    h:githubURL           <https://github.com/moonman81/heirloom-citations-darwin> ;
+    h:portMaintainer      h:moonman81 ;
+    h:repoPurpose         "Bell Labs CSTRs + BSTJ 1978 + K&R draft + papers + theses" ;
+    h:repoSize            "~355 MB" ;
+    h:redistributesUpstream false ;
+    h:isAuthoritative     false .
+
+h:Repo_ancestors
+    a                     h:ReferenceRepo ;
+    rdfs:label            "moonman81/heirloom-ancestors-darwin" ;
+    h:githubURL           <https://github.com/moonman81/heirloom-ancestors-darwin> ;
+    h:portMaintainer      h:moonman81 ;
+    h:repoPurpose         "manifests-only annotations for V7, 32V, DWB, PWB, PCC, 1-4BSD, MERT, Coherent, Xenix, KSOS, Xinu, Interdata V6, UNSW AUSAM, BBN, Taylor UUCP" ;
+    h:repoSize            "~1 MB" ;
+    h:redistributesUpstream false ;
+    h:isAuthoritative     false .
+
+h:Repo_manuals
+    a                     h:ReferenceRepo ;
+    rdfs:label            "moonman81/heirloom-manuals-darwin" ;
+    h:githubURL           <https://github.com/moonman81/heirloom-manuals-darwin> ;
+    h:portMaintainer      h:moonman81 ;
+    h:repoPurpose         "UNIX/32V bundled + MERT samples + Unix 4.0 index" ;
+    h:repoSize            "~250 MB" ;
+    h:redistributesUpstream false ;
+    h:isAuthoritative     false .
+
+h:Repo_oralhistory
+    a                     h:ReferenceRepo ;
+    rdfs:label            "moonman81/heirloom-oralhistory-darwin" ;
+    h:githubURL           <https://github.com/moonman81/heirloom-oralhistory-darwin> ;
+    h:portMaintainer      h:moonman81 ;
+    h:repoPurpose         "13 Bell Labs oral-history transcripts (Mahoney interviews)" ;
+    h:repoSize            "~1 MB" ;
+    h:redistributesUpstream false ;
+    h:isAuthoritative     false .
+
+# ---------------------------------------------------------------------
+# COMPANION RELATIONSHIPS
+# ---------------------------------------------------------------------
+
+h:Repo_citations   h:companionOf h:Repo_ancestors , h:Repo_manuals , h:Repo_oralhistory .
+h:Repo_ancestors   h:companionOf h:Repo_citations , h:Repo_manuals , h:Repo_oralhistory .
+h:Repo_manuals     h:companionOf h:Repo_citations , h:Repo_ancestors , h:Repo_oralhistory .
+h:Repo_oralhistory h:companionOf h:Repo_citations , h:Repo_ancestors , h:Repo_manuals .
+
+# ---------------------------------------------------------------------
+# CITATION LINKS (code repo cites reference repo entry)
+# ---------------------------------------------------------------------
+
+# heirloom-doctools cites CSTR #54 (Ossanna troff)
+h:Repo_doctools h:citesBibliography h:CSTR_54 .
+h:CSTR_54       a h:CitationSource ; rdfs:label "Bell Labs CSTR #54 — Ossanna 1977 NROFF/TROFF User's Manual" .
+h:Repo_citations h:hostsCitations h:CSTR_54 .
+
+# heirloom-devtools cites CSTR #114 (grap)
+h:Repo_doctools h:citesBibliography h:CSTR_114 .
+h:CSTR_114      a h:CitationSource ; rdfs:label "Bell Labs CSTR #114 — Bentley + Kernighan 1985 grap" .
+h:Repo_citations h:hostsCitations h:CSTR_114 .
+
+# heirloom-sh cites Bourne 1978
+h:Repo_sh h:citesBibliography h:BSTJ_p1931 .
+h:BSTJ_p1931    a h:CitationSource ; rdfs:label "BSTJ 57(6.2) p.1931 — Bourne 1978 The UNIX Shell" .
+h:Repo_citations h:hostsCitations h:BSTJ_p1931 .
+
+# heirloom-toolchest cites AWK BSTJ paper
+h:Repo_toolchest h:citesBibliography h:BSTJ_p2115 .
+h:BSTJ_p2115    a h:CitationSource ; rdfs:label "BSTJ 57(6.2) p.2115 — Aho + Kernighan + Weinberger 1978 AWK" .
+h:Repo_citations h:hostsCitations h:BSTJ_p2115 .
+
+# heirloom-devtools cites K&R 1977 draft
+h:Repo_devtools h:citesBibliography h:KandRDraft77 .
+h:KandRDraft77  a h:CitationSource ; rdfs:label "Draft K&R C Programming Language 1977" .
+h:Repo_citations h:hostsCitations h:KandRDraft77 .
