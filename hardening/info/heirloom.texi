@@ -1,0 +1,201 @@
+\input texinfo
+@setfilename heirloom.info
+@dircategory Heirloom Darwin port
+@direntry
+* Heirloom: (heirloom).       Downstream Darwin port of the Heirloom Project.
+@end direntry
+@settitle Heirloom Darwin Port
+
+@copying
+Copyright @copyright{} 2026 moonman81. Distributed under a per-file
+patchwork of upstream licences.  This document is CC-BY-4.0.
+@end copying
+
+@titlepage
+@title Heirloom Darwin Port
+@subtitle Version 1.1.0-darwin-arm64, 2026-07-03
+@author moonman81 <@email{i.am.moonman@@gmail.com}>
+@insertcopying
+@end titlepage
+
+@ifnottex
+@node Top
+@top Heirloom Darwin Port
+
+This document is the Info-format index for the Heirloom Darwin port,
+a downstream port of Gunnar Ritter's Heirloom Project to macOS 26.4
+arm64.
+
+@strong{Not authoritative.}  Upstream is
+@url{http://heirloom.sourceforge.net/} (unmaintained since about 2008).
+This port is for compatibility, not scholarship or production
+reliance.
+
+For per-tool documentation, run @command{man @var{tool}} against the
+Heirloom man tree at @file{/opt/heirloom/share/man/5man/}.
+
+@end ifnottex
+
+@menu
+* Overview::                What this port provides
+* Modality::                Version, variant, and dialect axes
+* Packages::                The five Heirloom packages
+* Legacy::                  Backwards compatibility posture
+* Provenance::              Chain of custody
+* Bibliography::            Primary sources
+* Colophon::                About this document
+@end menu
+
+@node Overview
+@chapter Overview
+
+The Heirloom Darwin port ships five packages:
+
+@table @asis
+@item @b{sh}
+Ritter's SVR4-personality Bourne shell.  Backticks, no
+@code{$(@dots{})}.  Historical semantics preserved.
+
+@item @b{devtools}
+@command{make} (SVR4 flavour), @command{sccs}, @command{yacc},
+@command{lex}, @command{m4}.
+
+@item @b{toolchest}
+200+ POSIX/SVR4 utilities.  Each tool compiled into up to five
+personality variants (default SVID3, POSIX/SUS, POSIX-2001/SUS3,
+S42/SVID4-subset, UCB/BSD).
+
+@item @b{doctools}
+The Bell Labs troff preprocessor pipeline: @command{soelim} →
+@command{refer} → @command{grap} → @command{pic} → @command{tbl} →
+@command{eqn} → @command{troff}.
+
+@item @b{pkgtools}
+SVR4 package administration: @command{pkgadd}, @command{pkgrm},
+@command{pkgchk}, @command{pkginfo}, @command{pkgmk}, @command{pkgproto},
+@command{pkgtrans}.
+@end table
+
+Plus a shared workspace repo holding hardening artefacts, ALM
+scaffolding, and QA reports.
+
+@node Modality
+@chapter Modality
+
+Every installed binary honours three axes of behaviour:
+
+@table @asis
+@item VERSION
+The port revision.  Reported by @option{--version}.  Pinnable via
+@env{HEIRLOOM_PORT_VERSION_REQ}.
+
+@item VARIANT
+Which SVR4 personality binary is invoked.  Directory-based:
+@file{$PREFIX/bin/@var{tool}} (SVID3 default),
+@file{$PREFIX/bin/posix/@var{tool}} (SUS),
+@file{$PREFIX/bin/posix2001/@var{tool}} (SUS3),
+@file{$PREFIX/bin/s42/@var{tool}} (SVID4),
+@file{$PREFIX/ucb/@var{tool}} (UCB/BSD),
+@file{$PREFIX/ccs/bin/@var{tool}} (CCS).
+
+@item DIALECT
+Human-friendly synonym for VARIANT.  Recognised: @code{svid3},
+@code{svr3}, @code{svr4}, @code{sysv}, @code{sysv3}, @code{posix},
+@code{sus}, @code{sus2}, @code{posix2001}, @code{sus3}, @code{s42},
+@code{svid4}, @code{ucb}, @code{bsd}, @code{ccs}.
+@end table
+
+Selection precedence (highest wins):
+
+@enumerate
+@item Command-line: @option{--variant=@var{name}} or
+      @option{--dialect=@var{name}}
+@item @env{HEIRLOOM_VARIANT}
+@item @env{HEIRLOOM_DIALECT}
+@item @env{SYSV3} (Ritter's classic SVID3 selector)
+@item Compile-time default
+@end enumerate
+
+Full detail: @command{man 7 heirloom-modality}.
+
+@node Packages
+@chapter Packages
+
+The five package repos are hosted at
+
+@itemize
+@item @url{https://github.com/moonman81/heirloom-sh-darwin}
+@item @url{https://github.com/moonman81/heirloom-devtools-darwin}
+@item @url{https://github.com/moonman81/heirloom-toolchest-darwin}
+@item @url{https://github.com/moonman81/heirloom-doctools-darwin}
+@item @url{https://github.com/moonman81/heirloom-pkgtools-darwin}
+@item @url{https://github.com/moonman81/heirloom-workspace-darwin}
+@end itemize
+
+Each repo carries its own @file{README.md}, @file{PROVENANCE.md},
+@file{BIBLIOGRAPHY.md}, @file{HOWTO.md}, and @file{NOTICE.md}.
+
+@node Legacy
+@chapter Legacy Compatibility Posture
+
+The port preserves compatibility with prior-system artefacts:
+
+@itemize
+@item @command{cpio} — old-ASCII / new-ASCII / binary / character
+      cpio format variants all readable and writable.
+@item @command{tar} — v7 and USTAR tar formats.
+@item @command{sccs} — all SCCS history file formats.
+@item @command{pkgadd} — SVR4 package format v1 and v2.
+@end itemize
+
+Where a legacy format could not be preserved on Darwin, the reason
+is documented per-tool.
+
+@node Provenance
+@chapter Provenance
+
+Chain of custody:
+
+@display
+Bell Labs / AT&T  →  Sun (OpenSolaris)  →  Ritter (Heirloom Project)
+    →  moonman81 (Darwin port, 2026)
+@end display
+
+Per-repo @file{PROVENANCE.md} has the full detail.
+
+@node Bibliography
+@chapter Bibliography
+
+Primary sources are listed per-repo in @file{BIBLIOGRAPHY.md}.
+Key references:
+
+@itemize
+@item Bourne, Stephen R. (1978). @cite{An Introduction to the UNIX Shell}.
+@item Feldman, Stuart I. (1979). @cite{Make - A Program for Maintaining
+      Computer Programs}.
+@item Aho, Weinberger, Kernighan (1988). @cite{The AWK Programming Language}.
+@item Ossanna, Joseph F. (1977). @cite{Troff User's Manual}.
+@item Kernighan, Ritchie (1988). @cite{The C Programming Language}.
+@item Sun Microsystems (1992). @cite{Application Packaging Developer's Guide}.
+@end itemize
+
+@node Colophon
+@chapter Colophon
+
+This Info document is a companion to the per-tool @command{man} pages.
+For any tool, prefer the man page:
+
+@example
+man @var{tool}
+@end example
+
+or the modality reference:
+
+@example
+man 7 heirloom-modality
+@end example
+
+Info format is provided for readers who prefer it; the man pages
+remain the authoritative documentation.
+
+@bye
