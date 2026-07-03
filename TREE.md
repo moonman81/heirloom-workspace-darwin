@@ -1,6 +1,6 @@
 # TREE — Heirloom Darwin Port universe map
 
-The Heirloom Darwin port comprises **twelve** repos under the GitHub
+The Heirloom Darwin port comprises **fifteen** repos under the GitHub
 organisation `moonman81`. This document is the map.
 
 > **Not authoritative.** Every repo carries its own `NOTICE.md`
