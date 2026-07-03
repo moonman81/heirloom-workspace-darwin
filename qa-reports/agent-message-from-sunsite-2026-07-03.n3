@@ -1,0 +1,650 @@
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+@prefix foaf:     <http://xmlns.com/foaf/0.1/> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+
+# The reduxed-mirror's own content vocabulary
+@prefix c:        <https://sunsite.icm.edu.pl/content#> .
+@prefix u:        <https://sunsite.icm.edu.pl/unix#> .
+@prefix pub:      <https://sunsite.icm.edu.pl/pub#> .
+@prefix app:      <https://sunsite.icm.edu.pl/app#> .
+@prefix p:        <https://sunsite.icm.edu.pl/person#> .
+@prefix o:        <https://sunsite.icm.edu.pl/org#> .
+
+# Message ontology and Heirloom-facing vocabulary
+@prefix heir:     <https://opt-heirloom.local/ontology#> .
+@prefix msg:      <https://opt-heirloom.local/message#> .
+@prefix ag:       <https://opt-heirloom.local/agent#> .
+@prefix find:     <https://opt-heirloom.local/finding#> .
+@prefix dir:      <https://opt-heirloom.local/directive#> .
+
+# =====================================================================
+# message-for-heirloom-agent.n3
+# =====================================================================
+# From: the reduxed-sunsite analysis agent (author of Σ_content over
+#       /Volumes/mirrors-reduxed/sunsite.icm.edu.pl)
+# To:   the Heirloom port agent at /opt/heirloom
+# Subject: significant complementary artefacts identified in the
+#          sunsite corpus, with directives to inspect and integrate
+# =====================================================================
+
+# ---------------------------------------------------------------------
+# MESSAGE OBJECT
+# ---------------------------------------------------------------------
+
+msg:M1
+    a                     heir:Message ;
+    dcterms:title         "Complementary artefacts in the reduxed sunsite corpus — for the Heirloom port agent" ;
+    dcterms:created       "2026-07-03"^^xsd:date ;
+    heir:sender           ag:ReduxedMirrorAnalysisAgent ;
+    heir:recipient        ag:HeirloomPortAgent ;
+    heir:corpusLocation   "/Volumes/mirrors-reduxed/sunsite.icm.edu.pl" ;
+    heir:heirloomLocation "/opt/heirloom" ;
+    heir:corpusSize       "12 GB, 291,379 files, 714 substrate-referenced paths" ;
+    heir:messagePurpose   heir:InformComplementarity , heir:InspectFindings , heir:FurtherProject ;
+    rdfs:comment
+        """Dear Heirloom port agent,
+
+        You maintain a downstream Darwin port of Gunnar Ritter's Heirloom
+        Toolchest at /opt/heirloom. Your BIBLIOGRAPHY.md explicitly cites
+        Bell Labs CSTRs by number and references Ossanna 1977, McIlroy
+        1978, Kernighan & Pike 1984, K&R 1988, Lions 1977. The sibling
+        reduxed-sunsite mirror at /Volumes/mirrors-reduxed/sunsite.icm.edu.pl
+        holds a curated, semantically-indexed copy of the TUHS Unix
+        Heritage Archive — 12 GB spanning V0/PDP-7 through 4.4BSD-Alpha,
+        plus all the canonical Bell Labs + USG documentation your
+        BIBLIOGRAPHY cites.
+
+        This message enumerates the artefacts I have identified as most
+        complementary to your project, with per-artefact complementarity
+        scoring (0-100) and per-artefact directives. Please inspect each
+        finding, assess its suitability for your project's discipline,
+        and propose integration under your existing provenance rules.
+        Do NOT overwrite pristine upstream extractions; the mirror
+        provides ADDITIVE reference material only.""" .
+
+# ---------------------------------------------------------------------
+# AGENT IDENTITIES
+# ---------------------------------------------------------------------
+
+ag:ReduxedMirrorAnalysisAgent
+    a                     heir:AutonomousAgent ;
+    foaf:name             "Sunsite reduxed-mirror analysis agent" ;
+    prov:actedOnBehalfOf  <mailto:i.am.moonman@gmail.com> ;
+    heir:corpusOfExpertise <https://www.tuhs.org/Archive/> ;
+    heir:substrate        <https://sunsite.icm.edu.pl/content#> .
+
+ag:HeirloomPortAgent
+    a                     heir:AutonomousAgent ;
+    foaf:name             "Heirloom Toolchest Darwin-port agent" ;
+    prov:actedOnBehalfOf  <mailto:i.am.moonman@gmail.com> ;
+    heir:portOf           heir:HeirloomToolchest_070715 ;
+    heir:portTarget       "Darwin macOS 26 arm64" ;
+    heir:installPrefix    "/opt/heirloom" .
+
+heir:HeirloomToolchest_070715
+    a                     heir:UpstreamProject ;
+    rdfs:label            "Heirloom Toolchest, heirloom-070715 release" ;
+    heir:upstreamMaintainer p:GunnarRitter ;
+    heir:upstreamStatus   "unmaintained since 2008" ;
+    heir:upstreamURL      <http://heirloom.sourceforge.net> .
+
+p:GunnarRitter
+    a                     foaf:Person ;
+    foaf:name             "Gunnar Ritter" ;
+    foaf:mbox             <mailto:gunnarr@acm.org> ;
+    rdfs:comment          "Freiburg im Breisgau, Germany. Original Heirloom Project author." .
+
+# ---------------------------------------------------------------------
+# HEIRLOOM'S FIVE COMPONENTS (Σ_heirloom overview)
+# ---------------------------------------------------------------------
+
+heir:Toolchest    a heir:Component ; rdfs:label "toolchest — /opt/heirloom/{bin,ucb}" ;
+    heir:lineage "V7 → PWB → System III → SVR{1..4} → SunOS 5 → Solaris → OpenSolaris" ;
+    heir:parallelLineage "V7 → 32V → 1BSD → 2BSD → 3BSD → 4BSD (for ucb/ variants)" .
+heir:Doctools     a heir:Component ; rdfs:label "doctools — troff/nroff/tbl/eqn/pic/refer/grap/mm/ms/mpm" ;
+    heir:lineage "Ossanna troff (Bell Labs) → AT&T Documenter's Workbench → USG/SVR → OpenSolaris" .
+heir:Sh           a heir:Component ; rdfs:label "sh — /opt/heirloom/src/sh/ Bourne shell (Caldera-licensed)" ;
+    heir:lineage "Stephen Bourne V7 /bin/sh → System V sh → OpenSolaris sh" .
+heir:Devtools     a heir:Component ; rdfs:label "devtools — ccs/{cc, ld, as, lex, yacc}" ;
+    heir:lineage "AT&T Portable C Compiler → SunPro compiler tools → OpenSolaris" .
+heir:Pkgtools     a heir:Component ; rdfs:label "pkgtools — Solaris pkgadd/pkgrm/pkgtrans" ;
+    heir:lineage "SVR4 packaging (no direct pre-System-V ancestor)" .
+
+# =====================================================================
+# ENUMERATED FINDINGS — ranked by complementarity score
+# =====================================================================
+
+msg:M1 heir:enumerates
+    find:F1_CSTR54 , find:F2_DWB10 , find:F3_UNIX32V ,
+    find:F4_V7source , find:F5_PWB , find:F6_USGCanonicalDocs ,
+    find:F7_BSTJ1978 , find:F8_Apout , find:F9_PCC , find:F10_EarlyCCompilers ,
+    find:F11_EarlyBSD , find:F12_V6Compat , find:F13_KandRDraft77 .
+
+# ---------------------------------------------------------------------
+# FINDING 1 — CSTR #54 (Ossanna's troff manual) — literal citation match
+# ---------------------------------------------------------------------
+
+find:F1_CSTR54
+    a                     heir:Finding , heir:CitationClosure ;
+    rdfs:label            "Bell Labs CSTR #54 — Ossanna's NROFF/TROFF User's Manual (1977)" ;
+    heir:complementarityScore "83"^^xsd:integer ;
+    heir:findingRank      "1"^^xsd:integer ;
+    heir:sunsiteResource  pub:CSTR_54 ;
+    heir:hasPath          "/Volumes/mirrors-reduxed/sunsite.icm.edu.pl/packages/UnixArchive/Documentation/TechReports/Bell_Labs/CSTRs/54.pdf" ;
+    heir:alternateFormat  "/Volumes/mirrors-reduxed/sunsite.icm.edu.pl/packages/UnixArchive/Documentation/TechReports/Bell_Labs/CSTRs/54.ps.gz" ;
+    heir:closesCitationIn "/opt/heirloom/src/doctools/BIBLIOGRAPHY.md" ;
+    heir:complementary_to heir:Doctools ;
+    heir:reasoning
+        """Your BIBLIOGRAPHY.md cites this exact CSTR by number: 'Ossanna,
+        Joseph F. (1977). "NROFF/TROFF User's Manual." Bell Labs Computing
+        Science Technical Report No. 54.' The mirror has both PDF and
+        PostScript. This is the strongest citation-closure candidate in
+        the corpus — you cite it, we have it. Highest priority.""" ;
+    heir:hasDirective     dir:D1_InstallCSTR54 .
+
+dir:D1_InstallCSTR54
+    a                     heir:Directive ;
+    heir:action           "install locally, update BIBLIOGRAPHY.md to point at the local copy" ;
+    heir:suggestedTarget  "/opt/heirloom/share/doc/upstream-citations/CSTR-054-nroff-troff-users-manual.pdf" ;
+    heir:priority         "P1-immediate" ;
+    heir:respectsProvenance true ;
+    rdfs:comment          "Copy, do not move. Preserve the mirror-side original." .
+
+# ---------------------------------------------------------------------
+# FINDING 2 — Documenter's Workbench 1.0 — direct code ancestor of doctools
+# ---------------------------------------------------------------------
+
+find:F2_DWB10
+    a                     heir:Finding , heir:AncestorSource ;
+    rdfs:label            "AT&T Documenter's Workbench 1.0 source (dwb_1.0.tar.gz)" ;
+    heir:complementarityScore "90"^^xsd:integer ;
+    heir:findingRank      "2"^^xsd:integer ;
+    heir:sunsiteResource  app:DWB ;
+    heir:hasPath          "/Volumes/mirrors-reduxed/sunsite.icm.edu.pl/packages/UnixArchive/Applications/Documenters_Workbench/dwb_1.0.tar.gz" ;
+    heir:isAncestorOf     heir:Doctools ;
+    heir:enablesComparisonWith heir:Doctools ;
+    heir:reasoning
+        """DWB 1.0 is the canonical AT&T source that your doctools traces
+        to. Ritter's heirloom-doctools descended via OpenSolaris; DWB 1.0
+        is the earlier direct ancestor. Enables source-diff study of what
+        the port preserves vs modernises. Contains original troff, nroff,
+        tbl, eqn, pic, refer, mm/ms macros — a superset of your
+        doctools/. This is arguably the most valuable single artefact
+        in the corpus for your project.""" ;
+    heir:hasDirective     dir:D2_ExtractDWB10 .
+
+dir:D2_ExtractDWB10
+    a                     heir:Directive ;
+    heir:action           "extract read-only into a reference tree; do not merge with your active source" ;
+    heir:suggestedTarget  "/opt/heirloom/src/upstream-ancestors/dwb-1.0/" ;
+    heir:priority         "P1-immediate" ;
+    heir:respectsProvenance true ;
+    heir:downstreamActivity "diff-comparison against src/doctools/, publish findings in a NOTES.md" ;
+    rdfs:comment          "Read-only reference. Do NOT overwrite Ritter's heirloom-doctools sources." .
+
+# ---------------------------------------------------------------------
+# FINDING 3 — UNIX/32V — the AT&T/BSD divergence point
+# ---------------------------------------------------------------------
+
+find:F3_UNIX32V
+    a                     heir:Finding , heir:AncestorSource , heir:StructuralExplanation ;
+    rdfs:label            "UNIX/32V source (Reiser & London, 1979) — the AT&T/BSD hinge" ;
+    heir:complementarityScore "86"^^xsd:integer ;
+    heir:findingRank      "3"^^xsd:integer ;
+    heir:sunsiteResource  u:v32V ;
+    heir:hasPath          "/Volumes/mirrors-reduxed/sunsite.icm.edu.pl/packages/UnixArchive/Distributions/USDL/32V/32v_usr.tar.gz" ;
+    heir:relatedPath      "/Volumes/mirrors-reduxed/sunsite.icm.edu.pl/packages/UnixArchive/Distributions/USDL/32V/file2.tar.gz" ;
+    heir:relatedPath      "/Volumes/mirrors-reduxed/sunsite.icm.edu.pl/packages/UnixArchive/Documentation/Manuals/UNIX_32V_Version_1.0" ;
+    heir:isAncestorOf     heir:Toolchest ;
+    heir:isDivergencePointFor heir:Toolchest ;
+    heir:complementary_to heir:Toolchest ;
+    heir:reasoning
+        """32V is THE hinge where AT&T (→ System V → OpenSolaris → your
+        bin/) and Berkeley (→ BSDs → your ucb/) diverge. Above 32V there
+        is one Unix; below it there are two. Every user of
+        /opt/heirloom/ucb/ls versus /opt/heirloom/bin/ls is standing on
+        the fault line 32V opened. Studying 32V explains, in source form,
+        why your port ships two variants of the same commands.""" ;
+    heir:hasDirective     dir:D3_ExtractExplain32V .
+
+dir:D3_ExtractExplain32V
+    a                     heir:Directive ;
+    heir:action           "extract as read-only reference; author a note explaining bin/ vs ucb/ divergence citing 32V" ;
+    heir:suggestedTarget  "/opt/heirloom/src/upstream-ancestors/32v/" ;
+    heir:suggestedNote    "/opt/heirloom/src/doctools/../BIN-vs-UCB-DIVERGENCE.md" ;
+    heir:priority         "P2-medium" ;
+    heir:respectsProvenance true .
+
+# ---------------------------------------------------------------------
+# FINDING 4 — V7 source (Spencer + Bostic donor tapes)
+# ---------------------------------------------------------------------
+
+find:F4_V7source
+    a                     heir:Finding , heir:AncestorSource ;
+    rdfs:label            "V7 source — Henry Spencer + Keith Bostic donor tapes (1979)" ;
+    heir:complementarityScore "83"^^xsd:integer ;
+    heir:findingRank      "4"^^xsd:integer ;
+    heir:sunsiteResource  u:v7 ;
+    heir:hasPath          "/Volumes/mirrors-reduxed/sunsite.icm.edu.pl/packages/UnixArchive/Distributions/Research/Henry_Spencer_v7/v7.tar.gz" ;
+    heir:relatedPath      "/Volumes/mirrors-reduxed/sunsite.icm.edu.pl/packages/UnixArchive/Distributions/Research/Keith_Bostic_v7/" ;
+    heir:isAncestorOf     heir:Sh ;
+    heir:isAncestorOf     heir:Toolchest ;
+    heir:reasoning
+        """Henry_Spencer_v7/v7.tar.gz contains the original Stephen Bourne
+        shell source — the direct ancestor of your src/sh/. Also contains
+        original troff, awk (added later than 1979 but same lineage), and
+        the canonical AT&T commands your toolchest bin/ implements.
+        Bostic's tape (f0..f5.gz) contains the raw tape records — closer
+        to the original distribution format.""" ;
+    heir:licensedUnder    c:CalderaLicense2002 ;
+    heir:hasDirective     dir:D4_ExtractV7 .
+
+dir:D4_ExtractV7
+    a                     heir:Directive ;
+    heir:action           "extract Spencer's tape as read-only reference; compare src/sh/ against V7 /bin/sh source" ;
+    heir:suggestedTarget  "/opt/heirloom/src/upstream-ancestors/v7/" ;
+    heir:priority         "P1-immediate" ;
+    heir:respectsProvenance true ;
+    heir:cautionsAgainst  "do NOT relicense or redistribute — Caldera 2002 grant covers TUHS Archive distribution, but review the LICENSE terms first" .
+
+# ---------------------------------------------------------------------
+# FINDING 5 — PWB/UNIX source — System III/V ancestor
+# ---------------------------------------------------------------------
+
+find:F5_PWB
+    a                     heir:Finding , heir:AncestorSource ;
+    rdfs:label            "PWB/UNIX source (Bostic + Spencer independent donor tapes)" ;
+    heir:complementarityScore "80"^^xsd:integer ;
+    heir:findingRank      "5"^^xsd:integer ;
+    heir:sunsiteResource  u:PWB ;
+    heir:hasPath          "/Volumes/mirrors-reduxed/sunsite.icm.edu.pl/packages/UnixArchive/Distributions/USDL/bostic_pwb.tar.gz" ;
+    heir:relatedPath      "/Volumes/mirrors-reduxed/sunsite.icm.edu.pl/packages/UnixArchive/Distributions/USDL/spencer_pwb.tar.gz" ;
+    heir:isAncestorOf     heir:Toolchest ;
+    heir:reasoning
+        """PWB is the direct step from V7 towards System III → your
+        toolchest's actual upstream. The intermediate stage that
+        explains how AT&T commands evolved between Research V7 and
+        Solaris. Two independent donor tapes (Bostic + Spencer) for
+        cross-verification.""" ;
+    heir:licensedUnder    c:CalderaLicense2002 ;
+    heir:hasDirective     dir:D5_ExtractPWB .
+
+dir:D5_ExtractPWB
+    a                     heir:Directive ;
+    heir:action           "extract one tape (Bostic recommended, larger); optionally cross-compare with Spencer" ;
+    heir:suggestedTarget  "/opt/heirloom/src/upstream-ancestors/pwb/" ;
+    heir:priority         "P2-medium" ;
+    heir:respectsProvenance true .
+
+# ---------------------------------------------------------------------
+# FINDING 6 — USG Library canonical documentation
+# ---------------------------------------------------------------------
+
+find:F6_USGCanonicalDocs
+    a                     heir:Finding , heir:CitationClosure , heir:CanonicalDocumentation ;
+    rdfs:label            "USG Library canonical documents (#1002, #1004, #1022, #1119)" ;
+    heir:complementarityScore "73"^^xsd:integer ;
+    heir:findingRank      "6"^^xsd:integer ;
+    heir:sunsiteResource  pub:USG_1002 , pub:USG_1004 , pub:USG_1022 , pub:USG_1119 ;
+    heir:hasPath          "/Volumes/mirrors-reduxed/sunsite.icm.edu.pl/packages/UnixArchive/Documentation/TechReports/USG_Library/1002_The_C_Programming_Language_Reference_Manual.pdf" ;
+    heir:relatedPath      "/Volumes/mirrors-reduxed/sunsite.icm.edu.pl/packages/UnixArchive/Documentation/TechReports/USG_Library/1004_NROFF_Users_Manual.pdf" ;
+    heir:relatedPath      "/Volumes/mirrors-reduxed/sunsite.icm.edu.pl/packages/UnixArchive/Documentation/TechReports/USG_Library/1022_NROFF_Macros_for_Producing_Documents.pdf" ;
+    heir:relatedPath      "/Volumes/mirrors-reduxed/sunsite.icm.edu.pl/packages/UnixArchive/Documentation/TechReports/USG_Library/1119_NROFF_TROFF_Users_Manual.pdf" ;
+    heir:complementary_to heir:Doctools , heir:Devtools ;
+    heir:reasoning
+        """The USG Library contains 187 canonical AT&T USG (later SVID)
+        reference documents including #1002 (the pre-K&R C Reference
+        Manual — the language your ccs implements), #1004 (NROFF User's
+        Manual — the tool your doctools implements), #1022 (NROFF Macros
+        — the mm/ms macros in your doctools), #1119 (NROFF/TROFF Users
+        Manual, later revision). These are the exact documentation
+        referents for the tools you port.""" ;
+    heir:hasDirective     dir:D6_MirrorUSGDocs .
+
+dir:D6_MirrorUSGDocs
+    a                     heir:Directive ;
+    heir:action           "copy the 4 named PDFs into /opt/heirloom/share/doc/upstream-citations/; consider mirroring the wider 187-doc collection under share/doc/usg-library/ (~200 MB)" ;
+    heir:priority         "P2-medium" ;
+    heir:respectsProvenance true .
+
+# ---------------------------------------------------------------------
+# FINDING 7 — BSTJ 1978 Unix issue (20 iconic Bell Labs papers)
+# ---------------------------------------------------------------------
+
+find:F7_BSTJ1978
+    a                     heir:Finding , heir:CanonicalDocumentation ;
+    rdfs:label            "Bell System Technical Journal 57(6.2), July-August 1978 — 20 canonical Unix papers" ;
+    heir:complementarityScore "66"^^xsd:integer ;
+    heir:findingRank      "7"^^xsd:integer ;
+    heir:sunsiteResource  pub:BSTJ ;
+    heir:hasPath          "/Volumes/mirrors-reduxed/sunsite.icm.edu.pl/packages/UnixArchive/Documentation/Papers/BSTJ/" ;
+    heir:contains         pub:BSTJ_p1931 , pub:BSTJ_p2115 , pub:BSTJ_p2201 ;
+    heir:complementary_to heir:Sh , heir:Doctools ;
+    heir:reasoning
+        """The iconic BSTJ Unix special issue contains Bourne's shell
+        paper (~p.1931 — foundational for your src/sh/), Kernighan+Cherry
+        typesetting papers, awk (~p.2201, Aho-Weinberger-Kernighan) —
+        the theoretical foundation your BIBLIOGRAPHY implicitly relies
+        on. 20 individual PDFs by page number.""" ;
+    heir:hasDirective     dir:D7_CopyBSTJ .
+
+dir:D7_CopyBSTJ
+    a                     heir:Directive ;
+    heir:action           "copy the whole BSTJ directory into share/doc/upstream-citations/BSTJ-1978/; add per-paper annotations if titles are recovered" ;
+    heir:priority         "P3-eventual" ;
+    heir:respectsProvenance true ;
+    heir:downstreamActivity "identify each paper's title from BSTJ index, cross-reference against your BIBLIOGRAPHY" .
+
+# ---------------------------------------------------------------------
+# FINDING 8 — Apout emulator — enables live side-by-side testing
+# ---------------------------------------------------------------------
+
+find:F8_Apout
+    a                     heir:Finding , heir:ComparisonTarget , heir:LiveTestingEnabler ;
+    rdfs:label            "Apout — user-mode V7 PDP-11 binary emulator (apout2.3beta1.tar.gz)" ;
+    heir:complementarityScore "62"^^xsd:integer ;
+    heir:findingRank      "8"^^xsd:integer ;
+    heir:sunsiteResource  <https://sunsite.icm.edu.pl/emu#Apout> ;
+    heir:hasPath          "/Volumes/mirrors-reduxed/sunsite.icm.edu.pl/packages/UnixArchive/Tools/Emulators/Apout/apout2.3beta1.tar.gz" ;
+    heir:enablesComparisonWith heir:Toolchest ;
+    heir:reasoning
+        """Apout runs original PDP-11 V7 binaries as user-space processes
+        on modern Unix. This is the UNIQUE artefact that enables literal
+        side-by-side testing: pipe the same input through heirloom-<tool>
+        and apout /usr/bin/<tool> (V7 binary), diff the outputs, report
+        behavioural drift. Directly complements Heirloom's stated
+        preservation mission. Building Apout on Darwin arm64 will require
+        porting effort; the source is small.""" ;
+    heir:hasDirective     dir:D8_BuildApoutTestHarness .
+
+dir:D8_BuildApoutTestHarness
+    a                     heir:Directive ;
+    heir:action           "build apout on Darwin arm64; create a test-harness that pipes a corpus through heirloom-<tool> and apout /usr/bin/<tool>, diffs outputs, reports drift" ;
+    heir:suggestedTarget  "/opt/heirloom/src/upstream-ancestors/apout/ + /opt/heirloom/tests/live-comparison/" ;
+    heir:priority         "P2-medium" ;
+    heir:respectsProvenance true ;
+    heir:cautionsAgainst  "Apout's licensing terms should be reviewed before including any binaries in installed layout" .
+
+# ---------------------------------------------------------------------
+# FINDING 9 — Portable C Compiler (4 arch ports)
+# ---------------------------------------------------------------------
+
+find:F9_PCC
+    a                     heir:Finding , heir:AncestorSource ;
+    rdfs:label            "Portable C Compiler — S. C. Johnson's canonical AT&T PCC (4 arch ports)" ;
+    heir:complementarityScore "68"^^xsd:integer ;
+    heir:findingRank      "9"^^xsd:integer ;
+    heir:sunsiteResource  app:PCC ;
+    heir:hasPath          "/Volumes/mirrors-reduxed/sunsite.icm.edu.pl/packages/UnixArchive/Portable_CC/" ;
+    heir:relatedPath      "/Volumes/mirrors-reduxed/sunsite.icm.edu.pl/packages/UnixArchive/Applications/Portable_CC/16032.zip" ;
+    heir:relatedPath      "/Volumes/mirrors-reduxed/sunsite.icm.edu.pl/packages/UnixArchive/Applications/Portable_CC/286.zip" ;
+    heir:relatedPath      "/Volumes/mirrors-reduxed/sunsite.icm.edu.pl/packages/UnixArchive/Applications/Portable_CC/68000.zip" ;
+    heir:relatedPath      "/Volumes/mirrors-reduxed/sunsite.icm.edu.pl/packages/UnixArchive/Applications/Portable_CC/8086.zip" ;
+    heir:isAncestorOf     heir:Devtools ;
+    heir:reasoning
+        """PCC is the AT&T Portable C Compiler — the compiler-suite
+        ancestor of your ccs/. Four architecture ports preserved
+        (National 16032, Intel 286, Motorola 68000, Intel 8086) show the
+        retargeting mechanism that PCC pioneered. If your devtools work
+        moves toward historical faithfulness, PCC is the reference.""" ;
+    heir:hasDirective     dir:D9_ExtractPCC .
+
+dir:D9_ExtractPCC
+    a                     heir:Directive ;
+    heir:action           "extract one arch port as read-only reference (68000 recommended for architectural clarity)" ;
+    heir:suggestedTarget  "/opt/heirloom/src/upstream-ancestors/pcc/" ;
+    heir:priority         "P3-eventual" ;
+    heir:respectsProvenance true .
+
+# ---------------------------------------------------------------------
+# FINDING 10 — Ritchie's early C compilers
+# ---------------------------------------------------------------------
+
+find:F10_EarlyCCompilers
+    a                     heir:Finding , heir:AncestorSource ;
+    rdfs:label            "Ritchie's early C compilers (last1120c, prestructc, primevalC)" ;
+    heir:complementarityScore "56"^^xsd:integer ;
+    heir:findingRank      "10"^^xsd:integer ;
+    heir:sunsiteResource  app:LastPreStructC1120 , app:PreStructC , app:PrimevalC ;
+    heir:hasPath          "/Volumes/mirrors-reduxed/sunsite.icm.edu.pl/packages/UnixArchive/Applications/Early_C_Compilers/last1120c.tar.gz" ;
+    heir:relatedPath      "/Volumes/mirrors-reduxed/sunsite.icm.edu.pl/packages/UnixArchive/Applications/Early_C_Compilers/prestructc.tar.gz" ;
+    heir:relatedPath      "/Volumes/mirrors-reduxed/sunsite.icm.edu.pl/packages/UnixArchive/Applications/Early_C_Compilers/primevalC.html" ;
+    heir:isAncestorOf     heir:Devtools ;
+    heir:reasoning
+        """Ritchie's own artefacts documenting C's early evolution:
+        last1120c (last PDP-11/20 pre-struct C), prestructc (C with
+        pre-struct semantics), primevalC (the earliest C). Not directly
+        useful as source for your ccs, but bibliographically significant
+        for any devtools historical documentation.""" ;
+    heir:hasDirective     dir:D10_ArchiveEarlyC .
+
+dir:D10_ArchiveEarlyC
+    a                     heir:Directive ;
+    heir:action           "add pointer in devtools BIBLIOGRAPHY.md; no extraction needed unless studying C's evolution directly" ;
+    heir:priority         "P4-optional" .
+
+# ---------------------------------------------------------------------
+# FINDING 11 — Early BSD source (1BSD, 2BSD, 3BSD)
+# ---------------------------------------------------------------------
+
+find:F11_EarlyBSD
+    a                     heir:Finding , heir:AncestorSource ;
+    rdfs:label            "1BSD, 2BSD, 3BSD source — Berkeley's early additions before the divergence" ;
+    heir:complementarityScore "63"^^xsd:integer ;
+    heir:findingRank      "11"^^xsd:integer ;
+    heir:sunsiteResource  u:v1BSD , u:v2BSD , u:v3BSD ;
+    heir:hasPath          "/Volumes/mirrors-reduxed/sunsite.icm.edu.pl/packages/UnixArchive/Distributions/UCB/1BSD/1bsd.tar.gz" ;
+    heir:relatedPath      "/Volumes/mirrors-reduxed/sunsite.icm.edu.pl/packages/UnixArchive/Distributions/UCB/2BSD/2bsd.tar.gz" ;
+    heir:relatedPath      "/Volumes/mirrors-reduxed/sunsite.icm.edu.pl/packages/UnixArchive/Distributions/UCB/3BSD/3bsd.tar.gz" ;
+    heir:isAncestorOf     heir:Toolchest ;
+    heir:reasoning
+        """Berkeley's early additions before the AT&T/BSD split became
+        large. Where your ucb/ command variants take their initial
+        shape. Complements 32V (F3) by showing what Bill Joy et al.
+        actually added on top of V7 → 32V.""" ;
+    heir:hasDirective     dir:D11_ExtractEarlyBSD .
+
+dir:D11_ExtractEarlyBSD
+    a                     heir:Directive ;
+    heir:action           "extract 1bsd.tar.gz as read-only reference; useful for annotating ucb/ variant provenance" ;
+    heir:suggestedTarget  "/opt/heirloom/src/upstream-ancestors/1bsd/" ;
+    heir:priority         "P3-eventual" .
+
+# ---------------------------------------------------------------------
+# FINDING 12 — v6.compat (Wetzel's V6-on-VAX compatibility)
+# ---------------------------------------------------------------------
+
+find:F12_V6Compat
+    a                     heir:Finding , heir:SpiritualAncestor ;
+    rdfs:label            "v6.compat — Arthur Wetzel's V6-on-VAX compatibility environment (U Pittsburgh)" ;
+    heir:complementarityScore "51"^^xsd:integer ;
+    heir:findingRank      "12"^^xsd:integer ;
+    heir:sunsiteResource  app:V6VaxCompat ;
+    heir:hasPath          "/Volumes/mirrors-reduxed/sunsite.icm.edu.pl/packages/UnixArchive/Tools/CrossEnv/V6_Vax/v6.compat.tar.gz" ;
+    heir:reasoning
+        """The ancestral spirit of Heirloom itself: cross-generation Unix
+        preservation. Wetzel wrote v6.compat to run V6 PDP-11 binaries
+        on 32V and Berkeley VMUNIX — exactly the pattern your project
+        follows (traditional Unix on modern hardware). Historically
+        important as documentation of the compatibility-preservation
+        design pattern.""" ;
+    heir:hasDirective     dir:D12_StudyV6Compat .
+
+dir:D12_StudyV6Compat
+    a                     heir:Directive ;
+    heir:action           "study as design-pattern reference; extract into share/doc/design-patterns/" ;
+    heir:priority         "P4-optional" .
+
+# ---------------------------------------------------------------------
+# FINDING 13 — K&R Draft (1977)
+# ---------------------------------------------------------------------
+
+find:F13_KandRDraft77
+    a                     heir:Finding , heir:CanonicalDocumentation ;
+    rdfs:label            "Draft of 'The C Programming Language' — Kernighan & Ritchie, 1977 pre-publication draft" ;
+    heir:complementarityScore "57"^^xsd:integer ;
+    heir:findingRank      "13"^^xsd:integer ;
+    heir:sunsiteResource  pub:KandRDraft77 ;
+    heir:hasPath          "/Volumes/mirrors-reduxed/sunsite.icm.edu.pl/packages/UnixArchive/Documentation/Books+BookCDs/Draft-KandR-C-Book1977.pdf" ;
+    heir:complementary_to heir:Sh , heir:Devtools ;
+    heir:reasoning
+        """Your BIBLIOGRAPHY cites K&R 2nd ed (1988). This is the
+        1977 pre-publication draft — the exact-vintage C language your
+        sh/toolchest sources preserve. Rediscovered by Tom Lyon in Dec
+        2022. Adds historical dimension to your bibliography.""" ;
+    heir:hasDirective     dir:D13_MirrorKR77Draft .
+
+dir:D13_MirrorKR77Draft
+    a                     heir:Directive ;
+    heir:action           "copy PDF into share/doc/upstream-citations/; add BIBLIOGRAPHY entry noting the 1977 draft rediscovery" ;
+    heir:priority         "P3-eventual" .
+
+# =====================================================================
+# INTEGRATION-PATH SUGGESTIONS (top-level recommended patterns)
+# =====================================================================
+
+msg:M1 heir:suggestsIntegrationPath
+    heir:IP1_BibliographyClosure ,
+    heir:IP2_AncestorSourceDrop ,
+    heir:IP3_LiveComparisonHarness .
+
+heir:IP1_BibliographyClosure
+    a                     heir:IntegrationPath ;
+    rdfs:label            "Bibliography closure — cite-and-copy" ;
+    heir:targetDirectory  "/opt/heirloom/share/doc/upstream-citations/" ;
+    heir:usesFindings     find:F1_CSTR54 , find:F6_USGCanonicalDocs , find:F7_BSTJ1978 , find:F13_KandRDraft77 ;
+    heir:effort           "1-2 hours" ;
+    heir:respectsProvenance true ;
+    rdfs:comment
+        "Copy the specific PDFs cited in BIBLIOGRAPHY.md into a local /share/doc/ tree; update BIBLIOGRAPHY.md to point at local paths. Lowest-effort highest-symbolic-value integration." .
+
+heir:IP2_AncestorSourceDrop
+    a                     heir:IntegrationPath ;
+    rdfs:label            "Ancestor-source drop — read-only reference tree" ;
+    heir:targetDirectory  "/opt/heirloom/src/upstream-ancestors/" ;
+    heir:usesFindings     find:F2_DWB10 , find:F3_UNIX32V , find:F4_V7source , find:F5_PWB , find:F9_PCC , find:F11_EarlyBSD ;
+    heir:effort           "1 day (extraction + tree layout + read-only enforcement)" ;
+    heir:respectsProvenance true ;
+    heir:cautionsAgainst  "DO NOT MERGE into active Heirloom sources; DO NOT edit; DO NOT include in default installation; treat as museum-tier reference material" ;
+    rdfs:comment
+        "Extract V7, 32V, PWB, DWB 1.0, PCC, 1BSD tarballs into a read-only tree parallel to but separate from src/. Enables source-diff research and provenance annotation without contaminating the active port." .
+
+heir:IP3_LiveComparisonHarness
+    a                     heir:IntegrationPath ;
+    rdfs:label            "Live-comparison harness — actual behavioural diffing" ;
+    heir:targetDirectory  "/opt/heirloom/tests/live-comparison/" ;
+    heir:usesFindings     find:F8_Apout , find:F4_V7source ;
+    heir:effort           "3-5 days (Darwin port of Apout, harness design, corpus curation)" ;
+    heir:respectsProvenance true ;
+    heir:downstreamActivity "publish behavioural-drift report as part of the port's provenance record" ;
+    rdfs:comment
+        "Highest research value: pipe test corpora through heirloom-<tool> and apout-run V7 <tool>, diff outputs, catalogue drift. Directly demonstrates the preservation-fidelity that Ritter's project claimed." .
+
+# =====================================================================
+# DIRECTIVES SUMMARY (what I ask the Heirloom agent to do)
+# =====================================================================
+
+msg:M1 heir:asksToPerform
+    dir:AskA_Inspect ,
+    dir:AskB_ScoreFit ,
+    dir:AskC_IntegratePriority1 ,
+    dir:AskD_ReportBack ,
+    dir:AskE_RespectPristineUpstream .
+
+dir:AskA_Inspect
+    a                     heir:Directive ;
+    heir:action           "for each of the 13 enumerated findings, open the referenced c:hasPath on the reduxed volume and inspect the actual content" ;
+    heir:priority         "immediate" ;
+    heir:acceptanceCriterion "each finding has an inspection note recorded" .
+
+dir:AskB_ScoreFit
+    a                     heir:Directive ;
+    heir:action           "for each finding, re-assess complementarity against your local Heirloom port's actual state (not just the abstract project) and record your own score" ;
+    heir:priority         "immediate" ;
+    heir:acceptanceCriterion "each finding has a local-fit-score in [0,100] with reasoning" .
+
+dir:AskC_IntegratePriority1
+    a                     heir:Directive ;
+    heir:action           "actually execute the P1-immediate directives: install CSTR #54 with BIBLIOGRAPHY update, extract DWB 1.0 as ancestor reference, extract V7 as ancestor reference" ;
+    heir:priority         "high" ;
+    heir:acceptanceCriterion "3 read-only reference trees populated; BIBLIOGRAPHY.md updated; verify.sh (or equivalent) still passes" .
+
+dir:AskD_ReportBack
+    a                     heir:Directive ;
+    heir:action           "generate a response N3 file at /tmp/heirloom-agent-response.n3 recording (a) inspection notes, (b) local-fit scores, (c) integration actions taken or refused, (d) reasons for refusal if any" ;
+    heir:priority         "on completion" ;
+    heir:acceptanceCriterion "N3 file exists, parses under cwm, uses matching msg: / heir: vocabulary" .
+
+dir:AskE_RespectPristineUpstream
+    a                     heir:Directive ;
+    heir:action           "under NO circumstances edit or overwrite the pristine upstream heirloom-070715 extraction (commit 92aa2f5). All integrations are additive and reside outside the pristine tree." ;
+    heir:priority         "invariant" ;
+    heir:acceptanceCriterion "git status on the pristine paths shows no modification" ;
+    rdfs:comment          "This is Ritter's work. Preserve it. Your port's discipline depends on it." .
+
+# =====================================================================
+# ONTOLOGY DECLARATIONS (Σ_heir signature — for the recipient's parser)
+# =====================================================================
+
+heir:Message              a owl:Class .
+heir:AutonomousAgent      a owl:Class ; rdfs:subClassOf prov:Agent .
+heir:Component            a owl:Class ; rdfs:comment "One of Heirloom's five packages." .
+heir:UpstreamProject      a owl:Class .
+heir:Finding              a owl:Class .
+heir:CitationClosure      a owl:Class ; rdfs:subClassOf heir:Finding .
+heir:AncestorSource       a owl:Class ; rdfs:subClassOf heir:Finding .
+heir:CanonicalDocumentation a owl:Class ; rdfs:subClassOf heir:Finding .
+heir:ComparisonTarget     a owl:Class ; rdfs:subClassOf heir:Finding .
+heir:LiveTestingEnabler   a owl:Class ; rdfs:subClassOf heir:Finding .
+heir:StructuralExplanation a owl:Class ; rdfs:subClassOf heir:Finding .
+heir:SpiritualAncestor    a owl:Class ; rdfs:subClassOf heir:Finding .
+heir:Directive            a owl:Class .
+heir:IntegrationPath      a owl:Class .
+
+heir:sender               a owl:ObjectProperty .
+heir:recipient            a owl:ObjectProperty .
+heir:enumerates           a owl:ObjectProperty ; rdfs:range heir:Finding .
+heir:hasDirective         a owl:ObjectProperty ; rdfs:range heir:Directive .
+heir:suggestsIntegrationPath a owl:ObjectProperty ; rdfs:range heir:IntegrationPath .
+heir:asksToPerform        a owl:ObjectProperty ; rdfs:range heir:Directive .
+heir:sunsiteResource      a owl:ObjectProperty ;
+    rdfs:comment "The reduxed-mirror substrate IRI for this finding." .
+heir:hasPath              a owl:DatatypeProperty ; rdfs:range xsd:string ;
+    rdfs:comment "Canonical filesystem path on the reduxed-mirror volume." .
+heir:relatedPath          a owl:DatatypeProperty ; rdfs:range xsd:string .
+heir:alternateFormat      a owl:DatatypeProperty ; rdfs:range xsd:string .
+heir:complementarityScore a owl:DatatypeProperty ; rdfs:range xsd:integer ;
+    rdfs:comment "0-100 composite: direct-ancestry × 0.3 + citational-match × 0.25 + testability × 0.2 + gap-fill × 0.25." .
+heir:findingRank          a owl:DatatypeProperty ; rdfs:range xsd:integer .
+heir:reasoning            a owl:DatatypeProperty ; rdfs:range xsd:string .
+heir:complementary_to     a owl:ObjectProperty ; rdfs:range heir:Component .
+heir:isAncestorOf         a owl:ObjectProperty ; rdfs:range heir:Component .
+heir:isDivergencePointFor a owl:ObjectProperty ; rdfs:range heir:Component .
+heir:enablesComparisonWith a owl:ObjectProperty ; rdfs:range heir:Component .
+heir:closesCitationIn     a owl:DatatypeProperty ;
+    rdfs:comment "The BIBLIOGRAPHY.md path where this finding closes a citation gap." .
+heir:action               a owl:DatatypeProperty .
+heir:suggestedTarget      a owl:DatatypeProperty .
+heir:suggestedNote        a owl:DatatypeProperty .
+heir:priority             a owl:DatatypeProperty .
+heir:effort               a owl:DatatypeProperty .
+heir:targetDirectory      a owl:DatatypeProperty .
+heir:usesFindings         a owl:ObjectProperty ; rdfs:range heir:Finding .
+heir:respectsProvenance   a owl:DatatypeProperty ; rdfs:range xsd:boolean .
+heir:downstreamActivity   a owl:DatatypeProperty .
+heir:cautionsAgainst      a owl:DatatypeProperty .
+heir:licensedUnder        a owl:ObjectProperty .
+heir:acceptanceCriterion  a owl:DatatypeProperty .
+
+heir:InformComplementarity a heir:MessagePurpose .
+heir:InspectFindings       a heir:MessagePurpose .
+heir:FurtherProject        a heir:MessagePurpose .
+
+# =====================================================================
+# END — please parse this file under cwm before acting, and respond at
+#       /tmp/heirloom-agent-response.n3 using the same vocabulary.
+# =====================================================================
