@@ -1,0 +1,174 @@
+.TH HEIRLOOM-MODALITY 7 "2026-07-03" "Heirloom Darwin port" "Port ALM"
+.SH NAME
+heirloom-modality \- version, variant and dialect controls for
+Heirloom Darwin port binaries
+.SH SYNOPSIS
+Every tool built with
+.B heirloom_flags.h
+honours the same command-line switches and environment variables:
+.PP
+.RS
+.B \-\-help
+|
+.B \-\-usage
+|
+.BR \-H            "  # invoke " man(1) " on the tool"
+.br
+.B \-\-version
+|
+.BR \-V            "  # print port banner (built + active variant)"
+.br
+.B \-\-variants                     "  # list personality variants installed"
+.br
+.B \-\-describe\-modality            "  # print this modality matrix"
+.br
+.BI \-\-variant= name              "  # re-exec into the named variant"
+.br
+.BI \-\-dialect= name              "  # human-friendly synonym for --variant"
+.RE
+.SH THREE AXES OF MODALITY
+Each port artefact varies along three axes: VERSION, VARIANT, DIALECT.
+.SS VERSION
+.TP
+The upstream Heirloom release + moonman81 port revision.
+Reported by
+.BR \-\-version .
+Pinnable via
+.BR HEIRLOOM_PORT_VERSION_REQ .
+When
+.B HEIRLOOM_PORT_VERSION_REQ
+is set to a version string that does not match the running
+port version, the tool exits with
+.B EX_CONFIG
+(78) before doing anything else. Useful for pinning scripts
+to a known port revision.
+.SS VARIANT
+.TP
+Which SVR4 personality binary is invoked.
+Directory-based:
+.RS
+.br
+.BI $PREFIX/bin/<tool>              "     default (SVID3)"
+.br
+.BI $PREFIX/bin/posix/<tool>        "     POSIX/SUS"
+.br
+.BI $PREFIX/bin/posix2001/<tool>    "     POSIX-2001/SUS3"
+.br
+.BI $PREFIX/bin/s42/<tool>          "     SVID4-subset"
+.br
+.BI $PREFIX/ucb/<tool>              "     UCB/BSD"
+.br
+.BI $PREFIX/ccs/bin/<tool>          "     CCS (make, yacc, m4, sccs)"
+.RE
+.PP
+The shim in
+.B heirloom_flags.h
+detects the mismatch between the compile-time built variant of the
+running binary and the requested variant, and
+.BR execv (2)s
+into the requested one. A marker environment variable
+.B HEIRLOOM_ACTIVE_VARIANT
+is set on re-exec to prevent infinite loops.
+.SS DIALECT
+.TP
+A human-friendly synonym for VARIANT.
+Understood dialect names and their variant mappings:
+.RS
+.br
+.BR svid3 " | " svr3 " | " svr4 " | " sysv " | " sysv3 " → default"
+.br
+.BR posix " | " sus " | " sus2 "                        → posix"
+.br
+.BR posix2001 " | " sus3 "                              → posix2001"
+.br
+.BR s42 " | " svid4 "                                   → s42"
+.br
+.BR ucb " | " bsd "                                     → ucb"
+.br
+.BR ccs "                                              → ccs"
+.RE
+.SH SELECTION PRECEDENCE
+Highest wins:
+.IP 1. 4
+Command-line
+.BI \-\-variant= name
+or
+.BI \-\-dialect= name
+.IP 2. 4
+Environment
+.B HEIRLOOM_VARIANT
+.IP 3. 4
+Environment
+.B HEIRLOOM_DIALECT
+.IP 4. 4
+Environment
+.B SYSV3
+(Ritter's classic SVID3 selector)
+.IP 5. 4
+Compile-time default of the running binary
+.SH LEGACY-FLAG PRESERVATION
+Tools where the lowercase
+.B \-h
+or
+.B \-v
+is load-bearing (verbose in
+.BR cp ,
+.BR mv ,
+.BR rm ,
+.BR tar ,
+.BR cpio ,
+.BR grep ,
+etc.; hash in
+.BR sh (1))
+pass the corresponding bit
+.RB ( HF_H_TAKEN ,
+.BR HF_VERBOSE_TAKEN )
+to the
+.B heirloom_flags()
+call. In that case only the uppercase
+.RB ( \-H ,
+.BR \-V )
+and the long form
+.RB ( \-\-help ,
+.BR \-\-version )
+trigger the shim; the lowercase form flows through to the tool's
+own getopt loop unchanged.
+.SH EXAMPLES
+.TP
+Get the manual page for a tool via the shim:
+.B ls \-\-help
+.TP
+Check the port version:
+.B pkgadd \-\-version
+.TP
+See which variants are installed for cp:
+.B cp \-\-variants
+.TP
+Force ucb (BSD-flavour) behaviour for one invocation:
+.B HEIRLOOM_DIALECT=bsd ls \-la
+.TP
+Same via long flag:
+.B ls \-\-variant=ucb \-la
+.TP
+Pin a script to a specific port revision:
+.B HEIRLOOM_PORT_VERSION_REQ=1.1.0-darwin-arm64 sh script.sh
+.SH FILES
+.TP
+.I /opt/heirloom/share/man/5man/
+Heirloom man tree. Also searched by the shim.
+.TP
+.I /opt/heirloom/share/doc/heirloom\-*/HOWTO.md
+Per-repo narrative guide.
+.SH SEE ALSO
+.BR heirloom-port-lifecycle (7),
+.BR heirloom-port-install (7),
+.BR heirloom-port-verify (7),
+.BR sh (1),
+.BR ls (1),
+.BR cp (1)
+.SH HISTORY
+The modality shim was introduced in port revision 1.1.0-darwin-arm64,
+2026-07-03. Legacy sh binaries built before that revision honour only
+the built-in
+.B SYSV3
+selector.
