@@ -1,7 +1,7 @@
 === Post-flag-patch smoke test ===
 
 --- normal semantics preserved ---
-      1       2      12 
+      1       2      12
 a
 b
 c

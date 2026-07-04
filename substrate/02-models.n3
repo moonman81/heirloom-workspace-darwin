@@ -242,3 +242,77 @@ h:Repo_tests
     h:redistributesUpstream false ;
     h:isAuthoritative     false ;
     rdfs:comment          "SCAFFOLD only.  Apout Darwin arm64 port deferred (~5-7 days engineering)." .
+
+# ---------------------------------------------------------------------
+# Installed sibling ports (2026-07-04)
+# ---------------------------------------------------------------------
+
+# Ritter Vi installed
+h:Repo_vi h:installedAt "/opt/heirloom/bin/ex" ,
+                       "/opt/heirloom/bin/vi" ,
+                       "/opt/heirloom/bin/view" ,
+                       "/opt/heirloom/bin/edit" .
+
+# Taylor UUCP installed
+h:Repo_uucp
+    a                     h:CodeRepo ;
+    rdfs:label            "moonman81/heirloom-uucp-darwin" ;
+    h:githubURL           <https://github.com/moonman81/heirloom-uucp-darwin> ;
+    h:portMaintainer      h:moonman81 ;
+    h:repoPurpose         "Darwin port of Taylor UUCP 1.04 — 11 core binaries" ;
+    h:repoSize            "~5 MB" ;
+    h:redistributesUpstream false ;
+    h:isAuthoritative     false ;
+    h:installedBinaryCount 10 ;
+    h:installedAt         "/opt/heirloom/bin/uucico" ,
+                          "/opt/heirloom/bin/uucp" ,
+                          "/opt/heirloom/bin/uux" ,
+                          "/opt/heirloom/bin/cu" ,
+                          "/opt/heirloom/bin/uustat" ,
+                          "/opt/heirloom/bin/uuname" ,
+                          "/opt/heirloom/bin/uuchk" ,
+                          "/opt/heirloom/bin/uuconv" ,
+                          "/opt/heirloom/bin/uulog" ,
+                          "/opt/heirloom/bin/uupick" .
+
+# Apout installed
+h:Repo_apout
+    a                     h:CodeRepo ;
+    rdfs:label            "moonman81/heirloom-apout-darwin" ;
+    h:githubURL           <https://github.com/moonman81/heirloom-apout-darwin> ;
+    h:portMaintainer      h:moonman81 ;
+    h:repoPurpose         "Warren Toomey's Apout PDP-11 a.out emulator on Darwin" ;
+    h:repoSize            "~1 MB" ;
+    h:redistributesUpstream true ;
+    h:isAuthoritative     false ;
+    h:installedBinaryCount 1 ;
+    h:installedAt         "/opt/heirloom/vendor/apout/apout" ,
+                          "/opt/heirloom/bin/apout" .
+
+# Tests-darwin harness
+h:Repo_tests
+    h:proofOfBehaviouralFidelity "55 of 70 tool-corpus comparisons byte-identical Heirloom vs V7 1979" ;
+    h:cataloguedDrifts "8 col drift findings — proven to be documented SVR4 evolution recovered via col -x flag" ,
+                       "5 apout syscall coverage limitations (factor + wc)" ,
+                       "2 od default-format drifts awaiting analysis" .
+
+# Research V8/V9/V10 installed
+h:Repo_researchv8v9v10
+    a                     h:CodeRepo ;
+    rdfs:label            "moonman81/heirloom-research-v8v9v10-darwin" ;
+    h:githubURL           <https://github.com/moonman81/heirloom-research-v8v9v10-darwin> ;
+    h:portMaintainer      h:moonman81 ;
+    h:repoPurpose         "Bell Labs Research Unix V8 (1985), V9 (1986), V10 (1989) single-source utilities" ;
+    h:repoSize            "~15 MB" ;
+    h:redistributesUpstream false ;
+    h:isAuthoritative     false ;
+    h:installedBinaryCount 224 ;
+    h:installedAt         "/opt/heirloom/research/v8/" ,
+                          "/opt/heirloom/research/v9/" ,
+                          "/opt/heirloom/research/v10/" .
+
+h:installedAt          a owl:DatatypeProperty ;
+    rdfs:comment           "Filesystem path where this repo's binary is installed under $PREFIX." .
+
+h:proofOfBehaviouralFidelity a owl:DatatypeProperty .
+h:cataloguedDrifts           a owl:DatatypeProperty .
