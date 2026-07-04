@@ -242,3 +242,78 @@ Applied at every phase — each phase's test suite MUST include:
 
 Tracked as Phase 6 (post-build hardening) — added below.
 
+## Universe topology — 15 repos as of 2026-07-04
+
+The port grew from 6 repos on 2026-07-03 to 15 repos on 2026-07-04
+after two extension passes surveyed and integrated the reduxed-sunsite
+corpus.
+
+### Five original-scope code repos
+
+- `moonman81/heirloom-sh-darwin` — Bourne shell.
+- `moonman81/heirloom-devtools-darwin` — make/sccs/yacc/lex/m4.
+- `moonman81/heirloom-toolchest-darwin` — ~110 POSIX/SVR4 utilities.
+- `moonman81/heirloom-doctools-darwin` — troff pipeline.
+- `moonman81/heirloom-pkgtools-darwin` — pkgadd/rm/chk.
+
+### Workspace hub
+
+- `moonman81/heirloom-workspace-darwin` — this repo. TREE.md, PORT.md,
+  hardening/, qa-reports/, substrate/ (Σ_heirloom N3 ontology).
+
+### Beyond-original-scope code repos
+
+- `moonman81/heirloom-vi-darwin` — Ritter's ex/vi 3.7 Darwin patches +
+  compat/darwin_termio.h. Ships to `/opt/heirloom/bin/{ex,vi,view,edit}`.
+- `moonman81/heirloom-uucp-darwin` — Taylor UUCP 1.04 Darwin port +
+  scripts/build.sh one-shot recipe. Installs 11 UUCP binaries under
+  `/opt/heirloom/bin/`.
+- `moonman81/heirloom-apout-darwin` — Warren Toomey's Apout PDP-11
+  a.out emulator on Darwin. Two-patch series. Installs to
+  `/opt/heirloom/vendor/apout/apout` + symlink at `/opt/heirloom/bin/apout`.
+- `moonman81/heirloom-research-v8v9v10-darwin` — Bell Labs Research
+  Unix editions V8 (1985), V9 (1986), V10 (1989). 224 single-source
+  tools compile on Darwin arm64.
+- `moonman81/heirloom-tests-darwin` — live behavioural-comparison
+  harness. 63 tool×corpus comparisons (55 PASS, 8 real drift findings
+  in `col` tab handling — documented SVR4 evolution, not bug; see
+  `reports/DRIFT-col-tab-handling.md`).
+
+### Reference repos
+
+- `moonman81/heirloom-citations-darwin` — 90 primary-source PDFs
+  (64 CSTRs + 8 BSTJ 1978 + K&R 1977 draft + 11 papers + 3 theses +
+  AUUGN samples + Cherry reference cards + 1975 walkthrough notes).
+- `moonman81/heirloom-ancestors-darwin` — 22 pointer-only manifests
+  covering V6-V10, 32V, PWB, DWB, PCC, 1-4BSD, MERT, Coherent, Xenix,
+  KSOS, Xinu, Interdata V6, UNSW AUSAM, BBN, Taylor UUCP, Apout,
+  Software Tools, Caldera OSUtils, Em editor.
+- `moonman81/heirloom-manuals-darwin` — UNIX/32V Vol 1 (23 PDFs, 131 MB)
+  + MERT Red Tabs + White Tabs samples + Green Tabs (~50 MB) + Unix 4.0
+  index + Program Generic 3 index (926 MB — indexed, not bundled).
+- `moonman81/heirloom-oralhistory-darwin` — 13 Bell Labs oral-history
+  interviews (Mahoney interviewer + Aho / Cherry / Condon / Feldman /
+  Fraser / Kernighan / McIlroy / Morgan / Morris / Ritchie / Tague /
+  Thompson / Weinberger interviewees).
+
+## Behavioural-fidelity proof
+
+`heirloom-tests-darwin/reports/` publishes the current live-comparison
+result set:
+
+- **55 of 63 comparisons byte-identical** between Heirloom Darwin (2026)
+  and V7 PDP-11 (1979) running under `heirloom-apout-darwin`. The 55
+  PASS files across `cat / echo / tail / tr / uniq / rev / tee / sed / pr`
+  × 3-6 corpora each.
+- **8 real drift findings**, all in `col`, all documented as
+  intentional SVR4-vs-V7 divergence (Heirloom preserves SVR4 behaviour
+  correctly; V7 behaviour available via `col -x`). Proven by
+  `diff V7-col-output Heirloom-col-x-output = empty`.
+
+## Machine-readable substrate
+
+`substrate/` (Σ_heirloom N3 ontology, 277 triples, 8 SPARQL queries)
+models every repo, its kind (CodeRepo / ReferenceRepo / ScaffoldRepo /
+WorkspaceRepo), upstream project, port maintainer, redistribution
+policy, personality-variant support, and citation graph. Validated
+under `rapper` + `riot` + `cwm`.

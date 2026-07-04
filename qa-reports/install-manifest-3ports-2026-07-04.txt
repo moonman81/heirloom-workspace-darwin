@@ -1,0 +1,23 @@
+# heirloom-vi-darwin install manifest
+/opt/heirloom/bin/edit
+/opt/heirloom/bin/ex
+/opt/heirloom/bin/vi
+/opt/heirloom/bin/view
+/opt/heirloom/share/man/5man/man1/vi.1
+
+# heirloom-uucp-darwin install manifest
+/opt/heirloom/bin/cu
+/opt/heirloom/bin/uuchk
+/opt/heirloom/bin/uucico
+/opt/heirloom/bin/uuconv
+/opt/heirloom/bin/uucp
+/opt/heirloom/bin/uulog
+/opt/heirloom/bin/uuname
+/opt/heirloom/bin/uupick
+/opt/heirloom/bin/uustat
+/opt/heirloom/bin/uux
+
+# heirloom-apout-darwin install manifest
+/opt/heirloom/bin/apout
+/opt/heirloom/vendor/apout/apout
+/opt/heirloom/share/man/5man/man1/apout.1
